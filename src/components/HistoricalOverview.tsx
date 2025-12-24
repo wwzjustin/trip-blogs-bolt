@@ -42,7 +42,7 @@ export const HistoricalOverview = () => {
         <div className="mb-16">
           <div className="flex items-center justify-center mb-8">
             <h3 className="text-3xl font-bold text-slate-900">
-              历史时期总览
+              英格兰历史时期总览
             </h3>
             <button
               onClick={() => setIsEnglandExpanded(!isEnglandExpanded)}
