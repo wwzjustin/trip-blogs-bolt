@@ -319,19 +319,19 @@ export const ukTrip: Trip = {
     {
       day: 11,
       title: '白崖 → 布莱顿 → 威斯敏斯特',
-      cities: ['多佛', '布莱顿', '伦敦'],
+      cities: ['东苏塞克斯', '布莱顿', '伦敦'],
       attractions: [
         {
-          id: 'white-cliffs-dover',
-          nameCn: '多佛白崖',
-          nameEn: 'White Cliffs of Dover',
+          id: 'seven-sisters-white-cliffs',
+          nameCn: '七姐妹白崖',
+          nameEn: 'Seven Sisters White Cliffs',
           type: '自然地标',
-          imageKeyword: 'White+Cliffs+of+Dover+England',
-          historicalContext: '英吉利海峡最窄处（距法国仅34公里），白垩岩悬崖高达110米。历史上是罗马凯撒登陆地(55 BC)、诺曼征服登陆点(1066)。中世纪Dover是Cinque Ports（五港同盟）核心，提供舰船和防御以换取自治特权。二战中是不列颠之战(Battle of Britain, 1940)的心理象征。',
-          experience: '二战时英国人从崖顶看到德军空袭后返航的皇家空军战机，白崖成为"我们还没被打垮"的象征。战时歌曲"There\'ll be Bluebirds over the White Cliffs of Dover"让白崖成为国家边界的情绪锚点。晴天从法国可见白崖，它是英国与欧陆的物理和心理边界。',
-          insight: '白崖不是"风景点"，而是英国心理边界。英国是海权国家，但心理上，国家从这里开始（而不是从海洋中部）。白崖的三重历史角色：罗马/诺曼时期是入侵登陆点，中世纪是防御前线，二战是民族精神象征。Brexit后，白崖再次成为"英国vs欧洲"的视觉隐喻。',
-          relatedPeople: ['Julius Caesar（罗马凯撒，55 BC登陆）', '威廉一世（1066年诺曼征服）', '皇家空军飞行员（二战）'],
-          historicalPeriod: '罗马时期 - 中世纪 - 二战 - 至今'
+          imageKeyword: 'Seven+Sisters+White+Cliffs+England',
+          historicalContext: '位于East Sussex的白垩海岸，由七座连绵起伏的白色断崖组成，与Dover白崖形成鲜明对比。Dover是军事要塞、入侵门户、战略要地；Seven Sisters则是纯粹的自然边界，几乎没有军事功能。18-20世纪浪漫主义运动中，Seven Sisters被文学和绘画赋予了国家自然象征的意义，成为"英国作为岛屿本体"的视觉符号。这里不是国家防御的前线，而是国家认同从军事转向文化的标志。',
+          experience: '沿着起伏的白色断崖行走，这里没有城堡、没有炮台、没有港口，呈现的是未被武装化的边界。白垩断崖纯粹、安静、无人，与Dover的紧张和战略意义完全不同。这是"英国不是靠战争被记住，而是靠被观看"的边界体验。站在崖边，面对的是自然本身，而不是历史事件的堆叠。这种"去军事化的边界"恰恰体现了英国最自信的状态——当边界不再是前线时。',
+          insight: 'Seven Sisters代表英国国家叙事的成熟转型：从事件、英雄、胜利，转移到"不可被占有的自然"上。这不是"没有历史"，而是一种更高级的国家叙事——将最重要的象征放在自然而非战争上。对比Dover（罗马入侵、诺曼征服、拿破仑威胁、二战防御）的"紧张英国"，Seven Sisters是"不焦虑的英国"——不需要证明、不需要防守、只是存在。这与Westminster Abbey（制度连续性）、Brighton（权力去军事化）、Lake District（自然审美化）形成一致的叙事：英国最自信的时候，是它不再把"边界"当作前线的时候。',
+          relatedPeople: ['浪漫主义诗人（赋予自然以文化意义）', '现代英国公众（将白垩海岸作为国家自然象征）'],
+          historicalPeriod: '自然象征的国家形成（18-20世纪文化化）'
         },
         {
           id: 'brighton-pavilion',
