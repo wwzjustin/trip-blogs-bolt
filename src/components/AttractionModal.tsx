@@ -2,6 +2,8 @@ import { X, MapPin, Clock, Users, Quote } from 'lucide-react';
 import { Attraction } from '../types/trip';
 import { getAttractionImage } from '../utils/imageService';
 import { useEffect } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { t } from '../i18n/translations';
 
 interface AttractionModalProps {
   attraction: Attraction;
@@ -9,6 +11,8 @@ interface AttractionModalProps {
 }
 
 export default function AttractionModal({ attraction, onClose }: AttractionModalProps) {
+  const { language } = useLanguage();
+
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     return () => {
@@ -77,7 +81,7 @@ export default function AttractionModal({ attraction, onClose }: AttractionModal
             <div className="mb-4 md:mb-6">
               <div className="flex items-center space-x-2 mb-2 md:mb-3">
                 <MapPin size={18} className="md:w-5 md:h-5 text-blue-900 flex-shrink-0" />
-                <h3 className="text-base md:text-xl font-bold text-gray-900">历史定位</h3>
+                <h3 className="text-base md:text-xl font-bold text-gray-900">{t(language, 'attractionModal.historicalContext')}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{attraction.historicalContext}</p>
             </div>
@@ -87,7 +91,7 @@ export default function AttractionModal({ attraction, onClose }: AttractionModal
             <div className="mb-4 md:mb-6">
               <div className="flex items-center space-x-2 mb-2 md:mb-3">
                 <MapPin size={18} className="md:w-5 md:h-5 text-blue-900 flex-shrink-0" />
-                <h3 className="text-base md:text-xl font-bold text-gray-900">实地体验</h3>
+                <h3 className="text-base md:text-xl font-bold text-gray-900">{t(language, 'attractionModal.experience')}</h3>
               </div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">{attraction.experience}</p>
             </div>
@@ -98,7 +102,7 @@ export default function AttractionModal({ attraction, onClose }: AttractionModal
               <div className="flex items-start space-x-2">
                 <Quote size={18} className="md:w-5 md:h-5 text-amber-600 flex-shrink-0 mt-0.5 md:mt-1" />
                 <div>
-                  <h3 className="text-base md:text-lg font-bold text-gray-900 mb-1 md:mb-2">核心洞察</h3>
+                  <h3 className="text-base md:text-lg font-bold text-gray-900 mb-1 md:mb-2">{t(language, 'attractionModal.insight')}</h3>
                   <p className="text-sm md:text-base text-gray-800 leading-relaxed italic">{attraction.insight}</p>
                 </div>
               </div>
@@ -109,7 +113,7 @@ export default function AttractionModal({ attraction, onClose }: AttractionModal
             <div>
               <div className="flex items-center space-x-2 mb-2 md:mb-3">
                 <Users size={18} className="md:w-5 md:h-5 text-blue-900 flex-shrink-0" />
-                <h3 className="text-base md:text-xl font-bold text-gray-900">相关人物</h3>
+                <h3 className="text-base md:text-xl font-bold text-gray-900">{t(language, 'attractionModal.relatedPeople')}</h3>
               </div>
               <div className="flex flex-wrap gap-2">
                 {attraction.relatedPeople.map((person, index) => (
@@ -130,7 +134,7 @@ export default function AttractionModal({ attraction, onClose }: AttractionModal
             onClick={onClose}
             className="px-4 md:px-6 py-2 bg-blue-900 text-white rounded-lg hover:bg-blue-800 transition-colors font-medium text-sm md:text-base"
           >
-            关闭
+            {t(language, 'attractionModal.close')}
           </button>
         </div>
       </div>

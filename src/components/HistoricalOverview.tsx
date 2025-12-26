@@ -2,8 +2,11 @@ import { useState } from 'react';
 import { Clock, MapPin, Users, Sparkles, ChevronDown, ChevronUp } from 'lucide-react';
 import { historicalTimeline } from '../data/historicalTimeline';
 import { coreFramework, scotlandTimeline } from '../data/coreFramework';
+import { useLanguage } from '../contexts/LanguageContext';
+import { t } from '../i18n/translations';
 
 export const HistoricalOverview = () => {
+  const { language } = useLanguage();
   const [isEnglandExpanded, setIsEnglandExpanded] = useState(false);
   const [isScotlandExpanded, setIsScotlandExpanded] = useState(false);
 
@@ -12,10 +15,10 @@ export const HistoricalOverview = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-slate-900 mb-3 md:mb-4">
-            英国历史时间线
+            {t(language, 'historicalOverview.title')}
           </h2>
           <p className="text-base md:text-xl text-slate-600 max-w-3xl mx-auto px-2">
-            这不是一张"旅游景点清单"，而是一条"文明如何通过空间、制度、人物不断自我修复与延续"的时间轴
+            {t(language, 'historicalOverview.subtitle')}
           </p>
         </div>
 
@@ -42,12 +45,12 @@ export const HistoricalOverview = () => {
         <div className="mb-8 md:mb-16">
           <div className="flex items-center justify-center mb-6 md:mb-8">
             <h3 className="text-xl md:text-3xl font-bold text-slate-900">
-              英格兰历史时期总览
+              {t(language, 'historicalOverview.englandTimeline')}
             </h3>
             <button
               onClick={() => setIsEnglandExpanded(!isEnglandExpanded)}
               className="ml-3 md:ml-4 p-1.5 md:p-2 rounded-full hover:bg-slate-200 transition-colors"
-              aria-label={isEnglandExpanded ? "收起英格兰历史时期" : "展开英格兰历史时期"}
+              aria-label={isEnglandExpanded ? t(language, 'historicalOverview.collapseEngland') : t(language, 'historicalOverview.expandEngland')}
             >
               {isEnglandExpanded ? (
                 <ChevronUp className="w-5 h-5 md:w-6 md:h-6 text-slate-700" />
@@ -81,7 +84,7 @@ export const HistoricalOverview = () => {
                         <div className="flex items-start gap-2">
                           <MapPin className="w-4 h-4 md:w-5 md:h-5 text-blue-500 flex-shrink-0 mt-0.5" />
                           <div className="text-sm md:text-base">
-                            <span className="font-semibold text-slate-700">地点：</span>
+                            <span className="font-semibold text-slate-700">{t(language, 'historicalOverview.location')}：</span>
                             <span className="text-slate-600">{period.keyLocation}</span>
                           </div>
                         </div>
@@ -91,7 +94,7 @@ export const HistoricalOverview = () => {
                         <div className="flex items-start gap-2">
                           <Users className="w-4 h-4 md:w-5 md:h-5 text-green-500 flex-shrink-0 mt-0.5" />
                           <div className="text-sm md:text-base">
-                            <span className="font-semibold text-slate-700">关键人物：</span>
+                            <span className="font-semibold text-slate-700">{t(language, 'historicalOverview.keyFigures')}：</span>
                             <span className="text-slate-600">{period.keyFigures.join('、')}</span>
                           </div>
                         </div>
@@ -99,13 +102,13 @@ export const HistoricalOverview = () => {
 
                       {period.majorEvents && (
                         <p className="text-sm md:text-base text-slate-600">
-                          <span className="font-semibold">核心事件：</span> {period.majorEvents}
+                          <span className="font-semibold">{t(language, 'historicalOverview.coreEvents')}：</span> {period.majorEvents}
                         </p>
                       )}
 
                       {period.significance && (
                         <p className="text-sm md:text-base text-slate-600">
-                          <span className="font-semibold">历史意义：</span> {period.significance}
+                          <span className="font-semibold">{t(language, 'historicalOverview.historicalSignificance')}：</span> {period.significance}
                         </p>
                       )}
 
@@ -117,7 +120,7 @@ export const HistoricalOverview = () => {
                                 key={day}
                                 className="px-2 md:px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-xs md:text-sm font-medium"
                               >
-                                Day {day}
+                                {t(language, 'historicalOverview.day')} {day}
                               </span>
                             ))}
                           </div>
@@ -134,12 +137,12 @@ export const HistoricalOverview = () => {
         <div className="bg-gradient-to-br from-blue-50 to-slate-50 rounded-xl shadow-lg p-4 md:p-8">
           <div className="flex items-center justify-center mb-6 md:mb-8">
             <h3 className="text-xl md:text-3xl font-bold text-slate-900 text-center">
-              苏格兰独立线（并行时间轴）
+              {t(language, 'historicalOverview.scotlandTimeline')}
             </h3>
             <button
               onClick={() => setIsScotlandExpanded(!isScotlandExpanded)}
               className="ml-3 md:ml-4 p-1.5 md:p-2 rounded-full hover:bg-slate-200 transition-colors flex-shrink-0"
-              aria-label={isScotlandExpanded ? "收起苏格兰独立线" : "展开苏格兰独立线"}
+              aria-label={isScotlandExpanded ? t(language, 'historicalOverview.collapseScotland') : t(language, 'historicalOverview.expandScotland')}
             >
               {isScotlandExpanded ? (
                 <ChevronUp className="w-5 h-5 md:w-6 md:h-6 text-slate-700" />
@@ -154,10 +157,10 @@ export const HistoricalOverview = () => {
                 <table className="w-full border-collapse">
                   <thead>
                     <tr className="bg-slate-700 text-white">
-                      <th className="p-3 md:p-4 text-left rounded-tl-lg text-sm md:text-base">时期</th>
-                      <th className="p-3 md:p-4 text-left text-sm md:text-base">苏格兰状态</th>
-                      <th className="p-3 md:p-4 text-left text-sm md:text-base">英格兰关系</th>
-                      <th className="p-3 md:p-4 text-left rounded-tr-lg text-sm md:text-base">关键事件</th>
+                      <th className="p-3 md:p-4 text-left rounded-tl-lg text-sm md:text-base">{t(language, 'historicalOverview.period')}</th>
+                      <th className="p-3 md:p-4 text-left text-sm md:text-base">{t(language, 'historicalOverview.scotlandStatus')}</th>
+                      <th className="p-3 md:p-4 text-left text-sm md:text-base">{t(language, 'historicalOverview.englandRelation')}</th>
+                      <th className="p-3 md:p-4 text-left rounded-tr-lg text-sm md:text-base">{t(language, 'historicalOverview.keyEvents')}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -195,15 +198,15 @@ export const HistoricalOverview = () => {
                     <h4 className="font-bold text-slate-900 text-base mb-3">{item.period}</h4>
                     <div className="space-y-2 text-sm">
                       <div>
-                        <span className="font-semibold text-slate-700">苏格兰状态：</span>
+                        <span className="font-semibold text-slate-700">{t(language, 'historicalOverview.scotlandStatus')}：</span>
                         <span className="text-slate-600">{item.scotlandStatus}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-slate-700">英格兰关系：</span>
+                        <span className="font-semibold text-slate-700">{t(language, 'historicalOverview.englandRelation')}：</span>
                         <span className="text-slate-600">{item.englandRelation}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-slate-700">关键事件：</span>
+                        <span className="font-semibold text-slate-700">{t(language, 'historicalOverview.keyEvents')}：</span>
                         <span className="text-slate-600">{item.keyEvents}</span>
                       </div>
                     </div>

@@ -2,6 +2,8 @@ import { useState } from 'react';
 import * as Icons from 'lucide-react';
 import { reflections } from '../data/reflections';
 import { Reflection, ReflectionSection as ReflectionSectionType } from '../types/trip';
+import { useLanguage } from '../contexts/LanguageContext';
+import { t } from '../i18n/translations';
 
 const ReflectionCard = ({ reflection }: { reflection: Reflection }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -120,15 +122,17 @@ const ReflectionSectionContent = ({ section }: { section: ReflectionSectionType 
 };
 
 export const ReflectionSection = () => {
+  const { language } = useLanguage();
+
   return (
     <section className="bg-gradient-to-b from-white to-slate-100 py-8 md:py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-slate-900 mb-3 md:mb-4">
-            宏观思考与洞察
+            {t(language, 'reflectionSection.title')}
           </h2>
           <p className="text-base md:text-xl text-slate-600 max-w-3xl mx-auto px-2">
-            超越景点的深度反思：从宗教与王权的博弈，到文明的自我修复机制
+            {t(language, 'reflectionSection.subtitle')}
           </p>
         </div>
 
@@ -141,13 +145,13 @@ export const ReflectionSection = () => {
         <div className="mt-8 md:mt-12 bg-gradient-to-r from-slate-800 to-slate-900 text-white rounded-xl p-5 md:p-8 shadow-xl">
           <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 flex items-center gap-2">
             <Icons.BookOpen className="w-5 h-5 md:w-6 md:h-6" />
-            结语
+            {t(language, 'reflectionSection.conclusion')}
           </h3>
           <p className="text-base md:text-lg leading-relaxed mb-3 md:mb-4">
-            这次英国之行，我不是在"看景点"，而是在<strong>"阅读一个文明如何通过空间、制度、人物不断自我修复与延续"</strong>。
+            {t(language, 'reflectionSection.conclusionText1')}
           </p>
           <p className="text-sm md:text-base text-slate-200 leading-relaxed">
-            从白崖到威斯敏斯特，从罗马军营到现代大学，我看到的是：权力如何被建筑化、法律如何被制度化、知识如何被保存、文化如何被软化。英国不是"完美"的，但它展示了一条路径：如何在不断的冲突、妥协、修复中，让制度活下来。
+            {t(language, 'reflectionSection.conclusionText2')}
           </p>
         </div>
       </div>
