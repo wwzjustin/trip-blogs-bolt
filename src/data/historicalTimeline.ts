@@ -191,6 +191,15 @@ export const historicalTimeline: HistoricalPeriod[] = [
     relatedDays: [3]
   },
   {
+    period: '自然象征的国家形成',
+    timeRange: '18–20世纪',
+    keyLocation: '七姐妹白崖 (Seven Sisters)',
+    keyFigures: ['浪漫主义诗人', '现代英国公众'],
+    majorEvents: '白垩海岸成为国家自然象征',
+    significance: '国家边界从军事转向文化认同',
+    relatedDays: [11]
+  },
+  {
     period: '贵族转型',
     timeRange: '18–19世纪',
     keyLocation: '布莱顿 (Brighton)',
