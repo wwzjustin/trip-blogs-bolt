@@ -40,7 +40,7 @@ reference), it doesn't disappear. The raw note stays in `content/raw/` as the fu
 1. **Filename = slug = `trip.id`.** e.g. `mexico-2026.md` → `mexico-2026.json`, `"id": "mexico-2026"`. Lowercase, kebab-case, `<place>-<year>`.
 2. **Preserve source order.** Blocks render top-to-bottom in array order — mirror the note's flow.
 3. **Never drop content.** If a passage fits no specialized block, make it a `prose` block. Losing nothing beats perfect structure.
-4. **Keep bilingual strings intact.** Don't translate, don't split languages.
+4. **Ship both languages.** Every human-readable field accepts `"text"` (shown in both languages) or `{"zh": "...", "en": "..."}` (switched by the site's language toggle — see `L10n` in `src/types/content.ts`). **Required bilingual:** trip meta, section/block titles, day titles + bodies, all attraction-card fields, framework items, takeaways. **May stay single-string:** inherently bilingual glossary rows and Reference Library archive prose. Attraction `nameCn`/`nameEn` are separate fields — the UI swaps primary/secondary automatically.
 5. **Slugify all `id`s** (attraction ids, etc.) from the English/pinyin name; keep them unique within the trip.
 6. **Fill trip meta:** `title`, `subtitle`, `traveler` (default "Justin"), `date`, a 1–2 sentence `summary` for the index card, `order` (index sort), and optionally `accent` (a hex theme color for the trip's hero/cards).
 7. **Prefer a deterministic script** (Node, reading the raw md and slicing by headings) over hand-transcribing long notes — verbatim fidelity matters. See `scripts/` for prior examples if present.
