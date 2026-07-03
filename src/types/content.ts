@@ -73,7 +73,11 @@ export interface ProseBlock extends BlockBase {
 
 export interface JournalBlock extends BlockBase {
   type: 'journal';
-  date?: L10n;                  // "Day 1", "6/26" — small badge label
+  date?: L10n;                  // "Day 1", "6/26 AM" — small badge label (display only)
+  dayKey?: string;               // calendar-day identity for counting, e.g. "6/27" —
+                                  // set this when a single day is split across multiple
+                                  // journal blocks (AM/noon/PM/evening) so countJournalDays
+                                  // counts one day, not one block per entry
   title: L10n;
   cities?: L10n[];
   body?: L10n;                  // markdown narrative
@@ -183,12 +187,24 @@ export function validateTrip(raw: unknown, sourceFile: string): Trip {
   return trip;
 }
 
-/** Count journal blocks (days), including inside sections. */
+/**
+ * Count distinct calendar days across journal blocks, including inside
+ * sections. Blocks sharing a `dayKey` (e.g. a day split into AM/noon/PM/
+ * evening entries) count once; blocks without one always count as their own
+ * day (the common case — one journal block per day).
+ */
 export function countJournalDays(blocks: Block[]): number {
-  let count = 0;
-  for (const block of blocks) {
-    if (block.type === 'journal') count += 1;
-    if (block.type === 'section') count += countJournalDays(block.blocks);
-  }
-  return count;
+  const keys = new Set<string>();
+  let index = 0;
+  const walk = (bs: Block[]) => {
+    for (const block of bs) {
+      if (block.type === 'journal') {
+        index += 1;
+        keys.add(block.dayKey ?? `__block_${index}`);
+      }
+      if (block.type === 'section') walk(block.blocks);
+    }
+  };
+  walk(blocks);
+  return keys.size;
 }

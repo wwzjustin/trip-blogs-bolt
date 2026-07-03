@@ -14,12 +14,19 @@ blog someone reads. Every trip follows this flow (established with Justin on the
    Author these; they're rarely written as a list in the note.
 2. **`timeline` — the trip's main historical timeline** (collapsed by default). If the note has
    several, lead with the political/chronological one; park the rest in the Reference Library.
-3. **`section` "每日行程 Daily Journal" — one `journal` block per day.** For each day:
+3. **`section` "每日行程 Daily Journal" — journal blocks for each day.** For each day:
    - **Extract 1–3 famous sights into `attractions[]` cards** (this is the drill-down UX: photo
      thumbnail → modal with 历史定位 historicalContext / 实地体验 experience / 核心洞察 insight /
      relatedPeople / historicalPeriod). Reorganize the note's own words into those fields.
    - **Trim `body` to the narrative thread**: arrival texture, in-between observations, corrections
      learned, forward references ("见关键收获"). Don't duplicate what moved into the cards.
+   - **If a single calendar day is split into multiple entries** (morning/noon/afternoon/evening —
+     the note's headings like `6/27 上午` / `6/27 中午` / `6/27 下午` are the tell), give every
+     entry from that day the **same `dayKey`** (e.g. `"6/27"`, the date with no time-of-day
+     suffix). `date` stays the full display label per entry ("6/27 AM"); `dayKey` is what
+     `countJournalDays` groups on for the trip's day-count badge, so 4 entries on one date count
+     as 1 day, not 4. Skip `dayKey` when each journal block is already its own day (e.g. UK's
+     "Day 1".."Day 11") — it defaults to counting each block separately.
    - **Images:** give every attraction an `imageKeyword` and make sure it matches a key in
      `src/utils/imageService.ts` `photoMap`. For new landmarks, fetch the Wikipedia REST lead image
      (`/api/rest_v1/page/summary/<Page>`, use a 1200px thumb URL) and add verified entries —
