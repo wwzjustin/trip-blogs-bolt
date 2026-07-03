@@ -1,26 +1,31 @@
 import { Language } from '../contexts/LanguageContext';
 
-// UI chrome only. Trip CONTENT comes from content/trips/*.json as free-form
-// bilingual strings and renders as-is regardless of the language toggle.
+// UI chrome only. Trip CONTENT comes from content/trips/*.json — plain strings
+// render in both languages; {zh, en} fields switch with the toggle.
 export const translations = {
   en: {
     languageSelector: {
       label: 'Language'
     },
+    nav: {
+      wordmark: 'Travel Journals',
+      journal: 'Journal'
+    },
     header: {
       traveler: 'Traveler',
-      days: ' days',
-      backToTrips: 'All Trips'
+      days: 'days',
+      backToTrips: 'All trips'
     },
     index: {
+      kicker: 'Field notes on civilizations',
       title: "Justin's Travel Journals",
       subtitle: 'Not tourism — field studies of civilizations',
-      days: ' days',
+      days: 'days',
       view: 'Read the journal'
     },
     attractionModal: {
       historicalContext: 'Historical Context',
-      experience: 'Experience',
+      experience: 'On the Ground',
       insight: 'Core Insight',
       relatedPeople: 'Related People',
       close: 'Close'
@@ -28,9 +33,9 @@ export const translations = {
     timeline: {
       entries: 'entries — click to expand',
       location: 'Location',
-      keyFigures: 'Key Figures',
-      coreEvents: 'Core Events',
-      significance: 'Historical Significance'
+      keyFigures: 'Key figures',
+      coreEvents: 'Core events',
+      significance: 'Significance'
     },
     table: {
       rows: 'rows — click to expand'
@@ -49,15 +54,20 @@ export const translations = {
     languageSelector: {
       label: '语言'
     },
+    nav: {
+      wordmark: '旅行笔记',
+      journal: '游记'
+    },
     header: {
       traveler: '旅行者',
       days: '天行程',
       backToTrips: '全部旅行'
     },
     index: {
+      kicker: '文明的田野笔记',
       title: 'Justin的旅行笔记',
       subtitle: '这不是旅游，而是文明的田野调查',
-      days: '天行程',
+      days: '天',
       view: '阅读游记'
     },
     attractionModal: {

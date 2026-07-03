@@ -1,66 +1,150 @@
 {
   "id": "uk-2025",
-  "title": "英国历史文化深度游",
+  "title": {
+    "zh": "英国历史文化深度游",
+    "en": "A Deep Journey Through British Civilization"
+  },
   "subtitle": "A Journey Through British Civilization: From Roman Outposts to Modern Institutions",
   "traveler": "Justin",
-  "date": "2025年12月",
+  "date": {
+    "zh": "2025年12月",
+    "en": "December 2025"
+  },
   "order": 1,
   "accent": "#1e3a8a",
-  "summary": "11天英国文明田野调查：从温莎城堡到威斯敏斯特，从牛津剑桥到苏格兰高地——权力如何被建筑化、法律如何被制度化、知识如何被保存。",
+  "summary": {
+    "zh": "11天英国文明田野调查：从温莎城堡到威斯敏斯特，从牛津剑桥到苏格兰高地——权力如何被建筑化、法律如何被制度化、知识如何被保存。",
+    "en": "An 11-day field study of British civilization — Windsor to Westminster, Oxford and Cambridge to the Scottish Highlands: how power was built into architecture, law into institutions, and knowledge into colleges."
+  },
   "blocks": [
     {
       "type": "list",
-      "title": "核心认知框架",
+      "title": {
+        "zh": "核心认知框架",
+        "en": "Core Framework"
+      },
       "icon": "Sparkles",
       "items": [
-        "城市比王权更长久（约克从罗马到现在）",
-        "制度比个人更重要（Westminster Abbey vs 国王）",
-        "法律高于君主（Magna Carta的遗产）",
-        "知识被制度化保存（牛津剑桥的学院制）"
+        {
+          "zh": "城市比王权更长久（约克从罗马到现在）",
+          "en": "Cities outlive crowns — York has endured from Rome to today"
+        },
+        {
+          "zh": "制度比个人更重要（Westminster Abbey vs 国王）",
+          "en": "Institutions outrank individuals — Westminster Abbey vs. the kings buried inside it"
+        },
+        {
+          "zh": "法律高于君主（Magna Carta的遗产）",
+          "en": "Law stands above the monarch — the legacy of Magna Carta"
+        },
+        {
+          "zh": "知识被制度化保存（牛津剑桥的学院制）",
+          "en": "Knowledge is institutionalized — the college system of Oxford and Cambridge"
+        }
       ]
     },
     {
       "type": "timeline",
-      "title": "英格兰历史时期总览 England Historical Timeline",
-      "description": "这不是一张\"旅游景点清单\"，而是一条\"文明如何通过空间、制度、人物不断自我修复与延续\"的时间轴",
+      "title": {
+        "zh": "英格兰历史时期总览",
+        "en": "England: A Historical Timeline"
+      },
+      "description": {
+        "zh": "这不是一张\"旅游景点清单\"，而是一条\"文明如何通过空间、制度、人物不断自我修复与延续\"的时间轴",
+        "en": "Not a checklist of sights, but a timeline of how a civilization repairs and perpetuates itself through space, institutions and people"
+      },
       "entries": [
         {
-          "period": "罗马不列颠时期",
+          "period": {
+            "zh": "罗马不列颠时期",
+            "en": "Roman Britain"
+          },
           "timeRange": "AD 43–410",
-          "keyLocation": "约克 (Eboracum)",
+          "keyLocation": {
+            "zh": "约克 (Eboracum)",
+            "en": "York (Eboracum)"
+          },
           "keyFigures": [
-            "罗马总督",
-            "塞普提米乌斯·塞维鲁皇帝"
+            {
+              "zh": "罗马总督",
+              "en": "Roman governors"
+            },
+            {
+              "zh": "塞普提米乌斯·塞维鲁皇帝",
+              "en": "Emperor Septimius Severus"
+            }
           ],
-          "majorEvents": "罗马征服不列颠，建立军事与行政城市",
-          "significance": "英国首次被纳入帝国制度治理",
+          "majorEvents": {
+            "zh": "罗马征服不列颠，建立军事与行政城市",
+            "en": "Rome conquers Britain and founds military-administrative cities"
+          },
+          "significance": {
+            "zh": "英国首次被纳入帝国制度治理",
+            "en": "Britain first brought under imperial institutional rule"
+          },
           "relatedDays": [
             6
           ]
         },
         {
-          "period": "罗马末期",
-          "timeRange": "4世纪",
-          "keyLocation": "约克、林肯",
+          "period": {
+            "zh": "罗马末期",
+            "en": "Late Roman period"
+          },
+          "timeRange": {
+            "zh": "4世纪",
+            "en": "4th century"
+          },
+          "keyLocation": {
+            "zh": "约克、林肯",
+            "en": "York, Lincoln"
+          },
           "keyFigures": [
-            "罗马军团"
+            {
+              "zh": "罗马军团",
+              "en": "The Roman legions"
+            }
           ],
-          "majorEvents": "罗马军撤离，权力真空期",
-          "significance": "制度崩塌，地方化",
+          "majorEvents": {
+            "zh": "罗马军撤离，权力真空期",
+            "en": "Roman withdrawal; a power vacuum"
+          },
+          "significance": {
+            "zh": "制度崩塌，地方化",
+            "en": "Institutional collapse, localization"
+          },
           "relatedDays": [
             6,
             7
           ]
         },
         {
-          "period": "盎格鲁-撒克逊时期",
-          "timeRange": "5–11世纪",
-          "keyLocation": "约克、林肯、牛津",
+          "period": {
+            "zh": "盎格鲁-撒克逊时期",
+            "en": "Anglo-Saxon period"
+          },
+          "timeRange": {
+            "zh": "5–11世纪",
+            "en": "5th–11th c."
+          },
+          "keyLocation": {
+            "zh": "约克、林肯、牛津",
+            "en": "York, Lincoln, early Oxford"
+          },
           "keyFigures": [
-            "阿尔弗雷德大帝"
+            {
+              "zh": "阿尔弗雷德大帝",
+              "en": "Alfred the Great"
+            }
           ],
-          "majorEvents": "基督教传播，英语形成，习惯法 (Common Law)",
-          "significance": "教会成为秩序核心，英格兰民族成形",
+          "majorEvents": {
+            "zh": "基督教传播，英语形成，习惯法 (Common Law)",
+            "en": "Christianization; the English language forms; Common Law"
+          },
+          "significance": {
+            "zh": "教会成为秩序核心，英格兰民族成形",
+            "en": "The Church becomes the core of order; the English nation takes shape"
+          },
           "relatedDays": [
             1,
             6,
@@ -68,28 +152,64 @@
           ]
         },
         {
-          "period": "维京时期",
-          "timeRange": "8–10世纪",
-          "keyLocation": "约克 (Jorvik)",
+          "period": {
+            "zh": "维京时期",
+            "en": "Viking age"
+          },
+          "timeRange": {
+            "zh": "8–10世纪",
+            "en": "8th–10th c."
+          },
+          "keyLocation": {
+            "zh": "约克 (Jorvik)",
+            "en": "York (Jorvik)"
+          },
           "keyFigures": [
-            "丹麦维京人",
-            "克努特大帝"
+            {
+              "zh": "丹麦维京人",
+              "en": "Danish Vikings"
+            },
+            {
+              "zh": "克努特大帝",
+              "en": "Cnut the Great"
+            }
           ],
-          "majorEvents": "北英格兰被丹麦法统治，Danelaw区域",
-          "significance": "北海贸易世界",
+          "majorEvents": {
+            "zh": "北英格兰被丹麦法统治，Danelaw区域",
+            "en": "Danelaw rule over northern England"
+          },
+          "significance": {
+            "zh": "北海贸易世界",
+            "en": "A North Sea trading world"
+          },
           "relatedDays": [
             6
           ]
         },
         {
-          "period": "诺曼征服",
+          "period": {
+            "zh": "诺曼征服",
+            "en": "Norman Conquest"
+          },
           "timeRange": "1066",
-          "keyLocation": "林肯城堡、白崖 Dover、温莎城堡",
+          "keyLocation": {
+            "zh": "林肯城堡、白崖 Dover、温莎城堡",
+            "en": "Lincoln Castle, the Dover cliffs, Windsor Castle"
+          },
           "keyFigures": [
-            "威廉一世 (征服者威廉)"
+            {
+              "zh": "威廉一世 (征服者威廉)",
+              "en": "William I (the Conqueror)"
+            }
           ],
-          "majorEvents": "黑斯廷斯战役，诺曼征服，封建制系统化",
-          "significance": "法语贵族统治英格兰，精英阶层整体替换，国家能力跃迁",
+          "majorEvents": {
+            "zh": "黑斯廷斯战役，诺曼征服，封建制系统化",
+            "en": "Battle of Hastings; conquest; feudalism systematized"
+          },
+          "significance": {
+            "zh": "法语贵族统治英格兰，精英阶层整体替换，国家能力跃迁",
+            "en": "A French-speaking elite replaces the old order; a leap in state capacity"
+          },
           "relatedDays": [
             1,
             7,
@@ -97,98 +217,221 @@
           ]
         },
         {
-          "period": "诺曼时期",
+          "period": {
+            "zh": "诺曼时期",
+            "en": "Norman period"
+          },
           "timeRange": "1072–1092",
-          "keyLocation": "林肯大教堂",
+          "keyLocation": {
+            "zh": "林肯大教堂",
+            "en": "Lincoln Cathedral"
+          },
           "keyFigures": [
-            "诺曼主教 Remigius"
+            {
+              "zh": "诺曼主教 Remigius",
+              "en": "Bishop Remigius"
+            }
           ],
-          "majorEvents": "大教堂奠基，教会权力可视化",
-          "significance": "宗教建筑压过世俗建筑",
+          "majorEvents": {
+            "zh": "大教堂奠基，教会权力可视化",
+            "en": "Cathedral founded; church power made visible"
+          },
+          "significance": {
+            "zh": "宗教建筑压过世俗建筑",
+            "en": "Religious architecture overwhelms the secular"
+          },
           "relatedDays": [
             7
           ]
         },
         {
-          "period": "中世纪盛期 - 大宪章",
+          "period": {
+            "zh": "中世纪盛期 - 大宪章",
+            "en": "High Middle Ages — Magna Carta"
+          },
           "timeRange": "1215",
-          "keyLocation": "林肯大教堂 Chapter House",
+          "keyLocation": {
+            "zh": "林肯大教堂 Chapter House",
+            "en": "Lincoln Cathedral Chapter House"
+          },
           "keyFigures": [
-            "约翰王 (King John)"
+            {
+              "zh": "约翰王 (King John)",
+              "en": "King John"
+            }
           ],
-          "majorEvents": "Magna Carta 大宪章签署",
-          "significance": "王权被法律约束，制度优先于个人",
+          "majorEvents": {
+            "zh": "Magna Carta 大宪章签署",
+            "en": "Magna Carta signed"
+          },
+          "significance": {
+            "zh": "王权被法律约束，制度优先于个人",
+            "en": "Royal power bound by law; the institution before the individual"
+          },
           "relatedDays": [
             7,
             10
           ]
         },
         {
-          "period": "哥特式建筑发展",
-          "timeRange": "13–14世纪",
-          "keyLocation": "约克大教堂 (York Minster)",
+          "period": {
+            "zh": "哥特式建筑发展",
+            "en": "Gothic flowering"
+          },
+          "timeRange": {
+            "zh": "13–14世纪",
+            "en": "13th–14th c."
+          },
+          "keyLocation": {
+            "zh": "约克大教堂 (York Minster)",
+            "en": "York Minster"
+          },
           "keyFigures": [
-            "英国教会",
-            "中世纪工匠"
+            {
+              "zh": "英国教会",
+              "en": "The English Church"
+            },
+            {
+              "zh": "中世纪工匠",
+              "en": "medieval craftsmen"
+            }
           ],
-          "majorEvents": "哥特式建筑发展，彩色玻璃工艺",
-          "significance": "信仰+技术巅峰",
+          "majorEvents": {
+            "zh": "哥特式建筑发展，彩色玻璃工艺",
+            "en": "Gothic architecture; the craft of stained glass"
+          },
+          "significance": {
+            "zh": "信仰+技术巅峰",
+            "en": "The summit of faith plus technology"
+          },
           "relatedDays": [
             6
           ]
         },
         {
-          "period": "中世纪大学形成",
-          "timeRange": "12–14世纪",
-          "keyLocation": "牛津、剑桥",
+          "period": {
+            "zh": "中世纪大学形成",
+            "en": "Medieval universities"
+          },
+          "timeRange": {
+            "zh": "12–14世纪",
+            "en": "12th–14th c."
+          },
+          "keyLocation": {
+            "zh": "牛津、剑桥",
+            "en": "Oxford, Cambridge"
+          },
           "keyFigures": [
-            "神职学者"
+            {
+              "zh": "神职学者",
+              "en": "Clerical scholars"
+            }
           ],
-          "majorEvents": "学院制大学诞生，知识制度化",
-          "significance": "精英复制系统，知识脱离修道院",
+          "majorEvents": {
+            "zh": "学院制大学诞生，知识制度化",
+            "en": "Collegiate universities born; knowledge institutionalized"
+          },
+          "significance": {
+            "zh": "精英复制系统，知识脱离修道院",
+            "en": "An elite-reproduction system; knowledge leaves the monastery"
+          },
           "relatedDays": [
             1,
             9
           ]
         },
         {
-          "period": "百年战争",
+          "period": {
+            "zh": "百年战争",
+            "en": "Hundred Years' War"
+          },
           "timeRange": "1337–1453",
-          "keyLocation": "牛津 All Souls College",
+          "keyLocation": {
+            "zh": "牛津 All Souls College",
+            "en": "All Souls College, Oxford"
+          },
           "keyFigures": [
-            "英法王权",
-            "爱德华三世"
+            {
+              "zh": "英法王权",
+              "en": "The English and French crowns"
+            },
+            {
+              "zh": "爱德华三世",
+              "en": "Edward III"
+            }
           ],
-          "majorEvents": "英法王位争夺，民族意识形成",
-          "significance": "国家认同成型",
+          "majorEvents": {
+            "zh": "英法王位争夺，民族意识形成",
+            "en": "Contest for the French throne; national consciousness forms"
+          },
+          "significance": {
+            "zh": "国家认同成型",
+            "en": "National identity takes shape"
+          },
           "relatedDays": [
             1
           ]
         },
         {
-          "period": "玫瑰战争",
+          "period": {
+            "zh": "玫瑰战争",
+            "en": "Wars of the Roses"
+          },
           "timeRange": "1455–1487",
-          "keyLocation": "约克",
+          "keyLocation": {
+            "zh": "约克",
+            "en": "York"
+          },
           "keyFigures": [
-            "约克家族 (白玫瑰)",
-            "兰开斯特家族 (红玫瑰)"
+            {
+              "zh": "约克家族 (白玫瑰)",
+              "en": "House of York (white rose)"
+            },
+            {
+              "zh": "兰开斯特家族 (红玫瑰)",
+              "en": "House of Lancaster (red rose)"
+            }
           ],
-          "majorEvents": "贵族内战，王权重构",
-          "significance": "都铎王朝建立，王权集中",
+          "majorEvents": {
+            "zh": "贵族内战，王权重构",
+            "en": "Aristocratic civil war; the crown restructured"
+          },
+          "significance": {
+            "zh": "都铎王朝建立，王权集中",
+            "en": "The Tudor dynasty founded; royal power centralized"
+          },
           "relatedDays": [
             6
           ]
         },
         {
-          "period": "都铎王朝",
+          "period": {
+            "zh": "都铎王朝",
+            "en": "Tudor dynasty"
+          },
           "timeRange": "1485–1603",
-          "keyLocation": "剑桥 Trinity College、牛津",
+          "keyLocation": {
+            "zh": "剑桥 Trinity College、牛津",
+            "en": "Trinity College Cambridge, Oxford"
+          },
           "keyFigures": [
-            "亨利八世",
-            "伊丽莎白一世"
+            {
+              "zh": "亨利八世",
+              "en": "Henry VIII"
+            },
+            {
+              "zh": "伊丽莎白一世",
+              "en": "Elizabeth I"
+            }
           ],
-          "majorEvents": "宗教改革，解散修道院，民族国家",
-          "significance": "国家高于教会，王权至上",
+          "majorEvents": {
+            "zh": "宗教改革，解散修道院，民族国家",
+            "en": "Reformation; dissolution of the monasteries; the nation-state"
+          },
+          "significance": {
+            "zh": "国家高于教会，王权至上",
+            "en": "State above church; royal supremacy"
+          },
           "relatedDays": [
             1,
             2,
@@ -197,265 +440,613 @@
           ]
         },
         {
-          "period": "血腥玛丽时期",
+          "period": {
+            "zh": "血腥玛丽时期",
+            "en": "The Marian persecutions"
+          },
           "timeRange": "1553–1558",
-          "keyLocation": "牛津 Martyrs' Memorial",
+          "keyLocation": {
+            "zh": "牛津 Martyrs' Memorial",
+            "en": "Martyrs' Memorial, Oxford"
+          },
           "keyFigures": [
-            "玛丽一世"
+            {
+              "zh": "玛丽一世",
+              "en": "Mary I"
+            }
           ],
-          "majorEvents": "新教徒迫害，火刑处决",
-          "significance": "宗教冲突高峰",
+          "majorEvents": {
+            "zh": "新教徒迫害，火刑处决",
+            "en": "Protestants persecuted and burned"
+          },
+          "significance": {
+            "zh": "宗教冲突高峰",
+            "en": "The peak of religious conflict"
+          },
           "relatedDays": [
             1
           ]
         },
         {
-          "period": "王冠合并",
+          "period": {
+            "zh": "王冠合并",
+            "en": "Union of the Crowns"
+          },
           "timeRange": "1603",
-          "keyLocation": "爱丁堡—伦敦",
+          "keyLocation": {
+            "zh": "爱丁堡—伦敦",
+            "en": "Edinburgh–London"
+          },
           "keyFigures": [
-            "詹姆士一世 (苏格兰六世)"
+            {
+              "zh": "詹姆士一世 (苏格兰六世)",
+              "en": "James I (VI of Scotland)"
+            }
           ],
-          "majorEvents": "英格兰与苏格兰同一国王",
-          "significance": "人合非国合，双王国并立",
+          "majorEvents": {
+            "zh": "英格兰与苏格兰同一国王",
+            "en": "One king for England and Scotland"
+          },
+          "significance": {
+            "zh": "人合非国合，双王国并立",
+            "en": "A union of persons, not of states"
+          },
           "relatedDays": [
             5
           ]
         },
         {
-          "period": "英国内战",
+          "period": {
+            "zh": "英国内战",
+            "en": "English Civil War"
+          },
           "timeRange": "1640s",
-          "keyLocation": "牛津",
+          "keyLocation": {
+            "zh": "牛津",
+            "en": "Oxford"
+          },
           "keyFigures": [
-            "查理一世"
+            {
+              "zh": "查理一世",
+              "en": "Charles I"
+            }
           ],
-          "majorEvents": "王权vs议会内战",
-          "significance": "议会权力上升",
+          "majorEvents": {
+            "zh": "王权vs议会内战",
+            "en": "Crown vs. Parliament"
+          },
+          "significance": {
+            "zh": "议会权力上升",
+            "en": "Parliamentary power rises"
+          },
           "relatedDays": [
             1
           ]
         },
         {
-          "period": "光荣革命",
+          "period": {
+            "zh": "光荣革命",
+            "en": "Glorious Revolution"
+          },
           "timeRange": "1688",
-          "keyLocation": "全英国",
+          "keyLocation": {
+            "zh": "全英国",
+            "en": "All of Britain"
+          },
           "keyFigures": [
-            "威廉三世"
+            {
+              "zh": "威廉三世",
+              "en": "William III"
+            }
           ],
-          "majorEvents": "议会至上，君主立宪",
-          "significance": "现代英国制度确立",
+          "majorEvents": {
+            "zh": "议会至上，君主立宪",
+            "en": "Parliamentary supremacy; constitutional monarchy"
+          },
+          "significance": {
+            "zh": "现代英国制度确立",
+            "en": "The modern British system is established"
+          },
           "relatedDays": []
         },
         {
-          "period": "苏格兰独立战争",
+          "period": {
+            "zh": "苏格兰独立战争",
+            "en": "Scottish Wars of Independence"
+          },
           "timeRange": "1296–1357",
-          "keyLocation": "爱丁堡城堡",
+          "keyLocation": {
+            "zh": "爱丁堡城堡",
+            "en": "Edinburgh Castle"
+          },
           "keyFigures": [
-            "威廉·华莱士",
-            "罗伯特·布鲁斯"
+            {
+              "zh": "威廉·华莱士",
+              "en": "William Wallace"
+            },
+            {
+              "zh": "罗伯特·布鲁斯",
+              "en": "Robert the Bruce"
+            }
           ],
-          "majorEvents": "班诺克本战役1314，独立战争",
-          "significance": "苏格兰主权确立",
+          "majorEvents": {
+            "zh": "班诺克本战役1314，独立战争",
+            "en": "Bannockburn (1314); the wars of independence"
+          },
+          "significance": {
+            "zh": "苏格兰主权确立",
+            "en": "Scottish sovereignty established"
+          },
           "relatedDays": [
             5
           ]
         },
         {
-          "period": "正式合并",
+          "period": {
+            "zh": "正式合并",
+            "en": "Acts of Union"
+          },
           "timeRange": "1707",
-          "keyLocation": "爱丁堡",
+          "keyLocation": {
+            "zh": "爱丁堡",
+            "en": "Edinburgh"
+          },
           "keyFigures": [],
-          "majorEvents": "Act of Union，联合王国成立",
-          "significance": "苏格兰保留法律/教会/教育",
+          "majorEvents": {
+            "zh": "Act of Union，联合王国成立",
+            "en": "The Act of Union creates the United Kingdom"
+          },
+          "significance": {
+            "zh": "苏格兰保留法律/教会/教育",
+            "en": "Scotland keeps its law, church and education"
+          },
           "relatedDays": [
             5
           ]
         },
         {
-          "period": "启蒙运动",
-          "timeRange": "18世纪",
-          "keyLocation": "格拉斯哥、爱丁堡",
+          "period": {
+            "zh": "启蒙运动",
+            "en": "The Enlightenment"
+          },
+          "timeRange": {
+            "zh": "18世纪",
+            "en": "18th century"
+          },
+          "keyLocation": {
+            "zh": "格拉斯哥、爱丁堡",
+            "en": "Glasgow, Edinburgh"
+          },
           "keyFigures": [
-            "Adam Smith",
-            "David Hume",
-            "James Hutton"
+            {
+              "zh": "Adam Smith",
+              "en": "Adam Smith"
+            },
+            {
+              "zh": "David Hume",
+              "en": "David Hume"
+            },
+            {
+              "zh": "James Hutton",
+              "en": "James Hutton"
+            }
           ],
-          "majorEvents": "《国富论》，《道德情操论》，经验主义哲学",
-          "significance": "市场制度，理性精神",
+          "majorEvents": {
+            "zh": "《国富论》，《道德情操论》，经验主义哲学",
+            "en": "The Wealth of Nations; The Theory of Moral Sentiments; empiricism"
+          },
+          "significance": {
+            "zh": "市场制度，理性精神",
+            "en": "Market institutions and the spirit of reason"
+          },
           "relatedDays": [
             5
           ]
         },
         {
-          "period": "工业革命",
+          "period": {
+            "zh": "工业革命",
+            "en": "Industrial Revolution"
+          },
           "timeRange": "1760–1840",
-          "keyLocation": "曼彻斯特、格拉斯哥",
+          "keyLocation": {
+            "zh": "曼彻斯特、格拉斯哥",
+            "en": "Manchester, Glasgow"
+          },
           "keyFigures": [
-            "工厂主",
-            "工人阶级"
+            {
+              "zh": "工厂主",
+              "en": "Factory owners"
+            },
+            {
+              "zh": "工人阶级",
+              "en": "the working class"
+            }
           ],
-          "majorEvents": "工业化，铁路、纺织",
-          "significance": "世界工厂，全球贸易中心",
+          "majorEvents": {
+            "zh": "工业化，铁路、纺织",
+            "en": "Industrialization; railways and textiles"
+          },
+          "significance": {
+            "zh": "世界工厂，全球贸易中心",
+            "en": "Workshop of the world; hub of global trade"
+          },
           "relatedDays": [
             4,
             5
           ]
         },
         {
-          "period": "浪漫主义",
+          "period": {
+            "zh": "浪漫主义",
+            "en": "Romanticism"
+          },
           "timeRange": "1790–1830",
-          "keyLocation": "Lake District 湖区",
+          "keyLocation": {
+            "zh": "Lake District 湖区",
+            "en": "The Lake District"
+          },
           "keyFigures": [
-            "William Wordsworth"
+            {
+              "zh": "William Wordsworth",
+              "en": "William Wordsworth"
+            }
           ],
-          "majorEvents": "自然诗歌，情感反工业",
-          "significance": "精神疗愈，国家身份",
+          "majorEvents": {
+            "zh": "自然诗歌，情感反工业",
+            "en": "Nature poetry; feeling against industry"
+          },
+          "significance": {
+            "zh": "精神疗愈，国家身份",
+            "en": "Spiritual healing; national identity"
+          },
           "relatedDays": [
             3
           ]
         },
         {
-          "period": "自然象征的国家形成",
-          "timeRange": "18–20世纪",
-          "keyLocation": "七姐妹白崖 (Seven Sisters)",
+          "period": {
+            "zh": "自然象征的国家形成",
+            "en": "Nature becomes national symbol"
+          },
+          "timeRange": {
+            "zh": "18–20世纪",
+            "en": "18th–20th c."
+          },
+          "keyLocation": {
+            "zh": "七姐妹白崖 (Seven Sisters)",
+            "en": "The Seven Sisters"
+          },
           "keyFigures": [
-            "浪漫主义诗人",
-            "现代英国公众"
+            {
+              "zh": "浪漫主义诗人",
+              "en": "The Romantic poets"
+            },
+            {
+              "zh": "现代英国公众",
+              "en": "the modern British public"
+            }
           ],
-          "majorEvents": "白垩海岸成为国家自然象征",
-          "significance": "国家边界从军事转向文化认同",
+          "majorEvents": {
+            "zh": "白垩海岸成为国家自然象征",
+            "en": "The chalk coast becomes a national symbol"
+          },
+          "significance": {
+            "zh": "国家边界从军事转向文化认同",
+            "en": "The border shifts from military line to cultural identity"
+          },
           "relatedDays": [
             11
           ]
         },
         {
-          "period": "贵族转型",
-          "timeRange": "18–19世纪",
-          "keyLocation": "布莱顿 (Brighton)",
+          "period": {
+            "zh": "贵族转型",
+            "en": "The aristocracy transformed"
+          },
+          "timeRange": {
+            "zh": "18–19世纪",
+            "en": "18th–19th c."
+          },
+          "keyLocation": {
+            "zh": "布莱顿 (Brighton)",
+            "en": "Brighton"
+          },
           "keyFigures": [
-            "乔治四世"
+            {
+              "zh": "乔治四世",
+              "en": "George IV"
+            }
           ],
-          "majorEvents": "海滨度假，Royal Pavilion",
-          "significance": "权力去军事化，生活方式转型",
+          "majorEvents": {
+            "zh": "海滨度假，Royal Pavilion",
+            "en": "Seaside leisure; the Royal Pavilion"
+          },
+          "significance": {
+            "zh": "权力去军事化，生活方式转型",
+            "en": "Power demilitarized; a new way of life"
+          },
           "relatedDays": [
             11
           ]
         },
         {
-          "period": "战争功绩奖励",
-          "timeRange": "18世纪",
-          "keyLocation": "Blenheim Palace 布伦海姆宫",
+          "period": {
+            "zh": "战争功绩奖励",
+            "en": "Reward for war merit"
+          },
+          "timeRange": {
+            "zh": "18世纪",
+            "en": "18th century"
+          },
+          "keyLocation": {
+            "zh": "Blenheim Palace 布伦海姆宫",
+            "en": "Blenheim Palace"
+          },
           "keyFigures": [
-            "1st Duke John Churchill"
+            {
+              "zh": "1st Duke John Churchill",
+              "en": "John Churchill, 1st Duke of Marlborough"
+            }
           ],
-          "majorEvents": "马尔伯勒战争，对法战争",
-          "significance": "功绩授爵，贵族体系",
+          "majorEvents": {
+            "zh": "马尔伯勒战争，对法战争",
+            "en": "Marlborough's wars against France"
+          },
+          "significance": {
+            "zh": "功绩授爵，贵族体系",
+            "en": "Titles for merit; the aristocratic system"
+          },
           "relatedDays": [
             2
           ]
         },
         {
-          "period": "维多利亚时代",
+          "period": {
+            "zh": "维多利亚时代",
+            "en": "Victorian era"
+          },
           "timeRange": "1837–1901",
-          "keyLocation": "温莎城堡、全英国",
+          "keyLocation": {
+            "zh": "温莎城堡、全英国",
+            "en": "Windsor Castle; all Britain"
+          },
           "keyFigures": [
-            "维多利亚女王"
+            {
+              "zh": "维多利亚女王",
+              "en": "Queen Victoria"
+            }
           ],
-          "majorEvents": "帝国巅峰，工程奇迹",
-          "significance": "全球殖民体系，民族国家象征",
+          "majorEvents": {
+            "zh": "帝国巅峰，工程奇迹",
+            "en": "Imperial zenith; engineering marvels"
+          },
+          "significance": {
+            "zh": "全球殖民体系，民族国家象征",
+            "en": "A global colonial system; symbol of the nation-state"
+          },
           "relatedDays": [
             1
           ]
         },
         {
-          "period": "航海帝国",
-          "timeRange": "18世纪",
-          "keyLocation": "Whitby",
+          "period": {
+            "zh": "航海帝国",
+            "en": "Maritime empire"
+          },
+          "timeRange": {
+            "zh": "18世纪",
+            "en": "18th century"
+          },
+          "keyLocation": {
+            "zh": "Whitby",
+            "en": "Whitby"
+          },
           "keyFigures": [
-            "Captain Cook 库克船长"
+            {
+              "zh": "Captain Cook 库克船长",
+              "en": "Captain James Cook"
+            }
           ],
-          "majorEvents": "三次太平洋航行，科学测绘",
-          "significance": "测量型帝国，知识即权力",
+          "majorEvents": {
+            "zh": "三次太平洋航行，科学测绘",
+            "en": "Three Pacific voyages; scientific surveying"
+          },
+          "significance": {
+            "zh": "测量型帝国，知识即权力",
+            "en": "An empire of measurement; knowledge as power"
+          },
           "relatedDays": [
             8
           ]
         },
         {
-          "period": "哥特文学",
-          "timeRange": "19世纪",
-          "keyLocation": "Whitby",
+          "period": {
+            "zh": "哥特文学",
+            "en": "Gothic literature"
+          },
+          "timeRange": {
+            "zh": "19世纪",
+            "en": "19th century"
+          },
+          "keyLocation": {
+            "zh": "Whitby",
+            "en": "Whitby"
+          },
           "keyFigures": [
-            "Bram Stoker"
+            {
+              "zh": "Bram Stoker",
+              "en": "Bram Stoker"
+            }
           ],
-          "majorEvents": "《德古拉》1897",
-          "significance": "维多利亚焦虑，外来恐惧",
+          "majorEvents": {
+            "zh": "《德古拉》1897",
+            "en": "Dracula (1897)"
+          },
+          "significance": {
+            "zh": "维多利亚焦虑，外来恐惧",
+            "en": "Victorian anxiety; fear of the foreign"
+          },
           "relatedDays": [
             8
           ]
         },
         {
-          "period": "两次世界大战",
+          "period": {
+            "zh": "两次世界大战",
+            "en": "Two World Wars"
+          },
           "timeRange": "1914–1945",
-          "keyLocation": "Blenheim Palace、Chartwell",
+          "keyLocation": {
+            "zh": "Blenheim Palace、Chartwell",
+            "en": "Blenheim Palace, Chartwell"
+          },
           "keyFigures": [
-            "Winston Churchill 温斯顿·丘吉尔"
+            {
+              "zh": "Winston Churchill 温斯顿·丘吉尔",
+              "en": "Winston Churchill"
+            }
           ],
-          "majorEvents": "二战领导，民主对抗极权",
-          "significance": "制度韧性，国家存亡",
+          "majorEvents": {
+            "zh": "二战领导，民主对抗极权",
+            "en": "WWII leadership; democracy against totalitarianism"
+          },
+          "significance": {
+            "zh": "制度韧性，国家存亡",
+            "en": "Institutional resilience; national survival"
+          },
           "relatedDays": [
             2
           ]
         },
         {
-          "period": "20世纪科学革命",
-          "timeRange": "20世纪",
-          "keyLocation": "剑桥 King's College、Trinity College",
+          "period": {
+            "zh": "20世纪科学革命",
+            "en": "20th-century science"
+          },
+          "timeRange": {
+            "zh": "20世纪",
+            "en": "20th century"
+          },
+          "keyLocation": {
+            "zh": "剑桥 King's College、Trinity College",
+            "en": "King's and Trinity College, Cambridge"
+          },
           "keyFigures": [
-            "Alan Turing 图灵",
-            "Stephen Hawking 霍金"
+            {
+              "zh": "Alan Turing 图灵",
+              "en": "Alan Turing"
+            },
+            {
+              "zh": "Stephen Hawking 霍金",
+              "en": "Stephen Hawking"
+            }
           ],
-          "majorEvents": "计算机科学，密码破译，现代物理",
-          "significance": "现代世界基础，理性权威延续",
+          "majorEvents": {
+            "zh": "计算机科学，密码破译，现代物理",
+            "en": "Computer science; codebreaking; modern physics"
+          },
+          "significance": {
+            "zh": "现代世界基础，理性权威延续",
+            "en": "Foundations of the modern world"
+          },
           "relatedDays": [
             9
           ]
         },
         {
-          "period": "20世纪诗歌",
+          "period": {
+            "zh": "20世纪诗歌",
+            "en": "20th-century poetry"
+          },
           "timeRange": "1920s",
-          "keyLocation": "剑桥 King's College",
+          "keyLocation": {
+            "zh": "剑桥 King's College",
+            "en": "King's College, Cambridge"
+          },
           "keyFigures": [
-            "徐志摩"
+            {
+              "zh": "徐志摩",
+              "en": "Xu Zhimo"
+            }
           ],
-          "majorEvents": "《再别康桥》，中国现代文学",
-          "significance": "中西文化交流，知识分子精神原乡",
+          "majorEvents": {
+            "zh": "《再别康桥》，中国现代文学",
+            "en": "\"Saying Good-bye to Cambridge Again\"; modern Chinese literature"
+          },
+          "significance": {
+            "zh": "中西文化交流，知识分子精神原乡",
+            "en": "East–West exchange; a spiritual homeland for intellectuals"
+          },
           "relatedDays": [
             9
           ]
         },
         {
-          "period": "中世纪至今",
-          "timeRange": "中世纪至今",
-          "keyLocation": "Westminster Abbey 威斯敏斯特教堂",
+          "period": {
+            "zh": "中世纪至今",
+            "en": "Middle Ages – today"
+          },
+          "timeRange": {
+            "zh": "中世纪至今",
+            "en": "Middle Ages – today"
+          },
+          "keyLocation": {
+            "zh": "Westminster Abbey 威斯敏斯特教堂",
+            "en": "Westminster Abbey"
+          },
           "keyFigures": [
-            "英国历代君主",
-            "牛顿",
-            "达尔文",
-            "莎士比亚纪念"
+            {
+              "zh": "英国历代君主",
+              "en": "English monarchs"
+            },
+            {
+              "zh": "牛顿",
+              "en": "Newton"
+            },
+            {
+              "zh": "达尔文",
+              "en": "Darwin"
+            },
+            {
+              "zh": "莎士比亚纪念",
+              "en": "the Shakespeare memorial"
+            }
           ],
-          "majorEvents": "加冕与国葬，国家仪式",
-          "significance": "制度连续性，国家叙事工厂",
+          "majorEvents": {
+            "zh": "加冕与国葬，国家仪式",
+            "en": "Coronations and state funerals; the rites of the nation"
+          },
+          "significance": {
+            "zh": "制度连续性，国家叙事工厂",
+            "en": "Institutional continuity; the national narrative factory"
+          },
           "relatedDays": [
             10
           ]
         },
         {
-          "period": "当代英国",
-          "timeRange": "1997–至今",
-          "keyLocation": "爱丁堡苏格兰议会",
+          "period": {
+            "zh": "当代英国",
+            "en": "Contemporary Britain"
+          },
+          "timeRange": {
+            "zh": "1997–至今",
+            "en": "1997 – present"
+          },
+          "keyLocation": {
+            "zh": "爱丁堡苏格兰议会",
+            "en": "The Scottish Parliament, Edinburgh"
+          },
           "keyFigures": [],
-          "majorEvents": "权力下放 Devolution，独立公投2014",
-          "significance": "自治回潮，联合王国张力",
+          "majorEvents": {
+            "zh": "权力下放 Devolution，独立公投2014",
+            "en": "Devolution; the 2014 independence referendum"
+          },
+          "significance": {
+            "zh": "自治回潮，联合王国张力",
+            "en": "Autonomy resurgent; tensions within the Union"
+          },
           "relatedDays": [
             5
           ]
@@ -464,62 +1055,173 @@
     },
     {
       "type": "table",
-      "title": "苏格兰独立线（并行时间轴）Scotland Independence Timeline",
+      "title": {
+        "zh": "苏格兰独立线（并行时间轴）",
+        "en": "Scotland: The Independence Timeline"
+      },
       "table": {
         "headers": [
-          "时期",
-          "苏格兰状态",
-          "英格兰关系",
-          "关键事件"
+          {
+            "zh": "时期",
+            "en": "Period"
+          },
+          {
+            "zh": "苏格兰状态",
+            "en": "Scotland"
+          },
+          {
+            "zh": "英格兰关系",
+            "en": "Relation to England"
+          },
+          {
+            "zh": "关键事件",
+            "en": "Key events"
+          }
         ],
         "rows": [
           [
-            "罗马时期",
-            "未被罗马化",
-            "哈德良长城以北",
-            "皮克特人、盖尔文化保持独立"
+            {
+              "zh": "罗马时期",
+              "en": "Roman era"
+            },
+            {
+              "zh": "未被罗马化",
+              "en": "Never Romanized"
+            },
+            {
+              "zh": "哈德良长城以北",
+              "en": "North of Hadrian's Wall"
+            },
+            {
+              "zh": "皮克特人、盖尔文化保持独立",
+              "en": "Picts and Gaelic culture remain independent"
+            }
           ],
           [
-            "中世纪",
-            "独立王国",
-            "频繁战争",
-            "威廉·华莱士、罗伯特·布鲁斯抵抗英格兰"
+            {
+              "zh": "中世纪",
+              "en": "Middle Ages"
+            },
+            {
+              "zh": "独立王国",
+              "en": "Independent kingdom"
+            },
+            {
+              "zh": "频繁战争",
+              "en": "Frequent wars"
+            },
+            {
+              "zh": "威廉·华莱士、罗伯特·布鲁斯抵抗英格兰",
+              "en": "Wallace and Bruce resist England"
+            }
           ],
           [
-            "1603",
-            "王冠合并",
-            "同一国王",
-            "詹姆士六世继承英格兰王位"
+            {
+              "zh": "1603",
+              "en": "1603"
+            },
+            {
+              "zh": "王冠合并",
+              "en": "Union of the Crowns"
+            },
+            {
+              "zh": "同一国王",
+              "en": "The same king"
+            },
+            {
+              "zh": "詹姆士六世继承英格兰王位",
+              "en": "James VI inherits the English throne"
+            }
           ],
           [
-            "1707",
-            "正式合并",
-            "联合王国",
-            "保留法律、教会、教育独立"
+            {
+              "zh": "1707",
+              "en": "1707"
+            },
+            {
+              "zh": "正式合并",
+              "en": "Formal union"
+            },
+            {
+              "zh": "联合王国",
+              "en": "United Kingdom"
+            },
+            {
+              "zh": "保留法律、教会、教育独立",
+              "en": "Keeps its own law, church and education"
+            }
           ],
           [
-            "1745-46",
-            "詹姆斯党叛乱",
-            "镇压",
-            "Culloden战役；高地文化被摧毁"
+            {
+              "zh": "1745-46",
+              "en": "1745–46"
+            },
+            {
+              "zh": "詹姆斯党叛乱",
+              "en": "Jacobite rising"
+            },
+            {
+              "zh": "镇压",
+              "en": "Suppressed"
+            },
+            {
+              "zh": "Culloden战役；高地文化被摧毁",
+              "en": "Culloden; Highland culture destroyed"
+            }
           ],
           [
-            "18-19世纪",
-            "帝国精英输出",
-            "军官、工程师",
-            "苏格兰高地兵团成为帝国工具"
+            {
+              "zh": "18-19世纪",
+              "en": "18th–19th c."
+            },
+            {
+              "zh": "帝国精英输出",
+              "en": "Exporter of imperial elites"
+            },
+            {
+              "zh": "军官、工程师",
+              "en": "Officers and engineers"
+            },
+            {
+              "zh": "苏格兰高地兵团成为帝国工具",
+              "en": "Highland regiments become tools of empire"
+            }
           ],
           [
-            "1999",
-            "议会重开",
-            "权力下放",
-            "自治政府恢复"
+            {
+              "zh": "1999",
+              "en": "1999"
+            },
+            {
+              "zh": "议会重开",
+              "en": "Parliament reopens"
+            },
+            {
+              "zh": "权力下放",
+              "en": "Devolution"
+            },
+            {
+              "zh": "自治政府恢复",
+              "en": "Self-government restored"
+            }
           ],
           [
-            "2014",
-            "独立公投",
-            "55% No",
-            "身份认同持续张力"
+            {
+              "zh": "2014",
+              "en": "2014"
+            },
+            {
+              "zh": "独立公投",
+              "en": "Independence referendum"
+            },
+            {
+              "zh": "55% No",
+              "en": "55% No"
+            },
+            {
+              "zh": "身份认同持续张力",
+              "en": "Identity tensions persist"
+            }
           ]
         ]
       }
@@ -527,777 +1229,1833 @@
     {
       "type": "journal",
       "date": "Day 1",
-      "title": "伦敦 → 温莎城堡 → 牛津",
+      "title": {
+        "zh": "伦敦 → 温莎城堡 → 牛津",
+        "en": "London → Windsor Castle → Oxford"
+      },
       "cities": [
-        "伦敦",
-        "温莎",
-        "牛津"
+        {
+          "zh": "伦敦",
+          "en": "London"
+        },
+        {
+          "zh": "温莎",
+          "en": "Windsor"
+        },
+        {
+          "zh": "牛津",
+          "en": "Oxford"
+        }
       ],
       "attractions": [
         {
           "id": "windsor-castle",
           "nameCn": "温莎城堡",
           "nameEn": "Windsor Castle",
-          "type": "皇家城堡",
+          "type": {
+            "zh": "皇家城堡",
+            "en": "Royal Castle"
+          },
           "imageKeyword": "Windsor+Castle+England",
-          "historicalContext": "世界上最古老、仍在使用的皇家居所。1066年诺曼征服后由威廉一世建立，至今已有近1000年历史。这不是博物馆，而是\"活着的制度\"——现任英国君主仍在此居住和工作，举行国事活动。",
-          "experience": "圆塔(Round Tower)展示诺曼式防御建筑精髓，俯瞰泰晤士河谷战略要地，体现了诺曼人对军事地理的精准把控。圣乔治礼拜堂(St George's Chapel)是哥特式垂直建筑的杰作，作为嘉德骑士团(Order of the Garter)总部，见证了英国骑士传统的延续。礼拜堂内安葬着亨利八世、查理一世等多位英国君主，是王权历史的缩影。国家套房(State Apartments)至今仍用于国事活动，华丽的装饰和精美的艺术品收藏展示着英国王权的连续性。",
-          "insight": "温莎不是权力的\"展示\"，而是权力的\"日常化\"。它告诉你：王权已经从\"征服工具\"（诺曼军事要塞）变成\"国家象征\"（君主立宪制的视觉载体）。在这里，你看到的是制度如何通过空间的持续使用来维持其合法性。",
+          "historicalContext": {
+            "zh": "世界上最古老、仍在使用的皇家居所。1066年诺曼征服后由威廉一世建立，至今已有近1000年历史。这不是博物馆，而是\"活着的制度\"——现任英国君主仍在此居住和工作，举行国事活动。",
+            "en": "The oldest royal residence still in use anywhere in the world. Founded by William the Conqueror after 1066, it has stood for nearly a thousand years — not a museum but a living institution: the monarch still lives, works and holds state occasions here."
+          },
+          "experience": {
+            "zh": "圆塔(Round Tower)展示诺曼式防御建筑精髓，俯瞰泰晤士河谷战略要地，体现了诺曼人对军事地理的精准把控。圣乔治礼拜堂(St George's Chapel)是哥特式垂直建筑的杰作，作为嘉德骑士团(Order of the Garter)总部，见证了英国骑士传统的延续。礼拜堂内安葬着亨利八世、查理一世等多位英国君主，是王权历史的缩影。国家套房(State Apartments)至今仍用于国事活动，华丽的装饰和精美的艺术品收藏展示着英国王权的连续性。",
+            "en": "The Round Tower distills Norman military architecture, commanding the strategic Thames valley. St George's Chapel — a masterpiece of Perpendicular Gothic and seat of the Order of the Garter — holds the tombs of Henry VIII and Charles I. The State Apartments are still used for affairs of state: continuity on display."
+          },
+          "insight": {
+            "zh": "温莎不是权力的\"展示\"，而是权力的\"日常化\"。它告诉你：王权已经从\"征服工具\"（诺曼军事要塞）变成\"国家象征\"（君主立宪制的视觉载体）。在这里，你看到的是制度如何通过空间的持续使用来维持其合法性。",
+            "en": "Windsor is not power on display but power made routine. Royal authority evolved from an instrument of conquest (a Norman fortress) into a national symbol (the visual vessel of constitutional monarchy) — legitimacy maintained through the continuous use of space."
+          },
           "relatedPeople": [
-            "威廉一世（征服者威廉，1066年建立城堡）",
-            "亨利八世（都铎王朝，安葬于圣乔治礼拜堂）",
-            "查理一世（英国内战时期国王，安葬于此）"
+            {
+              "zh": "威廉一世（征服者威廉，1066年建立城堡）",
+              "en": "William I (the Conqueror; built the castle after 1066)"
+            },
+            {
+              "zh": "亨利八世（都铎王朝，安葬于圣乔治礼拜堂）",
+              "en": "Henry VIII (Tudor; buried in St George's Chapel)"
+            },
+            {
+              "zh": "查理一世（英国内战时期国王，安葬于此）",
+              "en": "Charles I (buried here after the Civil War)"
+            }
           ],
-          "historicalPeriod": "诺曼征服(1066年) - 至今"
+          "historicalPeriod": {
+            "zh": "诺曼征服(1066年) - 至今",
+            "en": "Norman Conquest (1066) – present"
+          }
         },
         {
           "id": "oxford-university",
           "nameCn": "牛津大学",
           "nameEn": "University of Oxford",
-          "type": "学院制大学",
+          "type": {
+            "zh": "学院制大学",
+            "en": "Collegiate University"
+          },
           "imageKeyword": "Oxford+University+Radcliffe+Camera",
-          "historicalContext": "英语世界最古老大学（12世纪成立），但牛津不是\"一所大学\"，而是38个自治学院的联邦体系。每个学院都是独立的权力单元，拥有自己的财产、图书馆、礼拜堂和庭院。大学本身只是协调平台，真正的教育和生活发生在学院内部。这种学院制源自修道院模式，将知识制度化保存和传递。",
-          "experience": "参观了Balliol College（1263年创立，培养过多位英国首相）、Merton College（1264年创立，学院制原型）、Christ Church College（亨利八世创立，牛津最宏伟学院，培养过13位首相，《哈利波特》大礼堂取景地）、All Souls College（极其特殊的学院，没有本科生只有研究员，为百年战争阵亡者祈祷而建）。博德利图书馆(Bodleian Library)是英国第二大图书馆，作为法定送存图书馆，地下隧道连接各学院，书籍不外借。拉德克利夫圆楼(Radcliffe Camera)是标志性的圆形阅览室。Martyrs' Memorial纪念血腥玛丽时期被烧死的新教殉道者Cranmer、Latimer、Ridley三位主教，是宗教改革血腥记忆的见证。",
-          "insight": "牛津不是\"知识的博物馆\"，而是\"精英复制机器\"。它的封闭性（学院围墙）、排他性（严格的入学标准）、学院自治（财产独立），都是为了确保：知识在这里被制度化保存、传递、控制。学院制=修道院模式的世俗化，导师制(Tutorial System)=苏格拉底式一对一教学。这套系统运行了800年，塑造了英国精英的思维方式和气质。",
+          "historicalContext": {
+            "zh": "英语世界最古老大学（12世纪成立），但牛津不是\"一所大学\"，而是38个自治学院的联邦体系。每个学院都是独立的权力单元，拥有自己的财产、图书馆、礼拜堂和庭院。大学本身只是协调平台，真正的教育和生活发生在学院内部。这种学院制源自修道院模式，将知识制度化保存和传递。",
+            "en": "The oldest university in the English-speaking world (12th century) — yet Oxford is not one university but a federation of 38 self-governing colleges, each with its own property, library, chapel and quadrangles. The collegiate system descends from the monastery: knowledge institutionally preserved and transmitted."
+          },
+          "experience": {
+            "zh": "参观了Balliol College（1263年创立，培养过多位英国首相）、Merton College（1264年创立，学院制原型）、Christ Church College（亨利八世创立，牛津最宏伟学院，培养过13位首相，《哈利波特》大礼堂取景地）、All Souls College（极其特殊的学院，没有本科生只有研究员，为百年战争阵亡者祈祷而建）。博德利图书馆(Bodleian Library)是英国第二大图书馆，作为法定送存图书馆，地下隧道连接各学院，书籍不外借。拉德克利夫圆楼(Radcliffe Camera)是标志性的圆形阅览室。Martyrs' Memorial纪念血腥玛丽时期被烧死的新教殉道者Cranmer、Latimer、Ridley三位主教，是宗教改革血腥记忆的见证。",
+            "en": "Visited Balliol (1263; prime ministers), Merton (1264; the prototype college), Christ Church (Henry VIII's foundation, 13 prime ministers, the Harry Potter hall) and All Souls — no undergraduates, founded to pray for the dead of the Hundred Years' War. The Bodleian, a legal-deposit library whose books never leave, links the colleges through tunnels; the Radcliffe Camera is its round reading room. The Martyrs' Memorial recalls Cranmer, Latimer and Ridley, burned under Bloody Mary."
+          },
+          "insight": {
+            "zh": "牛津不是\"知识的博物馆\"，而是\"精英复制机器\"。它的封闭性（学院围墙）、排他性（严格的入学标准）、学院自治（财产独立），都是为了确保：知识在这里被制度化保存、传递、控制。学院制=修道院模式的世俗化，导师制(Tutorial System)=苏格拉底式一对一教学。这套系统运行了800年，塑造了英国精英的思维方式和气质。",
+            "en": "Oxford is not a museum of knowledge but an elite-replication machine. The walls, the selectivity and the college autonomy exist so that knowledge is preserved, transmitted and controlled. College = secularized monastery; tutorial = Socratic one-on-one. The system has run for 800 years and shaped the temperament of the British elite."
+          },
           "relatedPeople": [
-            "亨利八世（创立Christ Church）",
-            "Cranmer、Latimer、Ridley（新教殉道者）",
-            "历任13位英国首相（Christ Church校友）"
+            {
+              "zh": "亨利八世（创立Christ Church）",
+              "en": "Henry VIII (founded Christ Church)"
+            },
+            {
+              "zh": "Cranmer、Latimer、Ridley（新教殉道者）",
+              "en": "Cranmer, Latimer and Ridley (Protestant martyrs)"
+            },
+            {
+              "zh": "历任13位英国首相（Christ Church校友）",
+              "en": "13 British prime ministers (Christ Church alumni)"
+            }
           ],
-          "historicalPeriod": "中世纪大学形成(12-14世纪) - 至今"
+          "historicalPeriod": {
+            "zh": "中世纪大学形成(12-14世纪) - 至今",
+            "en": "Medieval universities (12th–14th c.) – present"
+          }
         },
         {
           "id": "bodleian-library",
           "nameCn": "博德利图书馆",
           "nameEn": "Bodleian Library",
-          "type": "图书馆",
+          "type": {
+            "zh": "图书馆",
+            "en": "Library"
+          },
           "imageKeyword": "Bodleian+Library+Oxford",
-          "historicalContext": "英国第二大图书馆（仅次于大英图书馆），作为英国六大法定送存图书馆之一，每本在英国出版的书籍都必须送存一份副本。建立于1602年，以Thomas Bodley爵士命名。",
-          "experience": "见证了法定送存制度(Legal Deposit)的运作，这是知识制度化保存的典范。图书馆通过地下隧道系统连接牛津各学院，书籍不外借的传统确保了知识的持续可及性。Divinity School的哥特式扇形天花板是建筑杰作，曾是神学辩论场所。",
-          "insight": "知识的制度化保存，确保学术连续性。法定送存制度体现了国家对知识保存的承诺，而不外借政策则保证了原始文献的完整性。这是英国式的\"知识主权\"。",
-          "historicalPeriod": "1602年至今"
+          "historicalContext": {
+            "zh": "英国第二大图书馆（仅次于大英图书馆），作为英国六大法定送存图书馆之一，每本在英国出版的书籍都必须送存一份副本。建立于1602年，以Thomas Bodley爵士命名。",
+            "en": "Britain's second-largest library and one of its six legal-deposit libraries: a copy of every book published in the UK must be lodged here. Founded in 1602 and named for Sir Thomas Bodley."
+          },
+          "experience": {
+            "zh": "见证了法定送存制度(Legal Deposit)的运作，这是知识制度化保存的典范。图书馆通过地下隧道系统连接牛津各学院，书籍不外借的传统确保了知识的持续可及性。Divinity School的哥特式扇形天花板是建筑杰作，曾是神学辩论场所。",
+            "en": "Legal deposit in action — the institutionalized preservation of knowledge. Underground tunnels link the stacks to the colleges; books are never lent out. The Divinity School's fan-vaulted ceiling, once a theology disputation hall, is an architectural masterpiece."
+          },
+          "insight": {
+            "zh": "知识的制度化保存，确保学术连续性。法定送存制度体现了国家对知识保存的承诺，而不外借政策则保证了原始文献的完整性。这是英国式的\"知识主权\"。",
+            "en": "Institutionalized preservation guarantees scholarly continuity. Legal deposit is the state's commitment to memory; the no-lending rule protects the integrity of the originals. This is British 'knowledge sovereignty.'"
+          },
+          "historicalPeriod": {
+            "zh": "1602年至今",
+            "en": "1602 – present"
+          }
         },
         {
           "id": "christ-church",
           "nameCn": "基督堂学院",
           "nameEn": "Christ Church College",
-          "type": "学院",
+          "type": {
+            "zh": "学院",
+            "en": "College"
+          },
           "imageKeyword": "Christ+Church+Oxford+Great+Hall",
-          "historicalContext": "1546年由亨利八世创立，是牛津最宏伟的学院。其独特之处在于学院的礼拜堂同时也是牛津大教堂(Oxford Cathedral)，这种\"双重身份\"体现了宗教改革后王权对教会的控制。学院培养了13位英国首相，是权力精英的摇篮。",
-          "experience": "大礼堂(Great Hall)气势恢宏，《哈利波特》电影在此取景，展现了英国精英教育的传统空间设计。墙上悬挂着历代校友和捐赠者的肖像，视觉化地展示着精英网络的延续。教堂-学院的双重功能体现了知识与信仰在英国传统中的融合。",
-          "insight": "王权与知识的结合体。亨利八世创立这所学院不仅是为了教育，更是为了在宗教改革后确立王权对知识生产的控制。学院名\"Christ Church\"（基督的教会）本身就是宣言：教会属于国王，知识服务于王权。",
+          "historicalContext": {
+            "zh": "1546年由亨利八世创立，是牛津最宏伟的学院。其独特之处在于学院的礼拜堂同时也是牛津大教堂(Oxford Cathedral)，这种\"双重身份\"体现了宗教改革后王权对教会的控制。学院培养了13位英国首相，是权力精英的摇篮。",
+            "en": "Founded by Henry VIII in 1546 — Oxford's grandest college. Uniquely, its chapel doubles as Oxford Cathedral: a dual identity embodying royal control of the church after the Reformation. Thirteen prime ministers trained here."
+          },
+          "experience": {
+            "zh": "大礼堂(Great Hall)气势恢宏，《哈利波特》电影在此取景，展现了英国精英教育的传统空间设计。墙上悬挂着历代校友和捐赠者的肖像，视觉化地展示着精英网络的延续。教堂-学院的双重功能体现了知识与信仰在英国传统中的融合。",
+            "en": "The Great Hall — filmed for Harry Potter — hangs with portraits of alumni and patrons: an elite network made visible on the walls. The chapel-college duality fuses knowledge and faith in one space."
+          },
+          "insight": {
+            "zh": "王权与知识的结合体。亨利八世创立这所学院不仅是为了教育，更是为了在宗教改革后确立王权对知识生产的控制。学院名\"Christ Church\"（基督的教会）本身就是宣言：教会属于国王，知识服务于王权。",
+            "en": "The fusion of crown and knowledge. Henry VIII founded it not merely to educate but to assert royal control over knowledge production after the Reformation. The name is itself a declaration: the church belongs to the king; knowledge serves the crown."
+          },
           "relatedPeople": [
-            "亨利八世（创立者）",
-            "13位英国首相（校友）",
-            "Lewis Carroll（作家，《爱丽丝梦游仙境》作者）"
+            {
+              "zh": "亨利八世（创立者）",
+              "en": "Henry VIII (founder)"
+            },
+            {
+              "zh": "13位英国首相（校友）",
+              "en": "13 prime ministers (alumni)"
+            },
+            {
+              "zh": "Lewis Carroll（作家，《爱丽丝梦游仙境》作者）",
+              "en": "Lewis Carroll (author of Alice in Wonderland)"
+            }
           ],
-          "historicalPeriod": "都铎王朝(1546年) - 至今"
+          "historicalPeriod": {
+            "zh": "都铎王朝(1546年) - 至今",
+            "en": "Tudor (1546) – present"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 2",
-      "title": "牛津 → 莎士比亚故居 → 布伦海姆宫",
+      "title": {
+        "zh": "牛津 → 莎士比亚故居 → 布伦海姆宫",
+        "en": "Oxford → Shakespeare's Birthplace → Blenheim Palace"
+      },
       "cities": [
-        "斯特拉特福",
-        "伍德斯托克"
+        {
+          "zh": "斯特拉特福",
+          "en": "Stratford-upon-Avon"
+        },
+        {
+          "zh": "伍德斯托克",
+          "en": "Woodstock"
+        }
       ],
       "attractions": [
         {
           "id": "shakespeare-birthplace",
           "nameCn": "莎士比亚故居",
           "nameEn": "Shakespeare's Birthplace",
-          "type": "文学遗址",
+          "type": {
+            "zh": "文学遗址",
+            "en": "Literary Site"
+          },
           "imageKeyword": "Shakespeare+Birthplace+Stratford+upon+Avon",
-          "historicalContext": "William Shakespeare (1564-1616) 出生地，位于埃文河畔斯特拉特福。莎士比亚是伊丽莎白时代文学巨匠，英语文学的定型者，创造了约1700个英语词汇和无数经典剧作。他的出生地是典型的都铎时期中产阶级家庭住宅，父亲是手套制造商。",
-          "experience": "参观了莎士比亚出生的房屋，保留了16世纪的木结构和布局。安妮·海瑟薇小屋(Anne Hathaway's Cottage)是莎翁妻子的家，茅草屋顶的村舍展现了都铎时期乡村生活。皇家莎士比亚剧院(Royal Shakespeare Theatre)至今仍在上演莎士比亚戏剧，让400年前的文字在舞台上持续生长。",
-          "insight": "莎翁故居不是\"文人雅士的宅邸\"，而是中产市民家庭。这个关键事实说明：英国文学不是贵族专利，而是市民文化的产物。伊丽莎白时代是英语从方言变为文学语言的关键时期，莎士比亚通过戏剧将口语提升为艺术，同时又保持了平民可及性。这种\"雅俗共赏\"的传统成为英国文化的核心特征。",
+          "historicalContext": {
+            "zh": "William Shakespeare (1564-1616) 出生地，位于埃文河畔斯特拉特福。莎士比亚是伊丽莎白时代文学巨匠，英语文学的定型者，创造了约1700个英语词汇和无数经典剧作。他的出生地是典型的都铎时期中产阶级家庭住宅，父亲是手套制造商。",
+            "en": "Birthplace of William Shakespeare (1564–1616) in Stratford-upon-Avon — the writer who fixed modern English, coining some 1,700 words. The house is a typical Tudor middle-class home; his father made gloves."
+          },
+          "experience": {
+            "zh": "参观了莎士比亚出生的房屋，保留了16世纪的木结构和布局。安妮·海瑟薇小屋(Anne Hathaway's Cottage)是莎翁妻子的家，茅草屋顶的村舍展现了都铎时期乡村生活。皇家莎士比亚剧院(Royal Shakespeare Theatre)至今仍在上演莎士比亚戏剧，让400年前的文字在舞台上持续生长。",
+            "en": "The timber-framed birth room survives; Anne Hathaway's thatched cottage shows Tudor rural life; and the Royal Shakespeare Theatre still stages the plays — four-hundred-year-old words still growing on stage."
+          },
+          "insight": {
+            "zh": "莎翁故居不是\"文人雅士的宅邸\"，而是中产市民家庭。这个关键事实说明：英国文学不是贵族专利，而是市民文化的产物。伊丽莎白时代是英语从方言变为文学语言的关键时期，莎士比亚通过戏剧将口语提升为艺术，同时又保持了平民可及性。这种\"雅俗共赏\"的传统成为英国文化的核心特征。",
+            "en": "Not a nobleman's mansion but a burgher's house — the key fact. English literature was born of civic culture, not aristocracy. Shakespeare raised spoken English into art while keeping it popular; that fusion of high and common became the core of British culture."
+          },
           "relatedPeople": [
-            "William Shakespeare（1564-1616，剧作家、诗人）",
-            "Anne Hathaway（莎士比亚妻子）",
-            "伊丽莎白一世（时代背景）"
+            {
+              "zh": "William Shakespeare（1564-1616，剧作家、诗人）",
+              "en": "William Shakespeare (1564–1616, playwright and poet)"
+            },
+            {
+              "zh": "Anne Hathaway（莎士比亚妻子）",
+              "en": "Anne Hathaway (his wife)"
+            },
+            {
+              "zh": "伊丽莎白一世（时代背景）",
+              "en": "Elizabeth I (the age itself)"
+            }
           ],
-          "historicalPeriod": "伊丽莎白时代(1558-1603)"
+          "historicalPeriod": {
+            "zh": "伊丽莎白时代(1558-1603)",
+            "en": "Elizabethan era (1558–1603)"
+          }
         },
         {
           "id": "blenheim-palace",
           "nameCn": "布伦海姆宫",
           "nameEn": "Blenheim Palace",
-          "type": "宫殿",
+          "type": {
+            "zh": "宫殿",
+            "en": "Palace"
+          },
           "imageKeyword": "Blenheim+Palace+England",
-          "historicalContext": "英国唯一非王室的建筑被称为\"宫殿\"(Palace)。1704年，安妮女王赏赐给第一代马尔伯勒公爵John Churchill，奖励他在西班牙王位继承战争中的布伦海姆战役(Battle of Blenheim)的辉煌胜利。这场战役阻止了法国霸权，改变了欧洲权力格局。宫殿建造历时17年，耗资巨大，体现了国家对战争功绩的最高奖赏。",
-          "experience": "巴洛克式建筑极尽奢华，主立面宽达175米。宫殿内部的画像序列(Portrait Gallery)展示马尔伯勒家族的世袭记录，将家族荣耀视觉化。温斯顿·丘吉尔1874年在此出生，小房间内有专门展示，记录这位20世纪伟人的诞生地。花园由著名景观设计师能力·布朗(Capability Brown)设计，展现18世纪英式园林的典范——不是几何对称的法式风格，而是\"改良的自然\"。",
-          "insight": "Blenheim不是\"城堡\"（防御功能），而是\"宫殿\"（展示功能）。它标志着一个转折：英国贵族从\"战士阶级\"（中世纪骑士）变为\"文化阶级\"（启蒙时代绅士）。丘吉尔的选择更具深意：他出生在帝国功绩的象征建筑，却拒绝Westminster Abbey国葬，选择家族墓地Bladon的简朴安葬。这是英国精英的终极谦卑：个人从属于家族，家族从属于制度。",
+          "historicalContext": {
+            "zh": "英国唯一非王室的建筑被称为\"宫殿\"(Palace)。1704年，安妮女王赏赐给第一代马尔伯勒公爵John Churchill，奖励他在西班牙王位继承战争中的布伦海姆战役(Battle of Blenheim)的辉煌胜利。这场战役阻止了法国霸权，改变了欧洲权力格局。宫殿建造历时17年，耗资巨大，体现了国家对战争功绩的最高奖赏。",
+            "en": "The only non-royal building in England called a palace. Queen Anne's reward to John Churchill, 1st Duke of Marlborough, for the Battle of Blenheim (1704), which broke French hegemony and redrew Europe's balance of power. Seventeen years and a fortune to build — the state's highest reward for victory."
+          },
+          "experience": {
+            "zh": "巴洛克式建筑极尽奢华，主立面宽达175米。宫殿内部的画像序列(Portrait Gallery)展示马尔伯勒家族的世袭记录，将家族荣耀视觉化。温斯顿·丘吉尔1874年在此出生，小房间内有专门展示，记录这位20世纪伟人的诞生地。花园由著名景观设计师能力·布朗(Capability Brown)设计，展现18世纪英式园林的典范——不是几何对称的法式风格，而是\"改良的自然\"。",
+            "en": "Baroque splendor behind a 175-meter façade; the portrait sequence is the family's hereditary record made visible. Winston Churchill was born here in 1874 — a small room now marks it. The park is Capability Brown's 'improved nature': English landscape, not French geometry."
+          },
+          "insight": {
+            "zh": "Blenheim不是\"城堡\"（防御功能），而是\"宫殿\"（展示功能）。它标志着一个转折：英国贵族从\"战士阶级\"（中世纪骑士）变为\"文化阶级\"（启蒙时代绅士）。丘吉尔的选择更具深意：他出生在帝国功绩的象征建筑，却拒绝Westminster Abbey国葬，选择家族墓地Bladon的简朴安葬。这是英国精英的终极谦卑：个人从属于家族，家族从属于制度。",
+            "en": "Blenheim is a palace (display), not a castle (defense): the moment the British aristocracy turned from warrior class to cultural class. Churchill's own choice runs deeper — born in this monument to imperial glory, he refused a Westminster Abbey funeral for the family plot at Bladon. The ultimate humility of the British elite: the person defers to the family, the family to the institution."
+          },
           "relatedPeople": [
-            "John Churchill, 1st Duke of Marlborough（1650-1722，军事统帅）",
-            "Winston Churchill（1874-1965，首相，出生于此）",
-            "Capability Brown（景观设计师）",
-            "安妮女王（赏赐者）"
+            {
+              "zh": "John Churchill, 1st Duke of Marlborough（1650-1722，军事统帅）",
+              "en": "John Churchill, 1st Duke of Marlborough (1650–1722)"
+            },
+            {
+              "zh": "Winston Churchill（1874-1965，首相，出生于此）",
+              "en": "Winston Churchill (1874–1965; born here)"
+            },
+            {
+              "zh": "Capability Brown（景观设计师）",
+              "en": "Capability Brown (landscape designer)"
+            },
+            {
+              "zh": "安妮女王（赏赐者）",
+              "en": "Queen Anne (the giver)"
+            }
           ],
-          "historicalPeriod": "18世纪战争功绩奖励(1704-1722建造)"
+          "historicalPeriod": {
+            "zh": "18世纪战争功绩奖励(1704-1722建造)",
+            "en": "18th-century reward for war merit (built 1704–1722)"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 3",
-      "title": "湖区",
+      "title": {
+        "zh": "湖区",
+        "en": "The Lake District"
+      },
       "cities": [
-        "湖区"
+        {
+          "zh": "湖区",
+          "en": "Lake District"
+        }
       ],
       "attractions": [
         {
           "id": "lake-district",
           "nameCn": "湖区",
           "nameEn": "Lake District",
-          "type": "自然景观",
+          "type": {
+            "zh": "自然景观",
+            "en": "Natural Landscape"
+          },
           "imageKeyword": "Lake+District+England+Windermere",
-          "historicalContext": "工业革命后的精神避难所，浪漫主义运动的核心地带。18世纪末至19世纪初，当英国成为世界第一个工业化国家，曼彻斯特和伯明翰的烟囱遮天蔽日时，湖区成为人们寻求精神慰藉的场所。湖畔派诗人以William Wordsworth (1770-1850) 为代表，通过诗歌重新定义了人与自然的关系。",
-          "experience": "游览了温德米尔湖(Lake Windermere)，英格兰最大的天然湖泊，长约17公里。在格拉斯米尔(Grasmere)参观了Wordsworth的故居Dove Cottage，这座简朴的石屋见证了《序曲》(The Prelude)等经典诗作的诞生。湖区的山水被Wordsworth等诗人的文字\"驯化\"，从荒野变成了承载情感和哲思的文化景观。",
-          "insight": "湖区不是\"原始荒野\"，而是\"被文学建构的自然\"。它回答了工业革命的核心精神问题：当人类被机器异化、城市化割裂了与自然的联系时，灵魂去哪里疗愈？浪漫主义提供的答案是：回归自然，但这种\"自然\"已经被诗歌和绘画赋予了文化意义。湖区后来成为英国第一批国家公园（1951年），标志着自然保护运动的诞生——这个运动本身就源于浪漫主义对工业化的反思。",
+          "historicalContext": {
+            "zh": "工业革命后的精神避难所，浪漫主义运动的核心地带。18世纪末至19世纪初，当英国成为世界第一个工业化国家，曼彻斯特和伯明翰的烟囱遮天蔽日时，湖区成为人们寻求精神慰藉的场所。湖畔派诗人以William Wordsworth (1770-1850) 为代表，通过诗歌重新定义了人与自然的关系。",
+            "en": "The spiritual refuge from the Industrial Revolution and the heartland of Romanticism. As Britain became the first industrial nation and the chimneys of Manchester blackened the sky, the Lakes became where souls went to recover. Wordsworth and the Lake Poets redefined the relationship between people and nature."
+          },
+          "experience": {
+            "zh": "游览了温德米尔湖(Lake Windermere)，英格兰最大的天然湖泊，长约17公里。在格拉斯米尔(Grasmere)参观了Wordsworth的故居Dove Cottage，这座简朴的石屋见证了《序曲》(The Prelude)等经典诗作的诞生。湖区的山水被Wordsworth等诗人的文字\"驯化\"，从荒野变成了承载情感和哲思的文化景观。",
+            "en": "Windermere, England's largest natural lake, seventeen kilometers long; Dove Cottage in Grasmere, the plain stone house where The Prelude was written. These hills were 'tamed' by poetry — wilderness turned into a cultural landscape that carries feeling and thought."
+          },
+          "insight": {
+            "zh": "湖区不是\"原始荒野\"，而是\"被文学建构的自然\"。它回答了工业革命的核心精神问题：当人类被机器异化、城市化割裂了与自然的联系时，灵魂去哪里疗愈？浪漫主义提供的答案是：回归自然，但这种\"自然\"已经被诗歌和绘画赋予了文化意义。湖区后来成为英国第一批国家公园（1951年），标志着自然保护运动的诞生——这个运动本身就源于浪漫主义对工业化的反思。",
+            "en": "The Lake District is not raw wilderness but nature constructed by literature. It answers the Industrial Revolution's spiritual question: when machines alienate us, where does the soul heal? Romanticism's answer — return to a nature already charged with cultural meaning. It became Britain's first national park (1951); conservation itself grew out of the Romantic critique of industry."
+          },
           "relatedPeople": [
-            "William Wordsworth（1770-1850，湖畔派诗人，《丁登寺》《序曲》作者）",
-            "Samuel Taylor Coleridge（诗人，Wordsworth挚友）",
-            "Robert Southey（湖畔派诗人）"
+            {
+              "zh": "William Wordsworth（1770-1850，湖畔派诗人，《丁登寺》《序曲》作者）",
+              "en": "William Wordsworth (1770–1850; The Prelude, Tintern Abbey)"
+            },
+            {
+              "zh": "Samuel Taylor Coleridge（诗人，Wordsworth挚友）",
+              "en": "Samuel Taylor Coleridge (poet and friend)"
+            },
+            {
+              "zh": "Robert Southey（湖畔派诗人）",
+              "en": "Robert Southey (Lake Poet)"
+            }
           ],
-          "historicalPeriod": "浪漫主义运动(1790-1830)"
+          "historicalPeriod": {
+            "zh": "浪漫主义运动(1790-1830)",
+            "en": "Romanticism (1790–1830)"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 4",
-      "title": "曼彻斯特",
+      "title": {
+        "zh": "曼彻斯特",
+        "en": "Manchester"
+      },
       "cities": [
-        "曼彻斯特"
+        {
+          "zh": "曼彻斯特",
+          "en": "Manchester"
+        }
       ],
       "attractions": [
         {
           "id": "manchester",
           "nameCn": "曼彻斯特",
           "nameEn": "Manchester",
-          "type": "工业城市",
+          "type": {
+            "zh": "工业城市",
+            "en": "Industrial City"
+          },
           "imageKeyword": "Manchester+England+Industrial+Revolution",
-          "historicalContext": "世界第一座工业化城市，工业革命的核心。18世纪末到19世纪，曼彻斯特因纺织业而被称为\"Cottonopolis\"（棉都）。这里诞生了现代工厂制度、工人阶级、城市化、环境污染等现代性的所有特征。马克思和恩格斯在此观察资本主义，写下《英国工人阶级状况》。",
-          "experience": "参观了工业遗产：纺织厂旧址、运河系统（运输原料和产品）、铁路车站（1830年世界第一条客运铁路连接曼彻斯特和利物浦）。体验了足球文化：Manchester United vs Manchester City的德比不仅是体育竞技，更是工人阶级身份认同的表达。城市气质务实、直接、不装腔作势，与伦敦的精致形成鲜明对比。",
-          "insight": "曼彻斯特是\"现代世界的诞生地\"。它展示了：当资本主义与工业技术结合，人类社会如何被彻底重组。工人阶级成为新的社会阶层，他们不是农民也不是手工业者，而是被纳入机器生产体系的劳动力。足球成为他们的精神出口——周六下午的比赛是工人唯一的集体狂欢。今天曼彻斯特的后工业转型（从制造业到服务业、创意产业）也预示着发达国家的共同路径。",
+          "historicalContext": {
+            "zh": "世界第一座工业化城市，工业革命的核心。18世纪末到19世纪，曼彻斯特因纺织业而被称为\"Cottonopolis\"（棉都）。这里诞生了现代工厂制度、工人阶级、城市化、环境污染等现代性的所有特征。马克思和恩格斯在此观察资本主义，写下《英国工人阶级状况》。",
+            "en": "The world's first industrial city — 'Cottonopolis.' Modern factory production, the working class, urbanization and pollution were all invented here at once. Marx and Engels observed capitalism in these streets; Engels wrote The Condition of the Working Class in England."
+          },
+          "experience": {
+            "zh": "参观了工业遗产：纺织厂旧址、运河系统（运输原料和产品）、铁路车站（1830年世界第一条客运铁路连接曼彻斯特和利物浦）。体验了足球文化：Manchester United vs Manchester City的德比不仅是体育竞技，更是工人阶级身份认同的表达。城市气质务实、直接、不装腔作势，与伦敦的精致形成鲜明对比。",
+            "en": "Mill sites, the canals that moved cotton, and the world's first passenger railway (1830, to Liverpool). Football culture — United vs. City — is working-class identity ritualized. The city's temperament is blunt and practical: the anti-London."
+          },
+          "insight": {
+            "zh": "曼彻斯特是\"现代世界的诞生地\"。它展示了：当资本主义与工业技术结合，人类社会如何被彻底重组。工人阶级成为新的社会阶层，他们不是农民也不是手工业者，而是被纳入机器生产体系的劳动力。足球成为他们的精神出口——周六下午的比赛是工人唯一的集体狂欢。今天曼彻斯特的后工业转型（从制造业到服务业、创意产业）也预示着发达国家的共同路径。",
+            "en": "Manchester is the birthplace of the modern world: what happens when capital meets the machine and society is reorganized wholesale. Football became the workers' release — Saturday afternoon was the one collective carnival. Its post-industrial pivot to services and creative industries previews every developed economy's path."
+          },
           "relatedPeople": [
-            "Richard Arkwright（纺织机械发明者）",
-            "Friedrich Engels（《英国工人阶级状况》作者）",
-            "George Stephenson（铁路工程师）"
+            {
+              "zh": "Richard Arkwright（纺织机械发明者）",
+              "en": "Richard Arkwright (spinning machinery)"
+            },
+            {
+              "zh": "Friedrich Engels（《英国工人阶级状况》作者）",
+              "en": "Friedrich Engels (The Condition of the Working Class in England)"
+            },
+            {
+              "zh": "George Stephenson（铁路工程师）",
+              "en": "George Stephenson (railway engineer)"
+            }
           ],
-          "historicalPeriod": "工业革命(1760-1840)"
+          "historicalPeriod": {
+            "zh": "工业革命(1760-1840)",
+            "en": "Industrial Revolution (1760–1840)"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 5",
-      "title": "爱丁堡",
+      "title": {
+        "zh": "爱丁堡",
+        "en": "Edinburgh"
+      },
       "cities": [
-        "爱丁堡"
+        {
+          "zh": "爱丁堡",
+          "en": "Edinburgh"
+        }
       ],
       "attractions": [
         {
           "id": "edinburgh-castle",
           "nameCn": "爱丁堡城堡",
           "nameEn": "Edinburgh Castle",
-          "type": "城堡",
+          "type": {
+            "zh": "城堡",
+            "en": "Castle"
+          },
           "imageKeyword": "Edinburgh+Castle+Scotland",
-          "historicalContext": "苏格兰民族身份的象征，建于火山岩Castle Rock上，从未被完全征服。苏格兰在1707年与英格兰合并前是独立王国，历经数百年抵抗英格兰入侵的战争。1296-1357年的苏格兰独立战争中，William Wallace和Robert the Bruce成为民族英雄。1707年《联合法案》(Act of Union)后，苏格兰保留了独立的法律体系、教会(长老会而非国教会)、教育系统，这种\"有限合并\"至今仍是苏格兰身份的基础。1999年苏格兰议会重新开放，2014年独立公投虽以55%反对而未通过，但显示了持续的独立倾向。",
-          "experience": "城堡内有三座关键雕像：William Wallace（威廉·华莱士，1270-1305，平民出身的独立战争英雄，1305年被英格兰处决，电影《勇敢的心》主角）雕像展现悲壮的殉道者形象；Robert the Bruce（罗伯特·布鲁斯，1274-1329，苏格兰国王，1314年班诺克本战役击败英格兰，1328年条约确认苏格兰独立）雕像更显政治家的实用主义；Andrew Usher Jr.雕像（19世纪威士忌调和技术发明者）象征经济民族主义，苏格兰威士忌成为文化输出和身份认同的载体。城堡内展出Honours of Scotland（苏格兰王冠、权杖、宝剑）和Stone of Destiny（加冕石，1996年从英格兰归还），以及Mons Meg巨型火炮。",
-          "insight": "苏格兰启蒙运动塑造了现代世界：经济学（Adam Smith《国富论》）、哲学（David Hume经验主义）、地质学（James Hutton\"深时间\"概念）、物理学（James Clerk Maxwell电磁理论）。但这些革命性思想诞生在\"被合并的国家\"，说明：边缘位置反而激发创新。苏格兰vs英格兰的核心差异：苏格兰未被罗马化、未被完全征服、长老会vs国教会、独立法律体系、更民主的教育传统。",
+          "historicalContext": {
+            "zh": "苏格兰民族身份的象征，建于火山岩Castle Rock上，从未被完全征服。苏格兰在1707年与英格兰合并前是独立王国，历经数百年抵抗英格兰入侵的战争。1296-1357年的苏格兰独立战争中，William Wallace和Robert the Bruce成为民族英雄。1707年《联合法案》(Act of Union)后，苏格兰保留了独立的法律体系、教会(长老会而非国教会)、教育系统，这种\"有限合并\"至今仍是苏格兰身份的基础。1999年苏格兰议会重新开放，2014年独立公投虽以55%反对而未通过，但显示了持续的独立倾向。",
+            "en": "The symbol of Scottish nationhood, on volcanic Castle Rock, never fully conquered. Scotland was an independent kingdom before 1707; Wallace and Bruce became national heroes in the Wars of Independence. The Union preserved Scots law, the Presbyterian Kirk and Scottish education — a 'limited union' that still underpins Scottish identity. Parliament reopened in 1999; the 2014 referendum failed 55–45, but the current still runs."
+          },
+          "experience": {
+            "zh": "城堡内有三座关键雕像：William Wallace（威廉·华莱士，1270-1305，平民出身的独立战争英雄，1305年被英格兰处决，电影《勇敢的心》主角）雕像展现悲壮的殉道者形象；Robert the Bruce（罗伯特·布鲁斯，1274-1329，苏格兰国王，1314年班诺克本战役击败英格兰，1328年条约确认苏格兰独立）雕像更显政治家的实用主义；Andrew Usher Jr.雕像（19世纪威士忌调和技术发明者）象征经济民族主义，苏格兰威士忌成为文化输出和身份认同的载体。城堡内展出Honours of Scotland（苏格兰王冠、权杖、宝剑）和Stone of Destiny（加冕石，1996年从英格兰归还），以及Mons Meg巨型火炮。",
+            "en": "Three statues tell the story: Wallace the martyr (executed 1305; Braveheart), Bruce the pragmatist king (Bannockburn 1314; independence confirmed 1328), and Andrew Usher Jr., the whisky blender — economic nationalism cast in bronze. Inside: the Honours of Scotland, the Stone of Destiny (returned from England in 1996) and the great gun Mons Meg."
+          },
+          "insight": {
+            "zh": "苏格兰启蒙运动塑造了现代世界：经济学（Adam Smith《国富论》）、哲学（David Hume经验主义）、地质学（James Hutton\"深时间\"概念）、物理学（James Clerk Maxwell电磁理论）。但这些革命性思想诞生在\"被合并的国家\"，说明：边缘位置反而激发创新。苏格兰vs英格兰的核心差异：苏格兰未被罗马化、未被完全征服、长老会vs国教会、独立法律体系、更民主的教育传统。",
+            "en": "The Scottish Enlightenment built the modern world — Smith's economics, Hume's empiricism, Hutton's deep time, Maxwell's electromagnetism — all from a country that had just been absorbed. The lesson: the periphery innovates. Scotland vs. England: never Romanized, never fully conquered, Presbyterian rather than episcopal, its own legal system, a more democratic tradition of schooling."
+          },
           "relatedPeople": [
-            "William Wallace（1270-1305，独立战争英雄）",
-            "Robert the Bruce（1274-1329，苏格兰国王）",
-            "Adam Smith（1723-1790，经济学家）",
-            "David Hume（1711-1776，哲学家）",
-            "James Hutton（1726-1797，地质学家）",
-            "James Clerk Maxwell（1831-1879，物理学家）"
+            {
+              "zh": "William Wallace（1270-1305，独立战争英雄）",
+              "en": "William Wallace (1270–1305)"
+            },
+            {
+              "zh": "Robert the Bruce（1274-1329，苏格兰国王）",
+              "en": "Robert the Bruce (1274–1329)"
+            },
+            {
+              "zh": "Adam Smith（1723-1790，经济学家）",
+              "en": "Adam Smith (1723–1790)"
+            },
+            {
+              "zh": "David Hume（1711-1776，哲学家）",
+              "en": "David Hume (1711–1776)"
+            },
+            {
+              "zh": "James Hutton（1726-1797，地质学家）",
+              "en": "James Hutton (1726–1797)"
+            },
+            {
+              "zh": "James Clerk Maxwell（1831-1879，物理学家）",
+              "en": "James Clerk Maxwell (1831–1879)"
+            }
           ],
-          "historicalPeriod": "苏格兰独立战争(1296-1357) - 启蒙运动(18世纪)"
+          "historicalPeriod": {
+            "zh": "苏格兰独立战争(1296-1357) - 启蒙运动(18世纪)",
+            "en": "Wars of Independence (1296–1357) – Enlightenment (18th c.)"
+          }
         },
         {
           "id": "royal-mile",
           "nameCn": "皇家英里",
           "nameEn": "Royal Mile",
-          "type": "历史街区",
+          "type": {
+            "zh": "历史街区",
+            "en": "Historic Street"
+          },
           "imageKeyword": "Royal+Mile+Edinburgh+Scotland",
-          "historicalContext": "从爱丁堡城堡到荷里路德宫(Holyrood Palace)的中世纪老城核心街道，全长约一英里。这条街道集中了苏格兰启蒙运动思想家的雕像和纪念地，是苏格兰知识分子传统的视觉化展示。",
-          "experience": "Adam Smith雕像位于街边，这位《国富论》(1776)和《道德情操论》(1759)的作者奠定了现代经济学基础，提出\"看不见的手\"和分工理论。David Hume雕像的脚趾被游客摸得锃亮，这位经验主义哲学家因怀疑论和无神论倾向在大学任教遭拒，却\"唤醒康德脱离独断沉睡\"。St Giles' Cathedral是苏格兰长老会(Presbyterian)总部，其民主选举制度（无主教）与英格兰国教会形成对比。",
-          "insight": "苏格兰vs英格兰的核心差异体现在宗教、法律、教育、气质等方面：英格兰深度罗马化而苏格兰未被征服；英格兰国教会采主教制而苏格兰长老会更民主；English Law vs Scots Law是完全独立的法律体系；苏格兰教育更民主和普及。这些差异解释了为何1707年合并273年后仍有强烈的独立运动。",
+          "historicalContext": {
+            "zh": "从爱丁堡城堡到荷里路德宫(Holyrood Palace)的中世纪老城核心街道，全长约一英里。这条街道集中了苏格兰启蒙运动思想家的雕像和纪念地，是苏格兰知识分子传统的视觉化展示。",
+            "en": "The medieval spine of the Old Town, one mile from the Castle to Holyrood — the visual showcase of the Scottish intellectual tradition, lined with the statues and haunts of the Enlightenment."
+          },
+          "experience": {
+            "zh": "Adam Smith雕像位于街边，这位《国富论》(1776)和《道德情操论》(1759)的作者奠定了现代经济学基础，提出\"看不见的手\"和分工理论。David Hume雕像的脚趾被游客摸得锃亮，这位经验主义哲学家因怀疑论和无神论倾向在大学任教遭拒，却\"唤醒康德脱离独断沉睡\"。St Giles' Cathedral是苏格兰长老会(Presbyterian)总部，其民主选举制度（无主教）与英格兰国教会形成对比。",
+            "en": "Adam Smith's statue stands mid-street (The Wealth of Nations, 1776; The Theory of Moral Sentiments, 1759). Hume's toe is rubbed bright by passers-by — the empiricist denied a professorship for skepticism, who 'woke Kant from his dogmatic slumber.' St Giles' Cathedral is the Presbyterian mother church: elected elders, no bishops."
+          },
+          "insight": {
+            "zh": "苏格兰vs英格兰的核心差异体现在宗教、法律、教育、气质等方面：英格兰深度罗马化而苏格兰未被征服；英格兰国教会采主教制而苏格兰长老会更民主；English Law vs Scots Law是完全独立的法律体系；苏格兰教育更民主和普及。这些差异解释了为何1707年合并273年后仍有强烈的独立运动。",
+            "en": "The core Scotland–England differences run through religion, law, education and temperament: England deeply Romanized, Scotland never conquered; episcopacy vs. presbytery; English law vs. Scots law; a broader, more democratic schooling. This is why, three centuries after the Union, independence still pulls."
+          },
           "relatedPeople": [
-            "Adam Smith（1723-1790，经济学奠基人）",
-            "David Hume（1711-1776，哲学家）"
+            {
+              "zh": "Adam Smith（1723-1790，经济学奠基人）",
+              "en": "Adam Smith (1723–1790, founder of economics)"
+            },
+            {
+              "zh": "David Hume（1711-1776，哲学家）",
+              "en": "David Hume (1711–1776, philosopher)"
+            }
           ],
-          "historicalPeriod": "苏格兰启蒙运动(18世纪)"
+          "historicalPeriod": {
+            "zh": "苏格兰启蒙运动(18世纪)",
+            "en": "Scottish Enlightenment (18th century)"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 6",
-      "title": "格拉斯哥",
+      "title": {
+        "zh": "格拉斯哥",
+        "en": "Glasgow"
+      },
       "cities": [
-        "格拉斯哥"
+        {
+          "zh": "格拉斯哥",
+          "en": "Glasgow"
+        }
       ],
       "attractions": [
         {
           "id": "glasgow",
           "nameCn": "格拉斯哥",
           "nameEn": "Glasgow",
-          "type": "工业城市",
+          "type": {
+            "zh": "工业城市",
+            "en": "Industrial City"
+          },
           "imageKeyword": "Glasgow+Scotland+University",
-          "historicalContext": "苏格兰最大城市，工业革命时期的造船和重工业中心。克莱德河(River Clyde)沿岸的造船厂曾是世界中心，建造了无数远洋轮船。Adam Smith曾在格拉斯哥大学任教授，在此构思《国富论》。",
-          "experience": "参观了格拉斯哥大学（建于1451年，Adam Smith 1751-1764年任道德哲学教授）、克莱德河造船遗址（19世纪全球四分之一的船只在此建造）。城市在20世纪后期经历了痛苦的去工业化转型，从制造业中心变为文化和服务业城市。",
-          "insight": "格拉斯哥是\"思想vs产业\"的矛盾体：Adam Smith在这里构思自由市场理论和《国富论》，论述分工、比较优势、全球贸易的好处；但这座城市后来却因同样的全球化（产业转移到成本更低的地区）而衰落。这种悖论展现了资本主义创造性破坏的本质。",
+          "historicalContext": {
+            "zh": "苏格兰最大城市，工业革命时期的造船和重工业中心。克莱德河(River Clyde)沿岸的造船厂曾是世界中心，建造了无数远洋轮船。Adam Smith曾在格拉斯哥大学任教授，在此构思《国富论》。",
+            "en": "Scotland's largest city and the empire's shipbuilding heart: the Clyde built the world's ships. Adam Smith held the chair of moral philosophy at Glasgow University (1751–64) and conceived The Wealth of Nations here."
+          },
+          "experience": {
+            "zh": "参观了格拉斯哥大学（建于1451年，Adam Smith 1751-1764年任道德哲学教授）、克莱德河造船遗址（19世纪全球四分之一的船只在此建造）。城市在20世纪后期经历了痛苦的去工业化转型，从制造业中心变为文化和服务业城市。",
+            "en": "Glasgow University (founded 1451); the Clyde shipyards that once launched a quarter of the world's tonnage; a city that has lived through brutal deindustrialization into culture and services."
+          },
+          "insight": {
+            "zh": "格拉斯哥是\"思想vs产业\"的矛盾体：Adam Smith在这里构思自由市场理论和《国富论》，论述分工、比较优势、全球贸易的好处；但这座城市后来却因同样的全球化（产业转移到成本更低的地区）而衰落。这种悖论展现了资本主义创造性破坏的本质。",
+            "en": "Glasgow is the paradox of thought vs. industry: Smith theorized free markets, comparative advantage and global trade here — and the same globalization later moved industry to cheaper shores and hollowed the city out. Creative destruction, demonstrated on its own author's doorstep."
+          },
           "relatedPeople": [
-            "Adam Smith（1723-1790，在格拉斯哥大学任教）"
+            {
+              "zh": "Adam Smith（1723-1790，在格拉斯哥大学任教）",
+              "en": "Adam Smith (1723–1790; taught at Glasgow University)"
+            }
           ],
-          "historicalPeriod": "启蒙运动(18世纪) - 工业革命 - 后工业转型"
+          "historicalPeriod": {
+            "zh": "启蒙运动(18世纪) - 工业革命 - 后工业转型",
+            "en": "Enlightenment (18th c.) – Industrial Revolution – post-industrial"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 7",
-      "title": "Whitby",
+      "title": {
+        "zh": "Whitby",
+        "en": "Whitby"
+      },
       "cities": [
-        "惠特比"
+        {
+          "zh": "惠特比",
+          "en": "Whitby"
+        }
       ],
       "attractions": [
         {
           "id": "whitby-abbey",
           "nameCn": "Whitby修道院",
           "nameEn": "Whitby Abbey",
-          "type": "修道院遗址",
+          "type": {
+            "zh": "修道院遗址",
+            "en": "Abbey Ruins"
+          },
           "imageKeyword": "Whitby+Abbey+England+ruins",
-          "historicalContext": "657年建立的修道院，664年在此召开的Synod of Whitby（惠特比宗教会议）是英格兰历史的关键转折点。会议决定英格兰基督教选择罗马教会体系而非凯尔特教会，这个选择决定了英格兰走向拉丁欧洲而非凯尔特边缘。这影响了之后英格兰的学术传统（牛津剑桥采用欧陆模式）、法律传统（罗马法影响）、建筑风格（罗马式和哥特式）。如果选择了凯尔特教会，英国可能更像爱尔兰——神秘、诗性、地方性，而不会有后来的拉丁学术传统。16世纪亨利八世宗教改革时修道院被解散，建筑被拆除，石头被出售，土地分给贵族，今天的废墟是那场\"国有化运动\"的遗址。",
-          "experience": "废墟矗立在北海悬崖上，19世纪爱尔兰作家Bram Stoker以此为灵感创作《德古拉》(1897)，小说中德古拉伯爵乘船在Whitby登陆英格兰。修道院废墟+悬崖+暴风+北海雾气构成完美的恐惧舞台。德古拉象征维多利亚时代的\"帝国回流焦虑\"——大英帝国向外扩张，但内心恐惧外来的、不可控的、异质的力量会反向入侵。",
-          "insight": "664年的选择是文明分叉点：罗马教会vs凯尔特教会，制度化vs神秘主义，欧陆连接vs岛屿孤立。Whitby的三层输出：宗教秩序（如何理解世界）、恐惧想象（德古拉：如何恐惧世界）、全球秩序（库克船长：如何占有世界）。",
+          "historicalContext": {
+            "zh": "657年建立的修道院，664年在此召开的Synod of Whitby（惠特比宗教会议）是英格兰历史的关键转折点。会议决定英格兰基督教选择罗马教会体系而非凯尔特教会，这个选择决定了英格兰走向拉丁欧洲而非凯尔特边缘。这影响了之后英格兰的学术传统（牛津剑桥采用欧陆模式）、法律传统（罗马法影响）、建筑风格（罗马式和哥特式）。如果选择了凯尔特教会，英国可能更像爱尔兰——神秘、诗性、地方性，而不会有后来的拉丁学术传统。16世纪亨利八世宗教改革时修道院被解散，建筑被拆除，石头被出售，土地分给贵族，今天的废墟是那场\"国有化运动\"的遗址。",
+            "en": "Founded in 657. The Synod of Whitby (664) chose Roman over Celtic Christianity — the fork that pointed England toward Latin Europe: its scholarly tradition (Oxford and Cambridge on the continental model), its law, its architecture. Choose the Celtic church instead, and Britain looks like Ireland — mystic, poetic, local. Henry VIII's dissolution tore the abbey down, sold the stones, gave the land to nobles; today's ruin is the wreck of that nationalization."
+          },
+          "experience": {
+            "zh": "废墟矗立在北海悬崖上，19世纪爱尔兰作家Bram Stoker以此为灵感创作《德古拉》(1897)，小说中德古拉伯爵乘船在Whitby登陆英格兰。修道院废墟+悬崖+暴风+北海雾气构成完美的恐惧舞台。德古拉象征维多利亚时代的\"帝国回流焦虑\"——大英帝国向外扩张，但内心恐惧外来的、不可控的、异质的力量会反向入侵。",
+            "en": "The ruin stands on the North Sea cliff. Bram Stoker landed Dracula here (1897): ruin + cliff + storm + sea fog, a perfect stage for fear. Dracula embodies the Victorian 'reverse-colonization' anxiety — the empire that expands outward dreads the alien, uncontrollable force flowing back in."
+          },
+          "insight": {
+            "zh": "664年的选择是文明分叉点：罗马教会vs凯尔特教会，制度化vs神秘主义，欧陆连接vs岛屿孤立。Whitby的三层输出：宗教秩序（如何理解世界）、恐惧想象（德古拉：如何恐惧世界）、全球秩序（库克船长：如何占有世界）。",
+            "en": "664 was a civilizational fork: Roman vs. Celtic, institution vs. mysticism, continental connection vs. island isolation. Whitby exported three things: religious order (how to understand the world), Gothic fear (how to fear it), and — through Cook — global order (how to possess it)."
+          },
           "relatedPeople": [
-            "Bram Stoker（1847-1912，《德古拉》作者）",
-            "亨利八世（解散修道院）"
+            {
+              "zh": "Bram Stoker（1847-1912，《德古拉》作者）",
+              "en": "Bram Stoker (1847–1912, author of Dracula)"
+            },
+            {
+              "zh": "亨利八世（解散修道院）",
+              "en": "Henry VIII (dissolved the monasteries)"
+            }
           ],
-          "historicalPeriod": "中世纪早期(657-664) - 宗教改革(16世纪) - 维多利亚时代(19世纪)"
+          "historicalPeriod": {
+            "zh": "中世纪早期(657-664) - 宗教改革(16世纪) - 维多利亚时代(19世纪)",
+            "en": "Early medieval (657–664) – Reformation (16th c.) – Victorian (19th c.)"
+          }
         },
         {
           "id": "captain-cook",
           "nameCn": "库克船长纪念",
           "nameEn": "Captain Cook Memorial",
-          "type": "航海遗址",
+          "type": {
+            "zh": "航海遗址",
+            "en": "Maritime Heritage"
+          },
           "imageKeyword": "Captain+Cook+Whitby+statue",
-          "historicalContext": "Captain James Cook (1728-1779) 三次太平洋航行都从Whitby出发，使用当地的Whitby Collier煤船改造的Endeavour号。他的航行不是冒险，而是国家任务：科学测绘、绘制海图、记录植物动物、命名地点。1768-1771年第一次航行表面任务是观测金星凌日，真实任务是绘制太平洋地图并寻找\"未知的南方大陆\"；1772-1775年第二次航行穿越南极圈，否定了南方大陆的存在；1776-1779年第三次航行寻找西北航道，在夏威夷与当地人冲突中被杀。",
-          "experience": "参观了库克纪念馆和Whitby港口，了解Whitby Collier煤船的特点：厚实、吃水浅、可靠（不是速度快的战舰，而是\"能活着回来\"的工具）。库克的航行展现了\"理性殖民\"：不杀人，但标记了谁可以被杀；不占领，但记录了谁可以被占领；不抢劫，但评估了什么可以被开发。",
-          "insight": "库克不是英雄探险家，而是\"国家测量员\"。测绘≠中立，命名≠无辜。他为大英帝国绘制了占领地图，他的科学日志成为后续殖民的指南。澳大利亚、新西兰、夏威夷等地的殖民都建立在他的测绘基础上。库克代表了\"冷静殖民\"——不是西班牙征服者的暴力掠夺，而是理性的、科学包装的、为后续占领铺路的前置工作。",
+          "historicalContext": {
+            "zh": "Captain James Cook (1728-1779) 三次太平洋航行都从Whitby出发，使用当地的Whitby Collier煤船改造的Endeavour号。他的航行不是冒险，而是国家任务：科学测绘、绘制海图、记录植物动物、命名地点。1768-1771年第一次航行表面任务是观测金星凌日，真实任务是绘制太平洋地图并寻找\"未知的南方大陆\"；1772-1775年第二次航行穿越南极圈，否定了南方大陆的存在；1776-1779年第三次航行寻找西北航道，在夏威夷与当地人冲突中被杀。",
+            "en": "James Cook (1728–1779) sailed all three Pacific voyages from Whitby, in converted local colliers like the Endeavour. Not adventures — state missions: chart, survey, record, name. 1768–71, nominally to observe the transit of Venus, actually to map the Pacific and seek the southern continent; 1772–75, across the Antarctic Circle, disproving it; 1776–79, seeking the Northwest Passage, killed in Hawaii."
+          },
+          "experience": {
+            "zh": "参观了库克纪念馆和Whitby港口，了解Whitby Collier煤船的特点：厚实、吃水浅、可靠（不是速度快的战舰，而是\"能活着回来\"的工具）。库克的航行展现了\"理性殖民\"：不杀人，但标记了谁可以被杀；不占领，但记录了谁可以被占领；不抢劫，但评估了什么可以被开发。",
+            "en": "The memorial museum and harbor show why the collier mattered: thick-hulled, shallow-drafted, reliable — not a fast warship but a tool that comes back alive. Cook practiced 'rational colonization': he did not kill, but marked who could be killed; did not occupy, but recorded what could be occupied; did not plunder, but assessed what could be developed."
+          },
+          "insight": {
+            "zh": "库克不是英雄探险家，而是\"国家测量员\"。测绘≠中立，命名≠无辜。他为大英帝国绘制了占领地图，他的科学日志成为后续殖民的指南。澳大利亚、新西兰、夏威夷等地的殖民都建立在他的测绘基础上。库克代表了\"冷静殖民\"——不是西班牙征服者的暴力掠夺，而是理性的、科学包装的、为后续占领铺路的前置工作。",
+            "en": "Cook was no hero-explorer but the state's surveyor. Mapping is not neutral; naming is not innocent. Australia, New Zealand and Hawaii were colonized on the foundation of his charts — cool, scientific groundwork for possession."
+          },
           "relatedPeople": [
-            "Captain James Cook（1728-1779，航海家、测绘师）",
-            "Joseph Banks（植物学家，随库克航行）"
+            {
+              "zh": "Captain James Cook（1728-1779，航海家、测绘师）",
+              "en": "Captain James Cook (1728–1779, navigator and surveyor)"
+            },
+            {
+              "zh": "Joseph Banks（植物学家，随库克航行）",
+              "en": "Joseph Banks (botanist aboard)"
+            }
           ],
-          "historicalPeriod": "航海帝国时代(18世纪)"
+          "historicalPeriod": {
+            "zh": "航海帝国时代(18世纪)",
+            "en": "The age of maritime empire (18th century)"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 8",
-      "title": "约克",
+      "title": {
+        "zh": "约克",
+        "en": "York"
+      },
       "cities": [
-        "约克"
+        {
+          "zh": "约克",
+          "en": "York"
+        }
       ],
       "attractions": [
         {
           "id": "york-minster",
           "nameCn": "约克大教堂",
           "nameEn": "York Minster",
-          "type": "大教堂",
+          "type": {
+            "zh": "大教堂",
+            "en": "Cathedral"
+          },
           "imageKeyword": "York+Minster+cathedral+stained+glass",
-          "historicalContext": "英国最大的中世纪教堂，历史可追溯到7世纪的盎格鲁-撒克逊时期，现存建筑主要建于13-15世纪。约克的历史层次丰富：罗马时期是Eboracum（罗马不列颠北部首府，塞普提米乌斯·塞维鲁皇帝曾驻跸于此）、盎格鲁-撒克逊时期、9-11世纪是维京人的Jorvik（北海贸易中心）、诺曼征服后成为英格兰北方宗教和政治中枢。",
-          "experience": "Great East Window（东窗，1405-1408年制作）是世界最大的中世纪彩色玻璃窗之一，描绘《启示录》场景，面积相当于一个网球场。Five Sisters Window（五姊妹窗）采用早期灰绿色调，可能与女性捐赠者相关。彩色玻璃窗有三重功能：神学功能（识字率低的中世纪是\"视觉圣经\"）、权力功能（捐赠者纹章是中世纪的\"广告位\"）、技术功能（证明城市财富与工匠水平）。制作技术包括手工吹制玻璃、矿物染色、铅条拼接，这是哥特式建筑的创新——尖拱和飞扶壁使墙体不承重，窗户可以巨大化。地下室可见罗马柱基，说明教会继承了罗马城市中心位置。正面雕像展示玫瑰战争（1455-1487）时期约克家族（白玫瑰）的政治符号。",
-          "insight": "约克是\"英格兰历史的压缩包\"：罗马帝国前线、盎格鲁-撒克逊王国、维京贸易中心、诺曼征服后的北方重镇、玫瑰战争的冠名城市……每一层历史都留下空间痕迹。约克错过了工业革命（没有煤矿和运河优势），反而因此保存了中世纪城市肌理，在20世纪抓住了文化遗产红利。彩色玻璃窗的技术来源是哥特式结构创新而非罗马镶嵌，展示了中世纪的独特技术飞跃。",
+          "historicalContext": {
+            "zh": "英国最大的中世纪教堂，历史可追溯到7世纪的盎格鲁-撒克逊时期，现存建筑主要建于13-15世纪。约克的历史层次丰富：罗马时期是Eboracum（罗马不列颠北部首府，塞普提米乌斯·塞维鲁皇帝曾驻跸于此）、盎格鲁-撒克逊时期、9-11世纪是维京人的Jorvik（北海贸易中心）、诺曼征服后成为英格兰北方宗教和政治中枢。",
+            "en": "Britain's largest medieval church, standing on layered history: Roman Eboracum (capital of the north — Septimius Severus held court here), Anglo-Saxon minster, Viking Jorvik, then the religious and political center of the Norman north."
+          },
+          "experience": {
+            "zh": "Great East Window（东窗，1405-1408年制作）是世界最大的中世纪彩色玻璃窗之一，描绘《启示录》场景，面积相当于一个网球场。Five Sisters Window（五姊妹窗）采用早期灰绿色调，可能与女性捐赠者相关。彩色玻璃窗有三重功能：神学功能（识字率低的中世纪是\"视觉圣经\"）、权力功能（捐赠者纹章是中世纪的\"广告位\"）、技术功能（证明城市财富与工匠水平）。制作技术包括手工吹制玻璃、矿物染色、铅条拼接，这是哥特式建筑的创新——尖拱和飞扶壁使墙体不承重，窗户可以巨大化。地下室可见罗马柱基，说明教会继承了罗马城市中心位置。正面雕像展示玫瑰战争（1455-1487）时期约克家族（白玫瑰）的政治符号。",
+            "en": "The Great East Window (1405–08) — the size of a tennis court, the Book of Revelation in glass. The Five Sisters in early grisaille. Stained glass worked three ways: a visual Bible for the illiterate, the donors' heraldic 'ad space,' and proof of civic wealth and craft. Gothic engineering made it possible — pointed arches and flying buttresses freed the walls for glass. Roman column bases survive in the undercroft; white roses of York stand on the façade."
+          },
+          "insight": {
+            "zh": "约克是\"英格兰历史的压缩包\"：罗马帝国前线、盎格鲁-撒克逊王国、维京贸易中心、诺曼征服后的北方重镇、玫瑰战争的冠名城市……每一层历史都留下空间痕迹。约克错过了工业革命（没有煤矿和运河优势），反而因此保存了中世纪城市肌理，在20世纪抓住了文化遗产红利。彩色玻璃窗的技术来源是哥特式结构创新而非罗马镶嵌，展示了中世纪的独特技术飞跃。",
+            "en": "York is England's history in compression: Roman frontier, Saxon kingdom, Viking entrepôt, Norman stronghold, the city that named a war. It missed the Industrial Revolution — no coal, no canal — and therefore kept its medieval fabric, cashing it in as heritage in the 20th century."
+          },
           "relatedPeople": [
-            "约克家族（玫瑰战争白玫瑰一方）",
-            "兰开斯特家族（红玫瑰）",
-            "中世纪工匠和捐赠者"
+            {
+              "zh": "约克家族（玫瑰战争白玫瑰一方）",
+              "en": "House of York (the white rose)"
+            },
+            {
+              "zh": "兰开斯特家族（红玫瑰）",
+              "en": "House of Lancaster (the red rose)"
+            },
+            {
+              "zh": "中世纪工匠和捐赠者",
+              "en": "Medieval craftsmen and donors"
+            }
           ],
-          "historicalPeriod": "罗马时期(71 AD) - 维京时期(9-11世纪) - 中世纪盛期(13-15世纪)"
+          "historicalPeriod": {
+            "zh": "罗马时期(71 AD) - 维京时期(9-11世纪) - 中世纪盛期(13-15世纪)",
+            "en": "Roman (71 AD) – Viking (9th–11th c.) – High Middle Ages (13th–15th c.)"
+          }
         },
         {
           "id": "york-city",
           "nameCn": "约克古城",
           "nameEn": "York City",
-          "type": "历史城市",
+          "type": {
+            "zh": "历史城市",
+            "en": "Historic City"
+          },
           "imageKeyword": "York+England+medieval+walls",
-          "historicalContext": "约克展现了\"城市比王权更长久\"的典型案例。从罗马军营Eboracum（71 AD建立）到维京Jorvik，约克的城市地位延续了近2000年，而王朝却不断更替。罗马撤离、盎格鲁-撒克逊入侵、维京占领、诺曼征服，每次政权更迭，约克都存活下来并适应新统治者。",
-          "experience": "漫步在保存完好的中世纪城墙上，街道走向仍延续罗马军营的方格布局（东西向和南北向主干道）。城市名字的政治意义深远：纽约(New York)得名于约克公爵的封地。1664年英国从荷兰手中夺取New Amsterdam，改名New York以纪念约克公爵（后来的詹姆士二世）。英国殖民命名逻辑是用爵位而非地名，因为York代表王权封号和历史合法性。",
-          "insight": "约克vs纽约：同名反性格。Old York象征教堂、历史、保守、沉淀；New York象征资本、未来、激进、流动。一个是罗马军事要塞演变的宗教中心，一个是荷兰商业港转变的全球金融中心。命名的政治性：用\"York\"而非\"London\"是因为York承载着王权封号的历史合法性。",
+          "historicalContext": {
+            "zh": "约克展现了\"城市比王权更长久\"的典型案例。从罗马军营Eboracum（71 AD建立）到维京Jorvik，约克的城市地位延续了近2000年，而王朝却不断更替。罗马撤离、盎格鲁-撒克逊入侵、维京占领、诺曼征服，每次政权更迭，约克都存活下来并适应新统治者。",
+            "en": "The textbook case that cities outlive crowns. From Eboracum (founded 71 AD) through Viking Jorvik to today, the city has persisted for nearly two millennia while dynasties churned — surviving Rome's exit, Saxon invasion, Viking rule and Norman conquest, adapting to every new master."
+          },
+          "experience": {
+            "zh": "漫步在保存完好的中世纪城墙上，街道走向仍延续罗马军营的方格布局（东西向和南北向主干道）。城市名字的政治意义深远：纽约(New York)得名于约克公爵的封地。1664年英国从荷兰手中夺取New Amsterdam，改名New York以纪念约克公爵（后来的詹姆士二世）。英国殖民命名逻辑是用爵位而非地名，因为York代表王权封号和历史合法性。",
+            "en": "Walking the intact walls, the street grid still follows the Roman camp's axes. And the name went global: in 1664 the English took New Amsterdam and renamed it for the Duke of York — a royal title, not a place name, because 'York' carried the legitimacy of the crown."
+          },
+          "insight": {
+            "zh": "约克vs纽约：同名反性格。Old York象征教堂、历史、保守、沉淀；New York象征资本、未来、激进、流动。一个是罗马军事要塞演变的宗教中心，一个是荷兰商业港转变的全球金融中心。命名的政治性：用\"York\"而非\"London\"是因为York承载着王权封号的历史合法性。",
+            "en": "Old York vs. New York: same name, opposite temperaments. One a Roman fort turned church city — history, conservation, sediment. The other a Dutch trading post turned global exchange — capital, future, flow. The politics of naming: York, not London, because York was a title of royal legitimacy."
+          },
           "relatedPeople": [
-            "罗马皇帝塞普提米乌斯·塞维鲁（驻跸Eboracum）",
-            "维京统治者",
-            "约克公爵（后詹姆士二世，纽约得名于他）"
+            {
+              "zh": "罗马皇帝塞普提米乌斯·塞维鲁（驻跸Eboracum）",
+              "en": "Septimius Severus (Roman emperor; held court at Eboracum)"
+            },
+            {
+              "zh": "维京统治者",
+              "en": "The Viking rulers of Jorvik"
+            },
+            {
+              "zh": "约克公爵（后詹姆士二世，纽约得名于他）",
+              "en": "The Duke of York (later James II — New York is named for him)"
+            }
           ],
-          "historicalPeriod": "罗马-维京-中世纪-至今"
+          "historicalPeriod": {
+            "zh": "罗马-维京-中世纪-至今",
+            "en": "Rome – the Vikings – the Middle Ages – today"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 9",
-      "title": "林肯",
+      "title": {
+        "zh": "林肯",
+        "en": "Lincoln"
+      },
       "cities": [
-        "林肯"
+        {
+          "zh": "林肯",
+          "en": "Lincoln"
+        }
       ],
       "attractions": [
         {
           "id": "lincoln-cathedral",
           "nameCn": "林肯大教堂",
           "nameEn": "Lincoln Cathedral",
-          "type": "大教堂",
+          "type": {
+            "zh": "大教堂",
+            "en": "Cathedral"
+          },
           "imageKeyword": "Lincoln+Cathedral+England",
-          "historicalContext": "1072年奠基（诺曼征服后仅6年），由诺曼主教Remigius建造，是诺曼人控制英格兰的精神工具。13-14世纪加建的中央尖塔曾高达160米，成为世界最高建筑（直到1548年尖塔倒塌）。教堂刻意建在高地上，视觉上压倒城市所有世俗建筑，象征\"秩序在俯视你\"。",
-          "experience": "大教堂内保存着四份Magna Carta（大宪章）原件之一。1215年，暴虐的约翰王(King John)在贵族和教会的压力下被迫签署Magna Carta，确立了\"国王也不能凌驾于法律之上\"的原则。林肯主教是反对约翰王的核心力量，教堂成为法律与记忆的\"保险柜\"（比王宫更安全、更持久）。从教堂高处俯瞰林肯城，理解中世纪权力的可视化策略。",
-          "insight": "Magna Carta的真实意义不是民主宣言或人权文件，而是\"制度优先于个人意志\"。这份文件是贵族自保的工具，但被教会保存并赋予了法律合法性。林肯保存的是英国宪政的\"最早裂缝\"——从此开启了500年议会、普通法、宪政的缓慢生长。历史线：诺曼征服(1066)→王权极强→12世纪王权扩张过头→1215 Magna Carta→王权被法律约束→议会制度逐步确立。",
+          "historicalContext": {
+            "zh": "1072年奠基（诺曼征服后仅6年），由诺曼主教Remigius建造，是诺曼人控制英格兰的精神工具。13-14世纪加建的中央尖塔曾高达160米，成为世界最高建筑（直到1548年尖塔倒塌）。教堂刻意建在高地上，视觉上压倒城市所有世俗建筑，象征\"秩序在俯视你\"。",
+            "en": "Begun in 1072 — six years after the Conquest — by the Norman bishop Remigius as the spiritual instrument of Norman control. Its central spire (160 m until it fell in 1548) made it the tallest building on earth. Built deliberately on the hilltop to overwhelm everything secular: order looking down at you."
+          },
+          "experience": {
+            "zh": "大教堂内保存着四份Magna Carta（大宪章）原件之一。1215年，暴虐的约翰王(King John)在贵族和教会的压力下被迫签署Magna Carta，确立了\"国王也不能凌驾于法律之上\"的原则。林肯主教是反对约翰王的核心力量，教堂成为法律与记忆的\"保险柜\"（比王宫更安全、更持久）。从教堂高处俯瞰林肯城，理解中世纪权力的可视化策略。",
+            "en": "One of the four surviving originals of Magna Carta is kept here. In 1215 the barons and the church forced King John to sign; the Bishop of Lincoln was central to the opposition. The cathedral became the law's safe-deposit box — safer and more durable than any palace. From the roof you read the medieval strategy of visible power."
+          },
+          "insight": {
+            "zh": "Magna Carta的真实意义不是民主宣言或人权文件，而是\"制度优先于个人意志\"。这份文件是贵族自保的工具，但被教会保存并赋予了法律合法性。林肯保存的是英国宪政的\"最早裂缝\"——从此开启了500年议会、普通法、宪政的缓慢生长。历史线：诺曼征服(1066)→王权极强→12世纪王权扩张过头→1215 Magna Carta→王权被法律约束→议会制度逐步确立。",
+            "en": "Magna Carta's real meaning is not democracy or human rights but 'the institution outranks the individual will.' A baronial self-defense document that the church preserved and legitimized — the earliest crack in absolute kingship, from which five hundred years of parliament, common law and constitutionalism slowly grew."
+          },
           "relatedPeople": [
-            "约翰王（King John, 1166-1216，被迫签署Magna Carta）",
-            "诺曼主教Remigius（建造者）",
-            "林肯主教（反对约翰王的教会力量）"
+            {
+              "zh": "约翰王（King John, 1166-1216，被迫签署Magna Carta）",
+              "en": "King John (1166–1216; forced to sign Magna Carta)"
+            },
+            {
+              "zh": "诺曼主教Remigius（建造者）",
+              "en": "Bishop Remigius (builder)"
+            },
+            {
+              "zh": "林肯主教（反对约翰王的教会力量）",
+              "en": "The Bishop of Lincoln (leader of the opposition to John)"
+            }
           ],
-          "historicalPeriod": "诺曼征服后(1072) - 中世纪盛期(1215 Magna Carta) - 至今"
+          "historicalPeriod": {
+            "zh": "诺曼征服后(1072) - 中世纪盛期(1215 Magna Carta) - 至今",
+            "en": "Norman foundation (1072) – Magna Carta (1215) – today"
+          }
         },
         {
           "id": "lincoln-castle",
           "nameCn": "林肯城堡",
           "nameEn": "Lincoln Castle",
-          "type": "城堡",
+          "type": {
+            "zh": "城堡",
+            "en": "Castle"
+          },
           "imageKeyword": "Lincoln+Castle+England",
-          "historicalContext": "1068年由威廉一世（征服者威廉）建立，是诺曼人控制英格兰的\"压制点\"之一。诺曼征服后，威廉一世在战略要地建造了大量城堡，不是为了防御外敌，而是为了压制本地人——新征服者对被征服者的控制工具。",
-          "experience": "城堡内展示Magna Carta原件（四份之一），与教堂的副本相呼应。这个展示本身就是象征：征服者的军事堡垒，最终保存着限制王权的法律文件。城堡从\"压迫工具\"转变为\"宪政象征\"，体现了英国式的制度转化。",
-          "insight": "林肯城堡不是\"军事史遗址\"，而是\"宪政史地标\"。它是\"国王第一次被制度按住的地方\"。城堡的功能转变（从军事压制到法律展示）象征着英国历史的核心叙事：暴力最终被制度驯化。林肯的三重意义：精神（教堂：如何相信）、法律（城堡+Magna Carta：如何守法）、秩序（高地：如何被看见）。",
+          "historicalContext": {
+            "zh": "1068年由威廉一世（征服者威廉）建立，是诺曼人控制英格兰的\"压制点\"之一。诺曼征服后，威廉一世在战略要地建造了大量城堡，不是为了防御外敌，而是为了压制本地人——新征服者对被征服者的控制工具。",
+            "en": "Built by William the Conqueror in 1068, one of the Norman 'points of suppression' — these castles were built against the conquered locals, not foreign enemies: the instrument of a new conqueror's control."
+          },
+          "experience": {
+            "zh": "城堡内展示Magna Carta原件（四份之一），与教堂的副本相呼应。这个展示本身就是象征：征服者的军事堡垒，最终保存着限制王权的法律文件。城堡从\"压迫工具\"转变为\"宪政象征\"，体现了英国式的制度转化。",
+            "en": "The castle displays its own original of Magna Carta, echoing the cathedral's copy. The symbolism does itself: the conqueror's military fortress ends up guarding the document that curbed the crown — from tool of oppression to shrine of constitutionalism."
+          },
+          "insight": {
+            "zh": "林肯城堡不是\"军事史遗址\"，而是\"宪政史地标\"。它是\"国王第一次被制度按住的地方\"。城堡的功能转变（从军事压制到法律展示）象征着英国历史的核心叙事：暴力最终被制度驯化。林肯的三重意义：精神（教堂：如何相信）、法律（城堡+Magna Carta：如何守法）、秩序（高地：如何被看见）。",
+            "en": "Not a monument of military history but of constitutional history — the place where the king was first pinned down by institutions. The castle's change of function is the core British story: violence domesticated by institutions. Lincoln's threefold meaning: spirit (the cathedral — how to believe), law (the castle and Magna Carta — how to be governed), order (the hilltop — how to be seen)."
+          },
           "relatedPeople": [
-            "威廉一世（William the Conqueror, 1028-1087，建造者）",
-            "约翰王（Magna Carta签署者）"
+            {
+              "zh": "威廉一世（William the Conqueror, 1028-1087，建造者）",
+              "en": "William the Conqueror (1028–1087, builder)"
+            },
+            {
+              "zh": "约翰王（Magna Carta签署者）",
+              "en": "King John (signer of Magna Carta)"
+            }
           ],
-          "historicalPeriod": "诺曼征服(1068) - Magna Carta(1215) - 至今"
+          "historicalPeriod": {
+            "zh": "诺曼征服(1068) - Magna Carta(1215) - 至今",
+            "en": "Norman Conquest (1068) – Magna Carta (1215) – today"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 10",
-      "title": "剑桥",
+      "title": {
+        "zh": "剑桥",
+        "en": "Cambridge"
+      },
       "cities": [
-        "剑桥"
+        {
+          "zh": "剑桥",
+          "en": "Cambridge"
+        }
       ],
       "attractions": [
         {
           "id": "cambridge-university",
           "nameCn": "剑桥大学",
           "nameEn": "University of Cambridge",
-          "type": "学院制大学",
+          "type": {
+            "zh": "学院制大学",
+            "en": "Collegiate University"
+          },
           "imageKeyword": "Cambridge+University+Kings+College",
-          "historicalContext": "31个自治学院的联邦体系，与牛津相比更侧重科学、工程、实用学科。剑桥是\"技术官僚\"的摇篮，培养了艾萨克·牛顿、查尔斯·达尔文、艾伦·图灵、斯蒂芬·霍金等改变世界的科学家。学院制同样源自修道院模式，每个学院财产独立、规则自治，大学本身只是松散的协调平台。",
-          "experience": "参观Trinity College（亨利八世创立，牛顿、麦克斯韦校友，校门亨利八世雕像手持的权杖被学生换成椅子腿）、King's College（亨利六世创立，拥有剑桥最宏伟的垂直哥特式礼拜堂和世界级合唱团，徐志摩1921-1922留学于此创作《再别康桥》）、St John's（金庸获学位，叹息桥连接学院两部分）、Corpus Christi（圣体钟：时间被怪兽吞噬，铭文\"世界正在消逝\"，反思技术万能主义）。康河撑篙游船(Punting)从水上看学院\"后门\"才是真实生活区，正门是展示。",
-          "insight": "剑桥是一个国家如何用700年时间，慢慢把聪明人嵌进制度里。你今天看到的不是\"学术浪漫\"，而是理性、科学、国家工具的三重合体。学院制=分权+自治+竞争，这套组织设计运行了700年。剑桥vs牛津：牛津偏贵族、神学、政治精英；剑桥偏科学、工程、技术官僚。",
+          "historicalContext": {
+            "zh": "31个自治学院的联邦体系，与牛津相比更侧重科学、工程、实用学科。剑桥是\"技术官僚\"的摇篮，培养了艾萨克·牛顿、查尔斯·达尔文、艾伦·图灵、斯蒂芬·霍金等改变世界的科学家。学院制同样源自修道院模式，每个学院财产独立、规则自治，大学本身只是松散的协调平台。",
+            "en": "A federation of 31 self-governing colleges, tilted toward science, engineering and the practical — the cradle of Newton, Darwin, Turing and Hawking. The same monastic origin as Oxford: independent property, self-rule, the university a loose coordinating platform."
+          },
+          "experience": {
+            "zh": "参观Trinity College（亨利八世创立，牛顿、麦克斯韦校友，校门亨利八世雕像手持的权杖被学生换成椅子腿）、King's College（亨利六世创立，拥有剑桥最宏伟的垂直哥特式礼拜堂和世界级合唱团，徐志摩1921-1922留学于此创作《再别康桥》）、St John's（金庸获学位，叹息桥连接学院两部分）、Corpus Christi（圣体钟：时间被怪兽吞噬，铭文\"世界正在消逝\"，反思技术万能主义）。康河撑篙游船(Punting)从水上看学院\"后门\"才是真实生活区，正门是展示。",
+            "en": "Trinity (founded by Henry VIII — the founder's statue grips a chair leg where the scepter should be, a student prank never corrected), King's (Henry VI's chapel and its choir; Xu Zhimo studied here in 1921–22 and wrote his farewell poem), St John's (the Bridge of Sighs), Corpus Christi (the Chronophage devouring time — 'the world passeth away'). Punting the Cam shows the colleges' true face from the Backs: the fronts are for show, the backs are for living."
+          },
+          "insight": {
+            "zh": "剑桥是一个国家如何用700年时间，慢慢把聪明人嵌进制度里。你今天看到的不是\"学术浪漫\"，而是理性、科学、国家工具的三重合体。学院制=分权+自治+竞争，这套组织设计运行了700年。剑桥vs牛津：牛津偏贵族、神学、政治精英；剑桥偏科学、工程、技术官僚。",
+            "en": "Cambridge is a nation spending 700 years slotting its cleverest people into institutions. What you see is not academic romance but reason, science and state instrument in one. The college system = decentralization + autonomy + competition, running for seven centuries. Oxford breeds ministers; Cambridge breeds technocrats."
+          },
           "relatedPeople": [
-            "Isaac Newton（1643-1727，万有引力、微积分）",
-            "Charles Darwin（1809-1882，进化论）",
-            "Alan Turing（1912-1954，计算机科学奠基人）",
-            "Stephen Hawking（1942-2018，理论物理学家）",
-            "徐志摩（1897-1931，中国诗人）",
-            "金庸（1924-2018，中国作家）"
+            {
+              "zh": "Isaac Newton（1643-1727，万有引力、微积分）",
+              "en": "Isaac Newton (1643–1727)"
+            },
+            {
+              "zh": "Charles Darwin（1809-1882，进化论）",
+              "en": "Charles Darwin (1809–1882)"
+            },
+            {
+              "zh": "Alan Turing（1912-1954，计算机科学奠基人）",
+              "en": "Alan Turing (1912–1954)"
+            },
+            {
+              "zh": "Stephen Hawking（1942-2018，理论物理学家）",
+              "en": "Stephen Hawking (1942–2018)"
+            },
+            {
+              "zh": "徐志摩（1897-1931，中国诗人）",
+              "en": "Xu Zhimo (1897–1931, Chinese poet)"
+            },
+            {
+              "zh": "金庸（1924-2018，中国作家）",
+              "en": "Jin Yong (1924–2018, Chinese novelist)"
+            }
           ],
-          "historicalPeriod": "中世纪大学(12世纪) - 科学革命 - 现代"
+          "historicalPeriod": {
+            "zh": "中世纪大学(12世纪) - 科学革命 - 现代",
+            "en": "Medieval university (12th c.) – Scientific Revolution – modern"
+          }
         },
         {
           "id": "kings-college-cambridge",
           "nameCn": "国王学院",
           "nameEn": "King's College Cambridge",
-          "type": "学院",
+          "type": {
+            "zh": "学院",
+            "en": "College"
+          },
           "imageKeyword": "Kings+College+Chapel+Cambridge",
-          "historicalContext": "1441年由亨利六世创立，拥有剑桥最宏伟的建筑——King's College Chapel，是垂直哥特式建筑的杰作。学院合唱团(King's College Choir)是世界顶级，每年圣诞节的Nine Lessons and Carols音乐会向全球直播。",
-          "experience": "康河最美的一段在King's College，河岸草坪是剑桥最标志性的景观。徐志摩1921-1922年在King's College留学（当时作为special student，非正式学位学生），创作了《再别康桥》：\"轻轻的我走了，正如我轻轻的来；我挥一挥衣袖，不带走一片云彩。\"他告别的不是地方，而是\"精神状态\"——在剑桥短暂体验到的\"秩序中的自由\"。",
-          "insight": "剑桥给了中国现代知识分子\"秩序中的自由\"这一理想型。徐志摩在中国是\"新旧撕裂的人\"（接受新思想但无法完全割裂传统），剑桥给了他短暂的完整感。King's College不仅是学术机构，更是一种\"文明状态\"的象征——精致、理性、人文关怀的平衡。",
+          "historicalContext": {
+            "zh": "1441年由亨利六世创立，拥有剑桥最宏伟的建筑——King's College Chapel，是垂直哥特式建筑的杰作。学院合唱团(King's College Choir)是世界顶级，每年圣诞节的Nine Lessons and Carols音乐会向全球直播。",
+            "en": "Founded by Henry VI in 1441; its chapel is the masterpiece of Perpendicular Gothic, and its choir's Nine Lessons and Carols is broadcast worldwide every Christmas Eve."
+          },
+          "experience": {
+            "zh": "康河最美的一段在King's College，河岸草坪是剑桥最标志性的景观。徐志摩1921-1922年在King's College留学（当时作为special student，非正式学位学生），创作了《再别康桥》：\"轻轻的我走了，正如我轻轻的来；我挥一挥衣袖，不带走一片云彩。\"他告别的不是地方，而是\"精神状态\"——在剑桥短暂体验到的\"秩序中的自由\"。",
+            "en": "The loveliest stretch of the Cam runs past the college lawn. Xu Zhimo studied here in 1921–22 and wrote 'Saying Good-bye to Cambridge Again': 'Quietly I leave, as quietly as I came.' What he bade farewell was not a place but a state of being — the 'freedom within order' he had briefly tasted."
+          },
+          "insight": {
+            "zh": "剑桥给了中国现代知识分子\"秩序中的自由\"这一理想型。徐志摩在中国是\"新旧撕裂的人\"（接受新思想但无法完全割裂传统），剑桥给了他短暂的完整感。King's College不仅是学术机构，更是一种\"文明状态\"的象征——精致、理性、人文关怀的平衡。",
+            "en": "King's gave modern Chinese intellectuals an ideal type: freedom within order. Xu Zhimo — a man torn between old and new China — found a brief wholeness here. The college is less an institution than the symbol of a state of civilization: refinement, reason and humanity in balance."
+          },
           "relatedPeople": [
-            "亨利六世（创立者）",
-            "徐志摩（1897-1931，中国诗人，《再别康桥》作者）"
+            {
+              "zh": "亨利六世（创立者）",
+              "en": "Henry VI (founder)"
+            },
+            {
+              "zh": "徐志摩（1897-1931，中国诗人，《再别康桥》作者）",
+              "en": "Xu Zhimo (1897–1931; author of 'Saying Good-bye to Cambridge Again')"
+            }
           ],
-          "historicalPeriod": "15世纪创立 - 20世纪中国知识分子的精神原乡"
+          "historicalPeriod": {
+            "zh": "15世纪创立 - 20世纪中国知识分子的精神原乡",
+            "en": "Founded 1441 – a 20th-century spiritual homeland"
+          }
         },
         {
           "id": "trinity-college",
           "nameCn": "三一学院",
           "nameEn": "Trinity College Cambridge",
-          "type": "学院",
+          "type": {
+            "zh": "学院",
+            "en": "College"
+          },
           "imageKeyword": "Trinity+College+Cambridge+Great+Court",
-          "historicalContext": "1546年由亨利八世创立，是剑桥真正的\"权力中心\"，诺贝尔奖获得者密度最高的学院。象征王权+科学+帝国理性的结合。",
-          "experience": "校门雕像是亨利八世手持权杖，但权杖被学生恶作剧换成了椅子腿，至今未改，体现了英国对权威的幽默态度。Trinity Court庭院有\"牛顿苹果树\"（传说万有引力灵感来源，实际树是后来种的纪念树）。校友包括牛顿、麦克斯韦、拜伦等改变世界的人物。",
-          "insight": "王权（亨利八世创立）+科学（牛顿、麦克斯韦）+帝国理性的象征。Trinity体现了英国精英教育的核心：不是单纯的知识传授，而是将聪明人纳入制度、为国家服务的机制。",
+          "historicalContext": {
+            "zh": "1546年由亨利八世创立，是剑桥真正的\"权力中心\"，诺贝尔奖获得者密度最高的学院。象征王权+科学+帝国理性的结合。",
+            "en": "Founded by Henry VIII in 1546 — Cambridge's true center of power, with the highest density of Nobel laureates of any college."
+          },
+          "experience": {
+            "zh": "校门雕像是亨利八世手持权杖，但权杖被学生恶作剧换成了椅子腿，至今未改，体现了英国对权威的幽默态度。Trinity Court庭院有\"牛顿苹果树\"（传说万有引力灵感来源，实际树是后来种的纪念树）。校友包括牛顿、麦克斯韦、拜伦等改变世界的人物。",
+            "en": "Over the Great Gate the founder's statue grips a chair leg where the scepter should be — a student prank kept for centuries: British humor toward authority. In the court stands the commemorative apple tree; the alumni run from Newton and Maxwell to Byron."
+          },
+          "insight": {
+            "zh": "王权（亨利八世创立）+科学（牛顿、麦克斯韦）+帝国理性的象征。Trinity体现了英国精英教育的核心：不是单纯的知识传授，而是将聪明人纳入制度、为国家服务的机制。",
+            "en": "Crown (Henry VIII) + science (Newton, Maxwell) + imperial reason. Trinity shows what British elite education is for: not merely teaching, but binding the brilliant into the institution, in service of the state."
+          },
           "relatedPeople": [
-            "亨利八世（创立者）",
-            "Isaac Newton（1643-1727，三一学院校友）",
-            "James Clerk Maxwell（1831-1879，电磁学）",
-            "Lord Byron（1788-1824，诗人）"
+            {
+              "zh": "亨利八世（创立者）",
+              "en": "Henry VIII (founder)"
+            },
+            {
+              "zh": "Isaac Newton（1643-1727，三一学院校友）",
+              "en": "Isaac Newton (1643–1727)"
+            },
+            {
+              "zh": "James Clerk Maxwell（1831-1879，电磁学）",
+              "en": "James Clerk Maxwell (1831–1879)"
+            },
+            {
+              "zh": "Lord Byron（1788-1824，诗人）",
+              "en": "Lord Byron (1788–1824)"
+            }
           ],
-          "historicalPeriod": "都铎王朝(1546) - 科学革命 - 至今"
+          "historicalPeriod": {
+            "zh": "都铎王朝(1546) - 科学革命 - 至今",
+            "en": "Tudor (1546) – Scientific Revolution – today"
+          }
         }
       ]
     },
     {
       "type": "journal",
       "date": "Day 11",
-      "title": "白崖 → 布莱顿 → 威斯敏斯特",
+      "title": {
+        "zh": "白崖 → 布莱顿 → 威斯敏斯特",
+        "en": "White Cliffs → Brighton → Westminster"
+      },
       "cities": [
-        "东苏塞克斯",
-        "布莱顿",
-        "伦敦"
+        {
+          "zh": "东苏塞克斯",
+          "en": "East Sussex"
+        },
+        {
+          "zh": "布莱顿",
+          "en": "Brighton"
+        },
+        {
+          "zh": "伦敦",
+          "en": "London"
+        }
       ],
       "attractions": [
         {
           "id": "seven-sisters-white-cliffs",
           "nameCn": "七姐妹白崖",
           "nameEn": "Seven Sisters White Cliffs",
-          "type": "自然地标",
+          "type": {
+            "zh": "自然地标",
+            "en": "Natural Landmark"
+          },
           "imageKeyword": "Seven+Sisters+White+Cliffs+England",
-          "historicalContext": "位于East Sussex的白垩海岸，由七座连绵起伏的白色断崖组成，与Dover白崖形成鲜明对比。Dover是军事要塞、入侵门户、战略要地；Seven Sisters则是纯粹的自然边界，几乎没有军事功能。18-20世纪浪漫主义运动中，Seven Sisters被文学和绘画赋予了国家自然象征的意义，成为\"英国作为岛屿本体\"的视觉符号。这里不是国家防御的前线，而是国家认同从军事转向文化的标志。",
-          "experience": "沿着起伏的白色断崖行走，这里没有城堡、没有炮台、没有港口，呈现的是未被武装化的边界。白垩断崖纯粹、安静、无人，与Dover的紧张和战略意义完全不同。这是\"英国不是靠战争被记住，而是靠被观看\"的边界体验。站在崖边，面对的是自然本身，而不是历史事件的堆叠。这种\"去军事化的边界\"恰恰体现了英国最自信的状态——当边界不再是前线时。",
-          "insight": "Seven Sisters代表英国国家叙事的成熟转型：从事件、英雄、胜利，转移到\"不可被占有的自然\"上。这不是\"没有历史\"，而是一种更高级的国家叙事——将最重要的象征放在自然而非战争上。对比Dover（罗马入侵、诺曼征服、拿破仑威胁、二战防御）的\"紧张英国\"，Seven Sisters是\"不焦虑的英国\"——不需要证明、不需要防守、只是存在。这与Westminster Abbey（制度连续性）、Brighton（权力去军事化）、Lake District（自然审美化）形成一致的叙事：英国最自信的时候，是它不再把\"边界\"当作前线的时候。",
+          "historicalContext": {
+            "zh": "位于East Sussex的白垩海岸，由七座连绵起伏的白色断崖组成，与Dover白崖形成鲜明对比。Dover是军事要塞、入侵门户、战略要地；Seven Sisters则是纯粹的自然边界，几乎没有军事功能。18-20世纪浪漫主义运动中，Seven Sisters被文学和绘画赋予了国家自然象征的意义，成为\"英国作为岛屿本体\"的视觉符号。这里不是国家防御的前线，而是国家认同从军事转向文化的标志。",
+            "en": "Seven undulating chalk cliffs in East Sussex — the deliberate contrast to Dover. Dover is a fortress, an invasion gate, a strategic line; the Seven Sisters are a border with almost no military function at all, made a national symbol by Romantic literature and painting: 'Britain as island' rendered visible."
+          },
+          "experience": {
+            "zh": "沿着起伏的白色断崖行走，这里没有城堡、没有炮台、没有港口，呈现的是未被武装化的边界。白垩断崖纯粹、安静、无人，与Dover的紧张和战略意义完全不同。这是\"英国不是靠战争被记住，而是靠被观看\"的边界体验。站在崖边，面对的是自然本身，而不是历史事件的堆叠。这种\"去军事化的边界\"恰恰体现了英国最自信的状态——当边界不再是前线时。",
+            "en": "Walking the ridgeline: no castles, no gun platforms, no port — an unarmed border. Pure, quiet, empty chalk against the sea, the opposite of Dover's tension. This is the border experience of 'a Britain remembered for being looked at, not fought over': facing nature itself rather than stacked history."
+          },
+          "insight": {
+            "zh": "Seven Sisters代表英国国家叙事的成熟转型：从事件、英雄、胜利，转移到\"不可被占有的自然\"上。这不是\"没有历史\"，而是一种更高级的国家叙事——将最重要的象征放在自然而非战争上。对比Dover（罗马入侵、诺曼征服、拿破仑威胁、二战防御）的\"紧张英国\"，Seven Sisters是\"不焦虑的英国\"——不需要证明、不需要防守、只是存在。这与Westminster Abbey（制度连续性）、Brighton（权力去军事化）、Lake District（自然审美化）形成一致的叙事：英国最自信的时候，是它不再把\"边界\"当作前线的时候。",
+            "en": "The mature turn of the national story: from events, heroes and victories to un-possessable nature. Dover is the anxious Britain; the Seven Sisters are the Britain with nothing to prove — no defense needed, simply there. With Westminster (institutional continuity), Brighton (demilitarized power) and the Lakes (aestheticized nature), one consistent message: Britain is most confident when its border is no longer a front line."
+          },
           "relatedPeople": [
-            "浪漫主义诗人（赋予自然以文化意义）",
-            "现代英国公众（将白垩海岸作为国家自然象征）"
+            {
+              "zh": "浪漫主义诗人（赋予自然以文化意义）",
+              "en": "The Romantic poets (who gave nature its meaning)"
+            },
+            {
+              "zh": "现代英国公众（将白垩海岸作为国家自然象征）",
+              "en": "The modern British public (who made the chalk coast a symbol)"
+            }
           ],
-          "historicalPeriod": "自然象征的国家形成（18-20世纪文化化）"
+          "historicalPeriod": {
+            "zh": "自然象征的国家形成（18-20世纪文化化）",
+            "en": "Nature becomes national symbol (18th–20th c.)"
+          }
         },
         {
           "id": "brighton-pavilion",
           "nameCn": "布莱顿皇家穹顶宫",
           "nameEn": "Brighton Royal Pavilion",
-          "type": "宫殿",
+          "type": {
+            "zh": "宫殿",
+            "en": "Palace"
+          },
           "imageKeyword": "Brighton+Royal+Pavilion+England",
-          "historicalContext": "由乔治四世(George IV, 1762-1830)建造，这位英国最奢靡、最不自律、但最有审美影响力的国王将布莱顿从普通渔村变成贵族度假地。18世纪\"海水浴疗法\"兴起，贵族到海边度假成为时尚。19世纪铁路开通后，中产阶级也能周末到达，布莱顿成为英国最早的大众休闲城市。",
-          "experience": "皇家穹顶宫外部是印度莫卧儿风格（onion domes圆顶、尖塔），内部是中式装饰（龙、凤凰、竹子图案）。这不是审美混乱，而是\"帝国对世界风格的任性挪用\"——乔治四世从未去过印度或中国，但帝国的全球扩张让异域风格成为可消费的符号。",
-          "insight": "布莱顿是英国社会允许的\"松动区\"：王权→消费（从军事功能到娱乐功能）、贵族→市民（从排他特权到大众休闲）、规训→享乐（从维多利亚道德到放松文化）。布莱顿不是\"国家荣耀\"，而是\"英国人如何放松\"的实验场。Royal Pavilion象征\"王权娱乐化\"的转型：国王不再是战士或统治者，而是生活方式的引领者。",
+          "historicalContext": {
+            "zh": "由乔治四世(George IV, 1762-1830)建造，这位英国最奢靡、最不自律、但最有审美影响力的国王将布莱顿从普通渔村变成贵族度假地。18世纪\"海水浴疗法\"兴起，贵族到海边度假成为时尚。19世纪铁路开通后，中产阶级也能周末到达，布莱顿成为英国最早的大众休闲城市。",
+            "en": "Built by George IV (1762–1830) — Britain's most extravagant, least disciplined, most aesthetically influential king — who turned a fishing village into the aristocracy's seaside resort amid the 18th-century sea-bathing craze. The railway then brought the middle classes: Britain's first mass-leisure town."
+          },
+          "experience": {
+            "zh": "皇家穹顶宫外部是印度莫卧儿风格（onion domes圆顶、尖塔），内部是中式装饰（龙、凤凰、竹子图案）。这不是审美混乱，而是\"帝国对世界风格的任性挪用\"——乔治四世从未去过印度或中国，但帝国的全球扩张让异域风格成为可消费的符号。",
+            "en": "Mughal onion domes and minarets outside; Chinese dragons, phoenixes and bamboo inside. Not aesthetic confusion but the empire's casual appropriation of world styles — George IV never saw India or China; global expansion made the exotic consumable."
+          },
+          "insight": {
+            "zh": "布莱顿是英国社会允许的\"松动区\"：王权→消费（从军事功能到娱乐功能）、贵族→市民（从排他特权到大众休闲）、规训→享乐（从维多利亚道德到放松文化）。布莱顿不是\"国家荣耀\"，而是\"英国人如何放松\"的实验场。Royal Pavilion象征\"王权娱乐化\"的转型：国王不再是战士或统治者，而是生活方式的引领者。",
+            "en": "Brighton is Britain's licensed zone of loosening: crown → consumption (military function to entertainment), aristocrat → citizen (exclusive privilege to mass leisure), discipline → pleasure. The Pavilion marks the entertainment-ization of monarchy: the king no longer warrior or ruler, but taste-maker."
+          },
           "relatedPeople": [
-            "乔治四世（George IV, 1762-1830，建造者）"
+            {
+              "zh": "乔治四世（George IV, 1762-1830，建造者）",
+              "en": "George IV (1762–1830, builder)"
+            }
           ],
-          "historicalPeriod": "18-19世纪贵族转型 - 现代休闲文化"
+          "historicalPeriod": {
+            "zh": "18-19世纪贵族转型 - 现代休闲文化",
+            "en": "The aristocracy transformed (18th–19th c.) – modern leisure"
+          }
         },
         {
           "id": "westminster-abbey",
           "nameCn": "威斯敏斯特教堂",
           "nameEn": "Westminster Abbey",
-          "type": "教堂",
+          "type": {
+            "zh": "教堂",
+            "en": "Abbey"
+          },
           "imageKeyword": "Westminster+Abbey+London+interior",
-          "historicalContext": "11世纪由爱德华忏悔者创建，1066年诺曼征服后威廉一世在此加冕，从此确立了\"在Westminster Abbey加冕才具备合法性\"的传统。几乎所有英国君主都在此加冕（除了爱德华五世和爱德华八世），多数君主也在此安葬。这不是普通的\"教堂\"，而是\"制度工具\"——通过仪式将权力合法化。",
-          "experience": "埋葬对象包括君主（爱德华忏悔者、亨利三世、伊丽莎白一世等）、科学家（牛顿、达尔文）、文学家（乔叟、狄更斯）、政治家（部分首相）。埋葬标准不是权力大小，而是\"是否被制度吸收\"、\"是否对文明有贡献\"。温斯顿·丘吉尔拒绝Westminster Abbey国葬，选择家族墓地Bladon的简朴安葬——这是英国精英的终极谦卑：个人从属于家族，家族从属于制度。Abbey举行国家级纪念仪式（丘吉尔国葬、戴安娜追思）。",
-          "insight": "Westminster Abbey是\"国家叙事工厂\"，不是宗教空间。你站在里面，会自然意识到：这里不是为了你，是为了让你接受\"国家比个人长久\"。埋葬在此的人被永久地嵌入国家记忆，成为制度叙事的一部分。Abbey的三重功能：合法化（加冕仪式）、记忆化（埋葬英雄）、仪式化（国家庆典）。国王是暂时的，Abbey是永久的。",
+          "historicalContext": {
+            "zh": "11世纪由爱德华忏悔者创建，1066年诺曼征服后威廉一世在此加冕，从此确立了\"在Westminster Abbey加冕才具备合法性\"的传统。几乎所有英国君主都在此加冕（除了爱德华五世和爱德华八世），多数君主也在此安葬。这不是普通的\"教堂\"，而是\"制度工具\"——通过仪式将权力合法化。",
+            "en": "Founded by Edward the Confessor; William the Conqueror was crowned here in 1066, establishing that coronation at Westminster confers legitimacy. Nearly every monarch since has been crowned here, and most are buried here. Not an ordinary church but an instrument of the constitution: ritual manufacturing legitimacy."
+          },
+          "experience": {
+            "zh": "埋葬对象包括君主（爱德华忏悔者、亨利三世、伊丽莎白一世等）、科学家（牛顿、达尔文）、文学家（乔叟、狄更斯）、政治家（部分首相）。埋葬标准不是权力大小，而是\"是否被制度吸收\"、\"是否对文明有贡献\"。温斯顿·丘吉尔拒绝Westminster Abbey国葬，选择家族墓地Bladon的简朴安葬——这是英国精英的终极谦卑：个人从属于家族，家族从属于制度。Abbey举行国家级纪念仪式（丘吉尔国葬、戴安娜追思）。",
+            "en": "The tombs sort by one criterion — absorption into the institution and contribution to the civilization: monarchs (the Confessor, Henry III, Elizabeth I), scientists (Newton, Darwin), writers (Chaucer, Dickens), statesmen. Churchill refused a state burial here, choosing the family plot at Bladon — the ultimate deference of person to family, family to institution. The Abbey stages the nation's rites: state funerals, royal weddings, remembrance."
+          },
+          "insight": {
+            "zh": "Westminster Abbey是\"国家叙事工厂\"，不是宗教空间。你站在里面，会自然意识到：这里不是为了你，是为了让你接受\"国家比个人长久\"。埋葬在此的人被永久地嵌入国家记忆，成为制度叙事的一部分。Abbey的三重功能：合法化（加冕仪式）、记忆化（埋葬英雄）、仪式化（国家庆典）。国王是暂时的，Abbey是永久的。",
+            "en": "Westminster Abbey is the national narrative factory, not a religious space. Standing inside, you understand: this place exists to make you accept that the nation outlasts the person. Three functions: legitimize (coronation), memorialize (burial), ritualize (ceremony). Kings are temporary; the Abbey is permanent."
+          },
           "relatedPeople": [
-            "爱德华忏悔者（11世纪创建者）",
-            "威廉一世（1066年第一位在此加冕的国王）",
-            "Isaac Newton（科学家，安葬于此）",
-            "Charles Darwin（科学家，安葬于此）",
-            "Geoffrey Chaucer（文学家）",
-            "Winston Churchill（拒绝Abbey国葬）"
+            {
+              "zh": "爱德华忏悔者（11世纪创建者）",
+              "en": "Edward the Confessor (11th-century founder)"
+            },
+            {
+              "zh": "威廉一世（1066年第一位在此加冕的国王）",
+              "en": "William I (first king crowned here, 1066)"
+            },
+            {
+              "zh": "Isaac Newton（科学家，安葬于此）",
+              "en": "Isaac Newton (buried here)"
+            },
+            {
+              "zh": "Charles Darwin（科学家，安葬于此）",
+              "en": "Charles Darwin (buried here)"
+            },
+            {
+              "zh": "Geoffrey Chaucer（文学家）",
+              "en": "Geoffrey Chaucer (Poets’ Corner)"
+            },
+            {
+              "zh": "Winston Churchill（拒绝Abbey国葬）",
+              "en": "Winston Churchill (declined an Abbey funeral)"
+            }
           ],
-          "historicalPeriod": "中世纪(11世纪) - 至今"
+          "historicalPeriod": {
+            "zh": "中世纪(11世纪) - 至今",
+            "en": "Medieval (11th century) – today"
+          }
         }
       ]
     },
     {
       "type": "reflection",
-      "title": "宏观思考与洞察 Macro Reflections",
-      "description": "超越景点的深度反思：从宗教与王权的博弈，到文明的自我修复机制",
+      "title": {
+        "zh": "宏观思考与洞察",
+        "en": "Macro Reflections"
+      },
+      "description": {
+        "zh": "超越景点的深度反思：从宗教与王权的博弈，到文明的自我修复机制",
+        "en": "Beyond the sights: from the contest of church and crown to a civilization's mechanisms of self-repair"
+      },
       "items": [
         {
           "id": "religion-vs-power",
-          "title": "宗教 vs 王权",
-          "subtitle": "千年博弈",
+          "title": {
+            "zh": "宗教 vs 王权",
+            "en": "Religion vs. Crown"
+          },
+          "subtitle": {
+            "zh": "千年博弈",
+            "en": "A thousand-year contest"
+          },
           "icon": "Crown",
-          "summary": "谁拥有最高权威？上帝 vs 国王？精神权力 vs 世俗权力？",
+          "summary": {
+            "zh": "谁拥有最高权威？上帝 vs 国王？精神权力 vs 世俗权力？",
+            "en": "Who holds final authority — God or king, spiritual power or secular?"
+          },
           "sections": [
             {
-              "heading": "核心问题",
+              "heading": {
+                "zh": "核心问题",
+                "en": "The core question"
+              },
               "list": [
-                "谁拥有最高权威？",
-                "上帝 vs 国王？",
-                "精神权力 vs 世俗权力？"
+                {
+                  "zh": "谁拥有最高权威？",
+                  "en": "Who holds ultimate authority?"
+                },
+                {
+                  "zh": "上帝 vs 国王？",
+                  "en": "God vs. king?"
+                },
+                {
+                  "zh": "精神权力 vs 世俗权力？",
+                  "en": "Spiritual vs. secular power?"
+                }
               ]
             },
             {
-              "heading": "历史演变",
-              "content": "从中世纪早期教会填补真空，到诺曼征服后教会与王权联盟，再到都铎王朝王权击败教会，最终到现代宗教礼仪化。"
+              "heading": {
+                "zh": "历史演变",
+                "en": "How it evolved"
+              },
+              "content": {
+                "zh": "从中世纪早期教会填补真空，到诺曼征服后教会与王权联盟，再到都铎王朝王权击败教会，最终到现代宗教礼仪化。",
+                "en": "From the early-medieval church filling the post-Roman vacuum, to the Norman alliance of church and crown, to the Tudor crown defeating the church, and finally to religion as modern ritual."
+              }
             },
             {
-              "heading": "三个关键转折点",
+              "heading": {
+                "zh": "三个关键转折点",
+                "en": "Three turning points"
+              },
               "table": {
                 "headers": [
-                  "事件",
-                  "时间",
-                  "结果"
+                  {
+                    "zh": "事件",
+                    "en": "Event"
+                  },
+                  {
+                    "zh": "时间",
+                    "en": "Year"
+                  },
+                  {
+                    "zh": "结果",
+                    "en": "Result"
+                  }
                 ],
                 "rows": [
                   [
-                    "Whitby宗教会议",
-                    "664",
-                    "选择罗马教会 → 英格兰走向拉丁欧洲"
+                    {
+                      "zh": "Whitby宗教会议",
+                      "en": "Synod of Whitby"
+                    },
+                    {
+                      "zh": "664",
+                      "en": "664"
+                    },
+                    {
+                      "zh": "选择罗马教会 → 英格兰走向拉丁欧洲",
+                      "en": "Roman church chosen → England joins Latin Europe"
+                    }
                   ],
                   [
-                    "Magna Carta",
-                    "1215",
-                    "教会+贵族限制王权 → 法律高于君主"
+                    {
+                      "zh": "Magna Carta",
+                      "en": "Magna Carta"
+                    },
+                    {
+                      "zh": "1215",
+                      "en": "1215"
+                    },
+                    {
+                      "zh": "教会+贵族限制王权 → 法律高于君主",
+                      "en": "Church + barons curb the crown → law above the king"
+                    }
                   ],
                   [
-                    "宗教改革",
-                    "1530s",
-                    "国王高于教会 → 国家主权确立"
+                    {
+                      "zh": "宗教改革",
+                      "en": "Reformation"
+                    },
+                    {
+                      "zh": "1530s",
+                      "en": "1530s"
+                    },
+                    {
+                      "zh": "国王高于教会 → 国家主权确立",
+                      "en": "King above church → national sovereignty established"
+                    }
                   ]
                 ]
               }
             },
             {
-              "heading": "核心洞察",
-              "quote": "英国的独特之处：教会从未完全胜过王权，王权也从未完全消灭教会。最终结果：宗教成为制度的一部分，而非制度的对手。",
-              "content": "Westminster Abbey就是这个妥协的完美象征：看起来是教堂，实际是国家仪式工厂，上帝在这里为国王服务。"
+              "heading": {
+                "zh": "核心洞察",
+                "en": "Core insight"
+              },
+              "quote": {
+                "zh": "英国的独特之处：教会从未完全胜过王权，王权也从未完全消灭教会。最终结果：宗教成为制度的一部分，而非制度的对手。",
+                "en": "The English peculiarity: the church never fully defeated the crown, and the crown never destroyed the church. The result — religion became part of the institution rather than its rival."
+              },
+              "content": {
+                "zh": "Westminster Abbey就是这个妥协的完美象征：看起来是教堂，实际是国家仪式工厂，上帝在这里为国王服务。",
+                "en": "Westminster Abbey is the perfect symbol of that compromise: it looks like a church but works as the state's ritual factory. God serves the king here."
+              }
             }
           ]
         },
         {
           "id": "christianity-evolution",
-          "title": "基督教的演变",
-          "subtitle": "从信仰到制度",
+          "title": {
+            "zh": "基督教的演变",
+            "en": "The Evolution of Christianity"
+          },
+          "subtitle": {
+            "zh": "从信仰到制度",
+            "en": "From faith to institution"
+          },
           "icon": "Church",
-          "summary": "基督教在英国的演变，不是\"信仰的纯化\"，而是\"信仰的制度化、国家化、文化化\"。",
+          "summary": {
+            "zh": "基督教在英国的演变，不是\"信仰的纯化\"，而是\"信仰的制度化、国家化、文化化\"。",
+            "en": "Christianity in Britain evolved not by purifying the faith but by institutionalizing, nationalizing and culturalizing it."
+          },
           "sections": [
             {
-              "heading": "六个演变阶段",
+              "heading": {
+                "zh": "六个演变阶段",
+                "en": "Six stages"
+              },
               "list": [
-                "阶段1：罗马撤离后的精神真空（5世纪） - 凯尔特基督教从爱尔兰传入",
-                "阶段2：Whitby选择（664年） - 选择罗马教会 = 选择制度化",
-                "阶段3：诺曼征服后的教堂建筑热潮（11–14世纪） - 教堂建筑 = 权力可视化",
-                "阶段4：大学的诞生（12–13世纪） - 知识从修道院转移到学院",
-                "阶段5：宗教改革（16世纪） - 解散修道院，国家教会诞生",
-                "阶段6：现代化（17–21世纪） - 宗教从强制变为自愿"
+                {
+                  "zh": "阶段1：罗马撤离后的精神真空（5世纪） - 凯尔特基督教从爱尔兰传入",
+                  "en": "Stage 1: the spiritual vacuum after Rome (5th c.) — Celtic Christianity arrives from Ireland"
+                },
+                {
+                  "zh": "阶段2：Whitby选择（664年） - 选择罗马教会 = 选择制度化",
+                  "en": "Stage 2: the Whitby choice (664) — choosing Rome = choosing institutionalization"
+                },
+                {
+                  "zh": "阶段3：诺曼征服后的教堂建筑热潮（11–14世纪） - 教堂建筑 = 权力可视化",
+                  "en": "Stage 3: the post-Conquest church-building boom (11th–14th c.) — churches as visible power"
+                },
+                {
+                  "zh": "阶段4：大学的诞生（12–13世纪） - 知识从修道院转移到学院",
+                  "en": "Stage 4: the birth of the universities (12th–13th c.) — knowledge moves from monastery to college"
+                },
+                {
+                  "zh": "阶段5：宗教改革（16世纪） - 解散修道院，国家教会诞生",
+                  "en": "Stage 5: the Reformation (16th c.) — monasteries dissolved, a national church born"
+                },
+                {
+                  "zh": "阶段6：现代化（17–21世纪） - 宗教从强制变为自愿",
+                  "en": "Stage 6: modernity (17th–21st c.) — religion moves from compulsory to voluntary"
+                }
               ]
             },
             {
-              "heading": "核心洞察",
-              "quote": "基督教在英国的演变，不是\"信仰的纯化\"，而是\"信仰的制度化、国家化、文化化\"。",
-              "content": "今天你在教堂里看到的不是上帝，而是：权力记忆（国王墓地）、制度延续（加冕仪式）、国家叙事（战争纪念）。"
+              "heading": {
+                "zh": "核心洞察",
+                "en": "Core insight"
+              },
+              "quote": {
+                "zh": "基督教在英国的演变，不是\"信仰的纯化\"，而是\"信仰的制度化、国家化、文化化\"。",
+                "en": "Christianity in Britain evolved not by purifying the faith but by institutionalizing, nationalizing and culturalizing it."
+              },
+              "content": {
+                "zh": "今天你在教堂里看到的不是上帝，而是：权力记忆（国王墓地）、制度延续（加冕仪式）、国家叙事（战争纪念）。",
+                "en": "What you see in a church today is not God but power memory (royal tombs), institutional continuity (coronations) and national narrative (war memorials)."
+              }
             }
           ]
         },
         {
           "id": "institution-vs-individual",
-          "title": "制度 vs 个人",
-          "subtitle": "英国的核心选择",
+          "title": {
+            "zh": "制度 vs 个人",
+            "en": "Institution vs. Individual"
+          },
+          "subtitle": {
+            "zh": "英国的核心选择",
+            "en": "Britain's core choice"
+          },
           "icon": "Scale",
-          "summary": "英国不是\"追求正确制度\"，而是\"极端厌恶权力失控\"。",
+          "summary": {
+            "zh": "英国不是\"追求正确制度\"，而是\"极端厌恶权力失控\"。",
+            "en": "Britain does not pursue the 'correct' system; it abhors uncontrolled power."
+          },
           "sections": [
             {
-              "heading": "英国制度的三个特征",
+              "heading": {
+                "zh": "英国制度的三个特征",
+                "en": "Three traits of the British system"
+              },
               "list": [
-                "法律高于君主 - Magna Carta开启，议会制度延续，君主立宪成型",
-                "制度比个人长久 - Westminster Abbey vs 国王，学院制 vs 校长，议会 vs 首相",
-                "权力被分散、制衡、延迟 - 学院自治、地方自治、三权分立"
+                {
+                  "zh": "法律高于君主 - Magna Carta开启，议会制度延续，君主立宪成型",
+                  "en": "Law above the monarch — opened by Magna Carta, carried by parliament, settled in constitutional monarchy"
+                },
+                {
+                  "zh": "制度比个人长久 - Westminster Abbey vs 国王，学院制 vs 校长，议会 vs 首相",
+                  "en": "Institutions outlast individuals — the Abbey vs. kings, colleges vs. masters, parliament vs. prime ministers"
+                },
+                {
+                  "zh": "权力被分散、制衡、延迟 - 学院自治、地方自治、三权分立",
+                  "en": "Power dispersed, checked, delayed — college autonomy, local self-government, separated powers"
+                }
               ]
             },
             {
-              "heading": "法国 vs 英国对比",
+              "heading": {
+                "zh": "法国 vs 英国对比",
+                "en": "France vs. Britain"
+              },
               "table": {
                 "headers": [
-                  "维度",
-                  "法国",
-                  "英国"
+                  {
+                    "zh": "维度",
+                    "en": "Dimension"
+                  },
+                  {
+                    "zh": "法国",
+                    "en": "France"
+                  },
+                  {
+                    "zh": "英国",
+                    "en": "Britain"
+                  }
                 ],
                 "rows": [
                   [
-                    "革命",
-                    "断裂式（1789）",
-                    "渐进式（数百年）"
+                    {
+                      "zh": "革命",
+                      "en": "Revolution"
+                    },
+                    {
+                      "zh": "断裂式（1789）",
+                      "en": "Rupture (1789)"
+                    },
+                    {
+                      "zh": "渐进式（数百年）",
+                      "en": "Gradual (over centuries)"
+                    }
                   ],
                   [
-                    "权力",
-                    "中央集权",
-                    "分散制衡"
+                    {
+                      "zh": "权力",
+                      "en": "Power"
+                    },
+                    {
+                      "zh": "中央集权",
+                      "en": "Centralized"
+                    },
+                    {
+                      "zh": "分散制衡",
+                      "en": "Dispersed and checked"
+                    }
                   ],
                   [
-                    "精英",
-                    "被清洗",
-                    "被吸收"
+                    {
+                      "zh": "精英",
+                      "en": "Elites"
+                    },
+                    {
+                      "zh": "被清洗",
+                      "en": "Purged"
+                    },
+                    {
+                      "zh": "被吸收",
+                      "en": "Absorbed"
+                    }
                   ],
                   [
-                    "理念",
-                    "自由、平等、博爱",
-                    "秩序、传统、渐进"
+                    {
+                      "zh": "理念",
+                      "en": "Creed"
+                    },
+                    {
+                      "zh": "自由、平等、博爱",
+                      "en": "Liberty, equality, fraternity"
+                    },
+                    {
+                      "zh": "秩序、传统、渐进",
+                      "en": "Order, tradition, gradualism"
+                    }
                   ]
                 ]
               }
             },
             {
-              "heading": "核心洞察",
-              "quote": "英国不是\"追求正确制度\"，而是\"极端厌恶权力失控\"。",
-              "content": "所以你看到：城堡（防失控）、教堂（防混乱）、大学（防无知）、议会（防专制）。每一个建筑，都是\"对不确定性的恐惧被空间化\"。"
+              "heading": {
+                "zh": "核心洞察",
+                "en": "Core insight"
+              },
+              "quote": {
+                "zh": "英国不是\"追求正确制度\"，而是\"极端厌恶权力失控\"。",
+                "en": "Britain does not pursue the 'correct' system; it abhors uncontrolled power."
+              },
+              "content": {
+                "zh": "所以你看到：城堡（防失控）、教堂（防混乱）、大学（防无知）、议会（防专制）。每一个建筑，都是\"对不确定性的恐惧被空间化\"。",
+                "en": "Hence what you see: castles (against loss of control), churches (against chaos), universities (against ignorance), parliament (against tyranny). Every building is the fear of uncertainty, spatialized."
+              }
             }
           ]
         },
         {
           "id": "scotland-vs-england",
-          "title": "苏格兰 vs 英格兰",
-          "subtitle": "两种文明性格",
+          "title": {
+            "zh": "苏格兰 vs 英格兰",
+            "en": "Scotland vs. England"
+          },
+          "subtitle": {
+            "zh": "两种文明性格",
+            "en": "Two temperaments of civilization"
+          },
           "icon": "Users",
-          "summary": "英格兰：\"我们赢了，所以我们的制度是对的。\" 苏格兰：\"我们没输，所以我们的身份是独立的。\"",
+          "summary": {
+            "zh": "英格兰：\"我们赢了，所以我们的制度是对的。\" 苏格兰：\"我们没输，所以我们的身份是独立的。\"",
+            "en": "England: \"We won, so our institutions are right.\" Scotland: \"We never lost, so our identity is our own.\""
+          },
           "sections": [
             {
-              "heading": "核心差异",
+              "heading": {
+                "zh": "核心差异",
+                "en": "Core differences"
+              },
               "table": {
                 "headers": [
-                  "维度",
-                  "英格兰",
-                  "苏格兰"
+                  {
+                    "zh": "维度",
+                    "en": "Dimension"
+                  },
+                  {
+                    "zh": "英格兰",
+                    "en": "England"
+                  },
+                  {
+                    "zh": "苏格兰",
+                    "en": "Scotland"
+                  }
                 ],
                 "rows": [
                   [
-                    "起源",
-                    "被征服、被重组",
-                    "从未被完全征服"
+                    {
+                      "zh": "起源",
+                      "en": "Origin"
+                    },
+                    {
+                      "zh": "被征服、被重组",
+                      "en": "Conquered and reorganized"
+                    },
+                    {
+                      "zh": "从未被完全征服",
+                      "en": "Never fully conquered"
+                    }
                   ],
                   [
-                    "自信来源",
-                    "\"赢过\"",
-                    "\"没被打服\""
+                    {
+                      "zh": "自信来源",
+                      "en": "Confidence"
+                    },
+                    {
+                      "zh": "\"赢过\"",
+                      "en": "Having won"
+                    },
+                    {
+                      "zh": "\"没被打服\"",
+                      "en": "Never having been broken"
+                    }
                   ],
                   [
-                    "气质",
-                    "制度优先、低情绪",
-                    "文化优先、高认同"
+                    {
+                      "zh": "气质",
+                      "en": "Temperament"
+                    },
+                    {
+                      "zh": "制度优先、低情绪",
+                      "en": "Institution-first, low-key"
+                    },
+                    {
+                      "zh": "文化优先、高认同",
+                      "en": "Culture-first, high identity"
+                    }
                   ],
                   [
-                    "启蒙",
-                    "实用理性",
-                    "道德哲学"
+                    {
+                      "zh": "启蒙",
+                      "en": "Enlightenment"
+                    },
+                    {
+                      "zh": "实用理性",
+                      "en": "Practical reason"
+                    },
+                    {
+                      "zh": "道德哲学",
+                      "en": "Moral philosophy"
+                    }
                   ],
                   [
-                    "宗教",
-                    "国教会（主教制）",
-                    "长老会（无主教）"
+                    {
+                      "zh": "宗教",
+                      "en": "Religion"
+                    },
+                    {
+                      "zh": "国教会（主教制）",
+                      "en": "Established church (bishops)"
+                    },
+                    {
+                      "zh": "长老会（无主教）",
+                      "en": "Presbyterian (no bishops)"
+                    }
                   ]
                 ]
               }
             },
             {
-              "heading": "为何苏格兰更\"激进\"？",
+              "heading": {
+                "zh": "为何苏格兰更\"激进\"？",
+                "en": "Why is Scotland more radical?"
+              },
               "list": [
-                "未被罗马化 → 没有帝国遗产",
-                "未被诺曼化 → 没有封建传统",
-                "长老会 → 神学上更民主",
-                "启蒙运动 → 理性优于传统"
+                {
+                  "zh": "未被罗马化 → 没有帝国遗产",
+                  "en": "Never Romanized → no imperial inheritance"
+                },
+                {
+                  "zh": "未被诺曼化 → 没有封建传统",
+                  "en": "Never Normanized → no feudal tradition"
+                },
+                {
+                  "zh": "长老会 → 神学上更民主",
+                  "en": "Presbyterian → theologically more democratic"
+                },
+                {
+                  "zh": "启蒙运动 → 理性优于传统",
+                  "en": "Enlightenment → reason over tradition"
+                }
               ]
             },
             {
-              "heading": "核心洞察",
-              "quote": "英格兰：\"我们赢了，所以我们的制度是对的。\" 苏格兰：\"我们没输，所以我们的身份是独立的。\"",
-              "content": "这就是为什么：英格兰可以\"吸收\"异己，苏格兰需要\"坚持\"自我。"
+              "heading": {
+                "zh": "核心洞察",
+                "en": "Core insight"
+              },
+              "quote": {
+                "zh": "英格兰：\"我们赢了，所以我们的制度是对的。\" 苏格兰：\"我们没输，所以我们的身份是独立的。\"",
+                "en": "England: \"We won, so our institutions are right.\" Scotland: \"We never lost, so our identity is our own.\""
+              },
+              "content": {
+                "zh": "这就是为什么：英格兰可以\"吸收\"异己，苏格兰需要\"坚持\"自我。",
+                "en": "That is why England can absorb its opposites, while Scotland must insist on itself."
+              }
             }
           ]
         },
         {
           "id": "empire-legacy",
-          "title": "帝国的遗产",
-          "subtitle": "从征服到文化输出",
+          "title": {
+            "zh": "帝国的遗产",
+            "en": "The Legacy of Empire"
+          },
+          "subtitle": {
+            "zh": "从征服到文化输出",
+            "en": "From conquest to cultural export"
+          },
           "icon": "Globe",
-          "summary": "英帝国的真正遗产不是领土，而是：英语、普通法、议会制、大学模式。",
+          "summary": {
+            "zh": "英帝国的真正遗产不是领土，而是：英语、普通法、议会制、大学模式。",
+            "en": "The real legacy of the British Empire is not territory but English, common law, parliaments and the university model."
+          },
           "sections": [
             {
-              "heading": "阶段演变",
+              "heading": {
+                "zh": "阶段演变",
+                "en": "Stages"
+              },
               "list": [
-                "中世纪：防御型国家（至15世纪） - 白崖 = 守住边界",
-                "近代：扩张型帝国（16–19世纪） - 航海、殖民、工业",
-                "现代：文化型影响（20–21世纪） - 语言、制度、教育"
+                {
+                  "zh": "中世纪：防御型国家（至15世纪） - 白崖 = 守住边界",
+                  "en": "Middle Ages: a defensive nation (to the 15th c.) — the white cliffs guard the border"
+                },
+                {
+                  "zh": "近代：扩张型帝国（16–19世纪） - 航海、殖民、工业",
+                  "en": "Early modern: an expanding empire (16th–19th c.) — navigation, colonies, industry"
+                },
+                {
+                  "zh": "现代：文化型影响（20–21世纪） - 语言、制度、教育",
+                  "en": "Modern: cultural influence (20th–21st c.) — language, institutions, education"
+                }
               ]
             },
             {
-              "heading": "帝国如何转型？从暴力到文化",
+              "heading": {
+                "zh": "帝国如何转型？从暴力到文化",
+                "en": "How the empire transformed: from violence to culture"
+              },
               "table": {
                 "headers": [
-                  "阶段",
-                  "工具",
-                  "象征"
+                  {
+                    "zh": "阶段",
+                    "en": "Stage"
+                  },
+                  {
+                    "zh": "工具",
+                    "en": "Tool"
+                  },
+                  {
+                    "zh": "象征",
+                    "en": "Symbol"
+                  }
                 ],
                 "rows": [
                   [
-                    "征服",
-                    "军队",
-                    "城堡"
+                    {
+                      "zh": "征服",
+                      "en": "Conquest"
+                    },
+                    {
+                      "zh": "军队",
+                      "en": "Army"
+                    },
+                    {
+                      "zh": "城堡",
+                      "en": "Castle"
+                    }
                   ],
                   [
-                    "治理",
-                    "法律",
-                    "议会"
+                    {
+                      "zh": "治理",
+                      "en": "Governance"
+                    },
+                    {
+                      "zh": "法律",
+                      "en": "Law"
+                    },
+                    {
+                      "zh": "议会",
+                      "en": "Parliament"
+                    }
                   ],
                   [
-                    "影响",
-                    "语言",
-                    "大学"
+                    {
+                      "zh": "影响",
+                      "en": "Influence"
+                    },
+                    {
+                      "zh": "语言",
+                      "en": "Language"
+                    },
+                    {
+                      "zh": "大学",
+                      "en": "University"
+                    }
                   ]
                 ]
               }
             },
             {
-              "heading": "核心洞察",
-              "quote": "英帝国的真正遗产不是领土，而是：英语、普通法、议会制、大学模式。",
-              "content": "今天你在：印度看到英式法庭、美国看到牛津式学院、全球看到议会制政府。帝国消失了，但系统还在运行。"
+              "heading": {
+                "zh": "核心洞察",
+                "en": "Core insight"
+              },
+              "quote": {
+                "zh": "英帝国的真正遗产不是领土，而是：英语、普通法、议会制、大学模式。",
+                "en": "The real legacy of the British Empire is not territory but English, common law, parliaments and the university model."
+              },
+              "content": {
+                "zh": "今天你在：印度看到英式法庭、美国看到牛津式学院、全球看到议会制政府。帝国消失了，但系统还在运行。",
+                "en": "Today you find English-style courts in India, Oxford-style colleges in America, parliamentary government across the world. The empire is gone; the system still runs."
+              }
             }
           ]
         },
         {
           "id": "civilization-repair",
-          "title": "旅行的终极洞察",
-          "subtitle": "文明如何自我修复",
+          "title": {
+            "zh": "旅行的终极洞察",
+            "en": "The Journey's Final Insight"
+          },
+          "subtitle": {
+            "zh": "文明如何自我修复",
+            "en": "How a civilization repairs itself"
+          },
           "icon": "RefreshCw",
-          "summary": "英国不是\"没有革命\"，而是\"把革命变成了制度的一部分\"。",
+          "summary": {
+            "zh": "英国不是\"没有革命\"，而是\"把革命变成了制度的一部分\"。",
+            "en": "Britain did not avoid revolutions; it made revolution part of the institution."
+          },
           "sections": [
             {
-              "heading": "英国给我的最大震撼",
-              "content": "不是\"稳定\"，而是\"不断被修复的能力\"。"
+              "heading": {
+                "zh": "英国给我的最大震撼",
+                "en": "What struck me most about Britain"
+              },
+              "content": {
+                "zh": "不是\"稳定\"，而是\"不断被修复的能力\"。",
+                "en": "Not its stability, but its capacity to be endlessly repaired."
+              }
             },
             {
-              "heading": "修复机制",
+              "heading": {
+                "zh": "修复机制",
+                "en": "The repair mechanisms"
+              },
               "list": [
-                "空间修复 - 城堡变博物馆（温莎）、修道院变废墟（Whitby）、医院变学院（St John's）",
-                "制度修复 - Magna Carta → 议会 → 君主立宪",
-                "叙事修复 - 失败者被重新讲述（华莱士）、胜利者被去神化（丘吉尔选择家族墓地）"
+                {
+                  "zh": "空间修复 - 城堡变博物馆（温莎）、修道院变废墟（Whitby）、医院变学院（St John's）",
+                  "en": "Spatial repair — castles become museums (Windsor), abbeys become ruins (Whitby), hospitals become colleges (St John's)"
+                },
+                {
+                  "zh": "制度修复 - Magna Carta → 议会 → 君主立宪",
+                  "en": "Institutional repair — Magna Carta → Parliament → constitutional monarchy"
+                },
+                {
+                  "zh": "叙事修复 - 失败者被重新讲述（华莱士）、胜利者被去神化（丘吉尔选择家族墓地）",
+                  "en": "Narrative repair — losers retold (Wallace), winners de-deified (Churchill's family grave)"
+                }
               ]
             },
             {
-              "heading": "核心认知",
-              "quote": "英国不是\"没有革命\"，而是\"把革命变成了制度的一部分\"。",
-              "content": "Magna Carta是贵族革命、宗教改革是国家革命、光荣革命是议会革命、工业革命是经济革命。但每一次，都被\"制度化\"而非\"推翻重来\"。"
+              "heading": {
+                "zh": "核心认知",
+                "en": "The core realization"
+              },
+              "quote": {
+                "zh": "英国不是\"没有革命\"，而是\"把革命变成了制度的一部分\"。",
+                "en": "Britain did not avoid revolutions; it made revolution part of the institution."
+              },
+              "content": {
+                "zh": "Magna Carta是贵族革命、宗教改革是国家革命、光荣革命是议会革命、工业革命是经济革命。但每一次，都被\"制度化\"而非\"推翻重来\"。",
+                "en": "Magna Carta was a barons’ revolution, the Reformation a state revolution, 1688 a parliamentary revolution, industrialization an economic one. Each was institutionalized rather than started over."
+              }
             },
             {
-              "heading": "对我个人的启发",
+              "heading": {
+                "zh": "对我个人的启发",
+                "en": "What I take personally"
+              },
               "list": [
-                "组织设计：学院制 = 分权 + 自治 + 竞争，可应用于：公司部门、产品线、团队结构",
-                "制度韧性：不追求\"一次性正确\"，而是\"可持续修复\"，Bug不是删除，而是版本迭代",
-                "文化传承：不是\"保护过去\"，而是\"让过去为现在服务\"，历史不是负担，是工具"
+                {
+                  "zh": "组织设计：学院制 = 分权 + 自治 + 竞争，可应用于：公司部门、产品线、团队结构",
+                  "en": "Organizational design: the college system = decentralization + autonomy + competition — maps to departments, product lines, teams"
+                },
+                {
+                  "zh": "制度韧性：不追求\"一次性正确\"，而是\"可持续修复\"，Bug不是删除，而是版本迭代",
+                  "en": "Institutional resilience: aim for continuous repair, not one-time correctness — bugs are iterated, not deleted"
+                },
+                {
+                  "zh": "文化传承：不是\"保护过去\"，而是\"让过去为现在服务\"，历史不是负担，是工具",
+                  "en": "Cultural inheritance: don't protect the past, put it to work — history is a tool, not a burden"
+                }
               ]
             }
           ]
         },
         {
           "id": "final-questions",
-          "title": "最后的问题",
-          "subtitle": "我们能学到什么？",
+          "title": {
+            "zh": "最后的问题",
+            "en": "The Final Questions"
+          },
+          "subtitle": {
+            "zh": "我们能学到什么？",
+            "en": "What can we learn?"
+          },
           "icon": "HelpCircle",
-          "summary": "制度不能\"复制\"，但理念可以\"借鉴\"：法律高于个人、制度比个人长久、权力需要制衡。",
+          "summary": {
+            "zh": "制度不能\"复制\"，但理念可以\"借鉴\"：法律高于个人、制度比个人长久、权力需要制衡。",
+            "en": "Institutions cannot be copied, but principles can be borrowed: law above persons, institutions beyond individuals, power under checks."
+          },
           "sections": [
             {
-              "heading": "五个核心问题",
-              "content": "Q1. 如果没有诺曼征服，英国会是什么样？可能更像德国诸侯国，没有强中央政府，没有全球帝国。\n\nQ2. 为什么英国的精英看起来\"不争\"？因为制度已经固化了他们的位置，\"不争\"是最大的自信。\n\nQ3. 苏格兰会独立吗？取决于：经济 vs 身份认同的博弈，但即使独立，制度遗产仍会延续。\n\nQ4. 英国制度在21世纪还有效吗？优点：稳定、可预测；缺点：变革慢、不平等固化；Brexit暴露了内部张力。\n\nQ5. 中国可以学习英国吗？制度不能\"复制\"，但理念可以\"借鉴\"：法律高于个人、制度比个人长久、权力需要制衡。"
+              "heading": {
+                "zh": "五个核心问题",
+                "en": "Five questions"
+              },
+              "content": {
+                "zh": "Q1. 如果没有诺曼征服，英国会是什么样？可能更像德国诸侯国，没有强中央政府，没有全球帝国。\n\nQ2. 为什么英国的精英看起来\"不争\"？因为制度已经固化了他们的位置，\"不争\"是最大的自信。\n\nQ3. 苏格兰会独立吗？取决于：经济 vs 身份认同的博弈，但即使独立，制度遗产仍会延续。\n\nQ4. 英国制度在21世纪还有效吗？优点：稳定、可预测；缺点：变革慢、不平等固化；Brexit暴露了内部张力。\n\nQ5. 中国可以学习英国吗？制度不能\"复制\"，但理念可以\"借鉴\"：法律高于个人、制度比个人长久、权力需要制衡。",
+                "en": "Q1. Without the Norman Conquest, what would Britain be? Probably more like the German principalities — no strong central state, no global empire.\n\nQ2. Why do British elites seem so unhurried? Because the institutions have already fixed their places — composure is the deepest confidence.\n\nQ3. Will Scotland become independent? It hinges on economics vs. identity; even with independence, the institutional inheritance would continue.\n\nQ4. Do British institutions still work in the 21st century? Strengths: stability, predictability. Weaknesses: slow change, entrenched inequality. Brexit exposed the internal strains.\n\nQ5. Can China learn from Britain? Institutions cannot be copied, but principles can be borrowed: law above persons, institutions beyond individuals, power under checks."
+              }
             },
             {
-              "heading": "结语",
-              "quote": "这不是旅游，而是文明的田野调查。",
-              "content": "从白崖到威斯敏斯特，从罗马军营到现代大学，我看到的是：权力如何被建筑化（城堡、教堂）、法律如何被制度化（Magna Carta、议会）、知识如何被保存（牛津、剑桥）、文化如何被软化（湖区、布莱顿）。英国不是\"完美\"的，但它展示了一条路径：如何在不断的冲突、妥协、修复中，让制度活下来。"
+              "heading": {
+                "zh": "结语",
+                "en": "Coda"
+              },
+              "quote": {
+                "zh": "这不是旅游，而是文明的田野调查。",
+                "en": "This is not tourism — it is fieldwork on a civilization."
+              },
+              "content": {
+                "zh": "从白崖到威斯敏斯特，从罗马军营到现代大学，我看到的是：权力如何被建筑化（城堡、教堂）、法律如何被制度化（Magna Carta、议会）、知识如何被保存（牛津、剑桥）、文化如何被软化（湖区、布莱顿）。英国不是\"完美\"的，但它展示了一条路径：如何在不断的冲突、妥协、修复中，让制度活下来。",
+                "en": "From the white cliffs to Westminster, from Roman camps to modern universities, what I saw was power architecturalized (castles, churches), law institutionalized (Magna Carta, Parliament), knowledge preserved (Oxford, Cambridge), culture softened (the Lakes, Brighton). Britain is not perfect, but it demonstrates one path: keeping institutions alive through endless conflict, compromise and repair."
+              }
             }
           ]
         }

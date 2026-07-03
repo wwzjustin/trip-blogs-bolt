@@ -1,56 +1,50 @@
+// All landmark photos are self-hosted in public/images/ (downloaded from
+// Wikimedia Commons, free-licensed, resized to 1200px). Hotlinking external
+// CDNs (Britannica/Alamy/Wikimedia) fails: blocked, watermarked or
+// rate-limited. Matching is longest-key-wins, so specific keys beat generics.
 const photoMap: Record<string, string> = {
-  'british museum': 'https://cdn.britannica.com/12/127112-050-F4DD3B7A/British-Museum-London.jpg',
-  'westminster abbey': 'https://c8.alamy.com/comp/F09W8F/interior-of-westminster-abbey-london-uk-F09W8F.jpg',
-  'tower of london': 'https://cdn.britannica.com/45/196945-050-CCF8BD5C/tower-of-London-on-the-River-Thames-London-England.jpg',
-  'buckingham palace': 'https://cdn.britannica.com/00/129500-050-D622CD57/Buckingham-Palace-London.jpg',
-  'big ben': 'https://cdn.britannica.com/90/94490-050-45C82D8D/view-Big-Ben-River-Thames-London.jpg',
-  'london bridge': 'https://cdn.britannica.com/44/94444-050-9CA4B1C7/Tower-Bridge-London-England.jpg',
-  'parliament': 'https://cdn.britannica.com/08/194808-050-3C9A95A5/Palace-of-Westminster-London-England.jpg',
-  'edinburgh castle': 'https://cdn.britannica.com/24/94424-050-6302BA2E/Edinburgh-Castle-Scotland.jpg',
-  'edinburgh': 'https://cdn.britannica.com/24/94424-050-6302BA2E/Edinburgh-Castle-Scotland.jpg',
-  'royal mile': 'https://cdn.britannica.com/24/94424-050-6302BA2E/Edinburgh-Castle-Scotland.jpg',
-  'bath': 'https://cdn.britannica.com/88/156588-050-2C7E5C89/Roman-Baths-Bath-England.jpg',
-  'roman baths': 'https://cdn.britannica.com/88/156588-050-2C7E5C89/Roman-Baths-Bath-England.jpg',
-  'oxford': 'https://cdn.britannica.com/03/117103-050-F4C2FC83/view-University-of-Oxford-England-Oxfordshire.jpg',
-  'radcliffe': 'https://c8.alamy.com/comp/2C5DDAW/radcliffe-camera-bodleian-library-oxford-university-oxford-oxfordshire-england-united-kingdom-2C5DDAW.jpg',
-  'bodleian': 'https://c8.alamy.com/comp/2C5DDAW/radcliffe-camera-bodleian-library-oxford-university-oxford-oxfordshire-england-united-kingdom-2C5DDAW.jpg',
-  'christ church': 'https://c8.alamy.com/comp/E9KXTY/the-great-hall-christ-church-oxford-england-uk-E9KXTY.jpg',
-  'cambridge': 'https://cdn.britannica.com/77/94477-050-2F31008E/Chapel-of-King-College-Cambridge-University-Cambridgeshire.jpg',
-  'kings college': 'https://cdn.britannica.com/77/94477-050-2F31008E/Chapel-of-King-College-Cambridge-University-Cambridgeshire.jpg',
-  'trinity college': 'https://englandrover.com/wp-content/uploads/2018/07/trinity-college-cambridge-1280x853.jpg',
-  'stonehenge': 'https://cdn.britannica.com/34/143234-050-D0F3D195/Stonehenge-Wiltshire-England.jpg',
-  'windsor castle': 'https://cdn.britannica.com/91/116791-050-095B7167/Windsor-Castle-Berkshire-England.jpg',
-  'windsor': 'https://cdn.britannica.com/91/116791-050-095B7167/Windsor-Castle-Berkshire-England.jpg',
-  'canterbury': 'https://cdn.britannica.com/48/94448-050-8D37F931/Cathedral-Canterbury-Kent-England.jpg',
-  'cathedral': 'https://cdn.britannica.com/48/94448-050-8D37F931/Cathedral-Canterbury-Kent-England.jpg',
-  'museum': 'https://cdn.britannica.com/12/127112-050-F4DD3B7A/British-Museum-London.jpg',
-  'library': 'https://c8.alamy.com/comp/2C5DDAW/radcliffe-camera-bodleian-library-oxford-university-oxford-oxfordshire-england-united-kingdom-2C5DDAW.jpg',
-  'church': 'https://cdn.britannica.com/48/94448-050-8D37F931/Cathedral-Canterbury-Kent-England.jpg',
-  'castle': 'https://cdn.britannica.com/24/94424-050-6302BA2E/Edinburgh-Castle-Scotland.jpg',
-  'palace': 'https://cdn.britannica.com/00/129500-050-D622CD57/Buckingham-Palace-London.jpg',
-  'york': 'https://cdn.britannica.com/99/94499-050-F602FBAF/York-Minster-England.jpg',
-  'minster': 'https://cdn.britannica.com/99/94499-050-F602FBAF/York-Minster-England.jpg',
-  'lincoln': 'https://cdn.britannica.com/85/94485-050-B2A7D972/Cathedral-Lincoln-Lincolnshire-England.jpg',
-  'whitby': 'https://cdn.britannica.com/67/213267-050-270E2F81/Whitby-Abbey-North-Yorkshire-England.jpg',
-  'abbey': 'https://cdn.britannica.com/67/213267-050-270E2F81/Whitby-Abbey-North-Yorkshire-England.jpg',
-  'lake district': 'https://cdn.britannica.com/43/94443-050-3B3E3CC3/Lake-Windermere-Lake-District-Cumbria-England.jpg',
-  'windermere': 'https://cdn.britannica.com/43/94443-050-3B3E3CC3/Lake-Windermere-Lake-District-Cumbria-England.jpg',
-  'manchester': 'https://cdn.britannica.com/84/94484-050-0D4F4F2F/Manchester-Cathedral-England.jpg',
-  'glasgow': 'https://cdn.britannica.com/12/94512-050-D5B8D4BA/University-of-Glasgow-Scotland.jpg',
-  'stratford': 'https://cdn.britannica.com/67/4467-050-11F97BAB/Birthplace-William-Shakespeare-Stratford-upon-Avon-England-Warwickshire.jpg',
-  'shakespeare': 'https://cdn.britannica.com/67/4467-050-11F97BAB/Birthplace-William-Shakespeare-Stratford-upon-Avon-England-Warwickshire.jpg',
-  'birthplace': 'https://cdn.britannica.com/67/4467-050-11F97BAB/Birthplace-William-Shakespeare-Stratford-upon-Avon-England-Warwickshire.jpg',
-  'blenheim': 'https://cdn.britannica.com/16/94416-050-3B3C7BEA/Blenheim-Palace-Oxfordshire-England.jpg',
-  'brighton': 'https://c8.alamy.com/comp/D69GA8/royal-pavilion-brighton-england-uk-D69GA8.jpg',
-  'royal pavilion': 'https://c8.alamy.com/comp/D69GA8/royal-pavilion-brighton-england-uk-D69GA8.jpg',
-  'pavilion': 'https://c8.alamy.com/comp/D69GA8/royal-pavilion-brighton-england-uk-D69GA8.jpg',
-  'white cliffs': 'https://cdn.britannica.com/09/188409-050-9L3E8DD6/White-Cliffs-Dover-England.jpg',
-  'dover': 'https://cdn.britannica.com/09/188409-050-9L3E8DD6/White-Cliffs-Dover-England.jpg',
-  'cliffs': 'https://cdn.britannica.com/09/188409-050-9L3E8DD6/White-Cliffs-Dover-England.jpg',
-  'captain cook': 'https://cdn.britannica.com/67/213267-050-270E2F81/Whitby-Abbey-North-Yorkshire-England.jpg',
-  // Mexico — self-hosted in public/images/ (downloaded from Wikimedia Commons,
-  // free-licensed; hotlinking upload.wikimedia.org gets rate-limited/ORB-blocked).
-  // Specific keys before generic ones — matching iterates in insertion order.
+  // UK
+  'windsor': '/images/uk-windsor.jpg',
+  'oxford': '/images/uk-oxford.jpg',
+  'radcliffe': '/images/uk-oxford.jpg',
+  'bodleian': '/images/uk-bodleian.jpg',
+  'christ church': '/images/uk-christ-church.jpg',
+  'shakespeare': '/images/uk-shakespeare.jpg',
+  'stratford': '/images/uk-shakespeare.jpg',
+  'birthplace': '/images/uk-shakespeare.jpg',
+  'blenheim': '/images/uk-blenheim.jpg',
+  'lake district': '/images/uk-lake-district.jpg',
+  'windermere': '/images/uk-lake-district.jpg',
+  'manchester': '/images/uk-manchester.jpg',
+  'edinburgh': '/images/uk-edinburgh-castle.jpg',
+  'royal mile': '/images/uk-royal-mile.jpg',
+  'glasgow': '/images/uk-glasgow.jpg',
+  'whitby': '/images/uk-whitby.jpg',
+  'captain cook': '/images/uk-captain-cook.jpg',
+  'york': '/images/uk-york.jpg',
+  'minster': '/images/uk-york-minster.jpg',
+  'lincoln cathedral': '/images/uk-lincoln-cathedral.jpg',
+  'lincoln castle': '/images/uk-lincoln-castle.jpg',
+  'lincoln': '/images/uk-lincoln-cathedral.jpg',
+  'cambridge': '/images/uk-kings-college.jpg',
+  'kings college': '/images/uk-kings-college.jpg',
+  'trinity college': '/images/uk-trinity-college.jpg',
+  'seven sisters': '/images/uk-seven-sisters.jpg',
+  'white cliffs': '/images/uk-seven-sisters.jpg',
+  'cliffs': '/images/uk-seven-sisters.jpg',
+  'brighton': '/images/uk-brighton.jpg',
+  'royal pavilion': '/images/uk-brighton.jpg',
+  'pavilion': '/images/uk-brighton.jpg',
+  'westminster': '/images/uk-westminster.jpg',
+  // generic fallbacks (insurance for future keywords)
+  'castle': '/images/uk-edinburgh-castle.jpg',
+  'palace': '/images/uk-blenheim.jpg',
+  'cathedral': '/images/uk-lincoln-cathedral.jpg',
+  'abbey': '/images/uk-whitby.jpg',
+  'church': '/images/uk-christ-church.jpg',
+  'library': '/images/uk-bodleian.jpg',
+  'museum': '/images/mx-antropologia.jpg',
+  // Mexico
   'chichen itza': '/images/mx-chichen-itza.jpg',
   'teotihuacan': '/images/mx-teotihuacan.jpg',
   'antropolog': '/images/mx-antropologia.jpg',
@@ -88,8 +82,15 @@ export const getStockImage = (keyword: string, width = 800, height = 600): strin
     return matchedPhoto[1];
   }
 
-  const seed = normalizedKeyword.replace(/[^a-z0-9]/g, '');
-  return `https://picsum.photos/seed/${seed}/${width}/${height}`;
+  // No curated photo — quiet placeholder in the site palette (random stock
+  // photos of the wrong subject are worse than none).
+  return (
+    `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"%3E` +
+    `%3Crect width="${width}" height="${height}" fill="%23f2f4f4"/%3E` +
+    `%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" font-family="Georgia, serif" font-size="${Math.round(
+      height / 14
+    )}" fill="%239aa0a1"%3E${encodeURIComponent(keyword.replace(/\+/g, ' '))}%3C/text%3E%3C/svg%3E`
+  );
 };
 
 export const getAttractionImage = (attraction: { nameEn: string; imageKeyword?: string }): string => {

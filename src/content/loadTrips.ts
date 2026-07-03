@@ -1,4 +1,4 @@
-import { Trip, validateTrip } from '../types/content';
+import { Trip, pickL10n, validateTrip } from '../types/content';
 
 // Auto-discover every trip JSON. Adding content/trips/<slug>.json requires
 // zero wiring — it appears on the index and at /trips/<slug> automatically.
@@ -13,7 +13,7 @@ const trips: Trip[] = Object.entries(modules)
     const ao = a.order ?? Number.MAX_SAFE_INTEGER;
     const bo = b.order ?? Number.MAX_SAFE_INTEGER;
     if (ao !== bo) return ao - bo;
-    return (a.date ?? '').localeCompare(b.date ?? '');
+    return (pickL10n('zh', a.date) ?? '').localeCompare(pickL10n('zh', b.date) ?? '');
   });
 
 export function getTrips(): Trip[] {

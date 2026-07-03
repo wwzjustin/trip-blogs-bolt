@@ -1,68 +1,82 @@
+// ---------- localization ----------
+// Any human-readable field can be a plain string (shown in both languages,
+// e.g. inherently bilingual glossary rows) or a {zh, en} pair the language
+// toggle switches between.
+export type L10n = string | { zh: string; en: string };
+
+export function pickL10n(lang: 'zh' | 'en', v: L10n): string;
+export function pickL10n(lang: 'zh' | 'en', v: L10n | undefined): string | undefined;
+export function pickL10n(lang: 'zh' | 'en', v: L10n | undefined): string | undefined {
+  if (v == null) return undefined;
+  if (typeof v === 'string') return v;
+  return v[lang] ?? v.zh ?? v.en;
+}
+
 // ---------- shared ----------
 export interface TableData {
-  headers: string[];
-  rows: string[][];
+  headers: L10n[];
+  rows: L10n[][];
 }
 
 // ---------- sub-shapes ----------
 export interface Attraction {
   id: string;
-  nameCn: string;
-  nameEn: string;
-  type: string;                 // e.g. "皇家城堡", "Temple"
-  imageKeyword?: string;        // Unsplash/stock keyword, "+"-joined
-  historicalContext?: string;
-  experience?: string;
-  insight?: string;
-  relatedPeople?: string[];
-  historicalPeriod?: string;
+  nameCn: string;               // Chinese name — primary in zh mode
+  nameEn: string;               // English name — primary in en mode
+  type: L10n;                   // e.g. "皇家城堡", "Temple"
+  imageKeyword?: string;        // photoMap/stock keyword, "+"-joined
+  historicalContext?: L10n;
+  experience?: L10n;
+  insight?: L10n;
+  relatedPeople?: L10n[];
+  historicalPeriod?: L10n;
 }
 
 export interface TimelineEntry {
-  period: string;               // "诺曼征服 1066"
-  timeRange?: string;           // "AD 43–410"
-  keyLocation?: string;
-  keyFigures?: string[];
-  majorEvents?: string;
-  significance?: string;
-  connection?: string;          // "与旅行体验的连接"
+  period: L10n;                 // "诺曼征服 1066"
+  timeRange?: L10n;             // "AD 43–410"
+  keyLocation?: L10n;
+  keyFigures?: L10n[];
+  majorEvents?: L10n;
+  significance?: L10n;
+  connection?: L10n;            // "与旅行体验的连接"
   relatedDays?: number[];
 }
 
 export interface ReflectionSectionContent {
-  heading?: string;
-  content?: string;             // markdown
-  list?: string[];
-  quote?: string;
+  heading?: L10n;
+  content?: L10n;               // markdown
+  list?: L10n[];
+  quote?: L10n;
   table?: TableData;
 }
 
 export interface Reflection {
   id: string;
-  title: string;
-  subtitle?: string;
+  title: L10n;
+  subtitle?: L10n;
   icon: string;                 // lucide-react icon name, e.g. "Crown"
-  summary: string;
+  summary: L10n;
   sections: ReflectionSectionContent[];
 }
 
 // ---------- blocks (discriminated union on `type`) ----------
 interface BlockBase {
   id?: string;
-  title?: string;
+  title?: L10n;
 }
 
 export interface ProseBlock extends BlockBase {
   type: 'prose';
-  body: string;                 // markdown; also the FALLBACK for unknown types
+  body: L10n;                   // markdown; also the FALLBACK for unknown types
 }
 
 export interface JournalBlock extends BlockBase {
   type: 'journal';
-  date?: string;                // "Day 1", "6/26" — small badge label
-  title: string;
-  cities?: string[];
-  body?: string;                // markdown narrative
+  date?: L10n;                  // "Day 1", "6/26" — small badge label
+  title: L10n;
+  cities?: L10n[];
+  body?: L10n;                  // markdown narrative
   attractions?: Attraction[];   // discrete place cards
 }
 
@@ -73,35 +87,35 @@ export interface AttractionsBlock extends BlockBase {
 
 export interface TimelineBlock extends BlockBase {
   type: 'timeline';
-  title: string;
-  description?: string;
+  title: L10n;
+  description?: L10n;
   entries: TimelineEntry[];
 }
 
 export interface TableBlock extends BlockBase {
   type: 'table';
-  title: string;
-  description?: string;
+  title: L10n;
+  description?: L10n;
   table: TableData;
 }
 
 export interface ReflectionBlock extends BlockBase {
   type: 'reflection';
-  title?: string;
-  description?: string;
+  title?: L10n;
+  description?: L10n;
   items: Reflection[];
 }
 
 export interface ListBlock extends BlockBase {
   type: 'list';
-  title: string;
-  items: string[];
+  title: L10n;
+  items: L10n[];
   icon?: string;
 }
 
 export interface SectionBlock extends BlockBase {
   type: 'section';
-  title: string;
+  title: L10n;
   blocks: Block[];
 }
 
@@ -129,13 +143,13 @@ export const KNOWN_BLOCK_TYPES = [
 // ---------- trip ----------
 export interface Trip {
   id: string;                   // url slug, MUST equal the filename, e.g. "uk-2025"
-  title: string;                // bilingual inline OK
-  subtitle?: string;
+  title: L10n;
+  subtitle?: L10n;
   traveler?: string;
-  date?: string;                // "2025年12月"
+  date?: L10n;                  // "2025年12月"
   order?: number;               // sort key for the index (lower = first)
   cover?: string;               // hero image: full URL or an imageService keyword
-  summary?: string;             // 1–2 sentence blurb for the index card
+  summary?: L10n;               // 1–2 sentence blurb for the index card
   accent?: string;              // theme color, e.g. "#1e3a8a"
   blocks: Block[];              // rendered in array order
 }
@@ -159,7 +173,7 @@ export function validateTrip(raw: unknown, sourceFile: string): Trip {
   if (!trip || typeof trip.id !== 'string' || !trip.id) {
     throw new Error(`[trips] ${sourceFile}: missing required "id"`);
   }
-  if (typeof trip.title !== 'string' || !trip.title) {
+  if (trip.title == null) {
     throw new Error(`[trips] ${sourceFile}: missing required "title"`);
   }
   if (!Array.isArray(trip.blocks) || trip.blocks.length === 0) {

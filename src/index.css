@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ============================================================
+   Travel Journals design tokens — "The Digital Curator"
+   (shared design language with ArtStory / ArtLog)
+   ============================================================ */
+:root {
+  --color-primary: #715b37;
+  --color-primary-light: #9a7f52;
+  --color-primary-dark: #4e3f27;
+
+  --color-surface: #f9f9f9;
+  --color-surface-elevated: #ffffff;
+
+  --color-ink: #2d3435;
+  --color-ink-muted: #5a6061;
+  --color-ink-faint: #9aa0a1;
+
+  --color-border: rgba(45, 52, 53, 0.08);
+
+  --shadow-sm: 0 1px 4px rgba(45, 52, 53, 0.06);
+  --shadow-md: 0 4px 16px rgba(45, 52, 53, 0.06);
+  --shadow-lg: 0 8px 32px rgba(45, 52, 53, 0.08);
+
+  --font-serif: 'Noto Serif', 'Noto Serif SC', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-serif);
+}

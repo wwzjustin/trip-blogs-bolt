@@ -1,24 +1,31 @@
+import { L10n, pickL10n } from '../types/content';
 import Markdown from '../components/Markdown';
+import { useLanguage } from '../contexts/LanguageContext';
 
 interface ProseBlockProps {
-  title?: string;
-  body?: string;
+  title?: L10n;
+  body?: L10n;
 }
 
-// Free-markdown block. Also the FALLBACK renderer for unknown block types:
-// it renders whatever `title`/`body` the block carries instead of crashing.
+// Free-markdown block. Also the FALLBACK renderer for unknown block types.
 export default function ProseBlock({ title, body }: ProseBlockProps) {
+  const { language } = useLanguage();
+  const resolvedTitle = pickL10n(language, title);
+  const resolvedBody = pickL10n(language, body);
+
   return (
-    <section className="max-w-4xl mx-auto px-4 py-6 md:py-8">
-      {title && (
-        <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
-          <span className="w-1.5 h-6 md:h-7 bg-amber-500 rounded-full flex-shrink-0"></span>
-          {title}
+    <section className="max-w-3xl mx-auto px-4 py-5 md:py-6">
+      {resolvedTitle && (
+        <h2 className="font-display text-lg md:text-xl font-bold text-[#2d3435] mb-3">
+          {resolvedTitle}
         </h2>
       )}
-      {body ? (
-        <div className="bg-white rounded-xl shadow-sm border border-slate-100 p-4 md:p-6">
-          <Markdown>{body}</Markdown>
+      {resolvedBody ? (
+        <div
+          className="bg-white rounded-lg border border-[rgba(45,52,53,0.08)] p-5 md:p-7"
+          style={{ boxShadow: 'var(--shadow-sm)' }}
+        >
+          <Markdown>{resolvedBody}</Markdown>
         </div>
       ) : null}
     </section>

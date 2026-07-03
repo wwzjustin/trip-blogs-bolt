@@ -1,29 +1,62 @@
 {
   "id": "mexico-2026",
-  "title": "墨西哥文明深度游",
+  "title": {
+    "zh": "墨西哥文明深度游",
+    "en": "A Deep Journey Through Mexican Civilizations"
+  },
   "subtitle": "Mexico: From Tenochtitlán to the Yucatán — Aztec, Colonial & Maya Layers",
   "traveler": "Justin",
-  "date": "2026年6月–7月",
+  "date": {
+    "zh": "2026年6月–7月",
+    "en": "June–July 2026"
+  },
   "order": 2,
   "accent": "#9a3412",
-  "summary": "从墨西哥城中央高原到尤卡坦半岛：阿兹特克与玛雅文明、殖民层理、壁画运动与当代生态——一份持续更新的文明田野笔记。",
+  "summary": {
+    "zh": "从墨西哥城中央高原到尤卡坦半岛：阿兹特克与玛雅文明、殖民层理、壁画运动与当代生态——一份持续更新的文明田野笔记。",
+    "en": "From the central highlands to the Yucatán: Aztec and Maya civilizations, colonial layers, the muralist movement and living ecology — a continuously updated field notebook."
+  },
   "blocks": [
     {
       "type": "list",
-      "title": "核心认知框架 Core Framework",
+      "title": {
+        "zh": "核心认知框架",
+        "en": "Core Framework"
+      },
       "icon": "Sparkles",
       "items": [
-        "混血(mestizo)而非隔离——原住民符号被纳入国家身份核心，而非推到边缘（对比美国的保留地逻辑）",
-        "城市是叠层的——特诺奇蒂特兰从未消失：大教堂的倾斜、主神庙的出土，都是湖床上帝国的持续在场",
-        "壁画是国家叙事工厂——里维拉给标准答案，奥罗斯科怀疑答案，西凯罗斯把答案变成武器",
-        "献祭的核心是互惠——神格越攸关生死（雨水/太阳），献祭越暴力；辅助神格（月亮/医药）则温和",
-        "文明会趋同演化——玛雅文字与埃及/楔形文字、恐怖母神图像，是互不接触文明的相同解法",
-        "国家叙事被实时改写——哥伦布纪念碑被拆、战斗女性环岛立起，记忆是一项进行中的工程"
+        {
+          "zh": "混血(mestizo)而非隔离——原住民符号被纳入国家身份核心，而非推到边缘（对比美国的保留地逻辑）",
+          "en": "Mestizo, not segregation — indigenous symbols sit at the core of national identity, not its margins (contrast the U.S. reservation logic)"
+        },
+        {
+          "zh": "城市是叠层的——特诺奇蒂特兰从未消失：大教堂的倾斜、主神庙的出土，都是湖床上帝国的持续在场",
+          "en": "The city is layered — Tenochtitlán never disappeared: the sinking cathedral and the excavated Templo Mayor are the lake-bed empire still present"
+        },
+        {
+          "zh": "壁画是国家叙事工厂——里维拉给标准答案，奥罗斯科怀疑答案，西凯罗斯把答案变成武器",
+          "en": "Murals are the national narrative factory — Rivera gives the official answer, Orozco doubts it, Siqueiros turns it into a weapon"
+        },
+        {
+          "zh": "献祭的核心是互惠——神格越攸关生死（雨水/太阳），献祭越暴力；辅助神格（月亮/医药）则温和",
+          "en": "Sacrifice is reciprocity — the more life-and-death the god's domain (rain, sun), the more violent the offering; healing gods received gentle ones"
+        },
+        {
+          "zh": "文明会趋同演化——玛雅文字与埃及/楔形文字、恐怖母神图像，是互不接触文明的相同解法",
+          "en": "Civilizations converge — Maya writing beside Egyptian and cuneiform, and the terrible-mother images, are identical solutions by unconnected peoples"
+        },
+        {
+          "zh": "国家叙事被实时改写——哥伦布纪念碑被拆、战斗女性环岛立起，记忆是一项进行中的工程",
+          "en": "The national narrative is rewritten in real time — Columbus comes down, the Women Who Fight roundabout goes up; memory is an ongoing project"
+        }
       ]
     },
     {
       "type": "timeline",
-      "title": "政治历史时间线 Political & Historical Timeline",
+      "title": {
+        "zh": "政治历史时间线",
+        "en": "Political & Historical Timeline"
+      },
       "entries": [
         {
           "period": "传说时期",
@@ -545,374 +578,863 @@
     },
     {
       "type": "section",
-      "title": "每日行程 Daily Journal",
+      "title": {
+        "zh": "每日行程",
+        "en": "Daily Journal"
+      },
       "blocks": [
         {
           "type": "journal",
-          "date": "6/26",
-          "title": "抵达日：机场舞蹈、弗里达与城堡",
+          "date": {
+            "zh": "6/26",
+            "en": "6/26"
+          },
+          "title": {
+            "zh": "抵达日：机场舞蹈、弗里达与城堡",
+            "en": "Arrival: An Airport Dance, Frida, and a Castle"
+          },
           "cities": [
-            "墨西哥城"
+            {
+              "zh": "墨西哥城",
+              "en": "Mexico City"
+            }
           ],
-          "body": "下午2点落地，机场就有一场哈拉贝塔帕蒂奥（Jarabe Tapatío，\"墨西哥帽子舞\"）欢迎表演——内核是一段\"追逐-拒绝-接受\"的求爱叙事；女性穿的China Poblana裙原是殖民时期下层劳动女性的服饰，后来被国家提纯成民族符号。**第一天就遇到了这趟旅程反复出现的主题：符号如何被国家收编。**\n\n晚上住在改革大道附近才发现，粉红区（Zona Rosa）把韩国街（Pequeño Seúl）和LGBTQ+街区叠在同一片区域——和白天的殖民/革命叙事完全是另一个维度的墨西哥城。\n\n没来得及去的美术宫（三巨头壁画原作）和蓝房子（弗里达出生和去世地）补了背景资料，留待以后。",
+          "body": {
+            "zh": "下午2点落地，机场就有一场哈拉贝塔帕蒂奥（Jarabe Tapatío，\"墨西哥帽子舞\"）欢迎表演——内核是一段\"追逐-拒绝-接受\"的求爱叙事；女性穿的China Poblana裙原是殖民时期下层劳动女性的服饰，后来被国家提纯成民族符号。**第一天就遇到了这趟旅程反复出现的主题：符号如何被国家收编。**\n\n晚上住在改革大道附近才发现，粉红区（Zona Rosa）把韩国街（Pequeño Seúl）和LGBTQ+街区叠在同一片区域——和白天的殖民/革命叙事完全是另一个维度的墨西哥城。\n\n没来得及去的美术宫（三巨头壁画原作）和蓝房子（弗里达出生和去世地）补了背景资料，留待以后。",
+            "en": "Landed at 2 pm to a Jarabe Tapatío welcome performance — at its core a chase–refuse–accept courtship narrative; the China Poblana dress the dancers wear began as colonial working-class clothing before the state distilled it into a national symbol. **Day one already carried the trip's recurring theme: how symbols get absorbed by the nation.**\n\nStaying near Paseo de la Reforma, I found Zona Rosa at night — Little Seoul and the LGBTQ+ district stacked on the same blocks: a different Mexico City from the daytime's colonial-and-revolutionary narrative.\n\nNo time for the Palacio de Bellas Artes (home of the mural originals) or the Blue House; filed the background notes for a later visit."
+          },
           "attractions": [
             {
               "id": "museo-arte-moderno",
               "nameCn": "墨西哥现代艺术博物馆",
               "nameEn": "Museo de Arte Moderno (MAM)",
-              "type": "美术馆",
+              "type": {
+                "zh": "美术馆",
+                "en": "Art Museum"
+              },
               "imageKeyword": "Museo+de+Arte+Moderno+Mexico",
-              "historicalContext": "查普特佩克公园内的现代艺术馆，架上绘画的重镇——与美术宫（壁画原作）、MUNAL（五百年通史）构成墨西哥城三大美术机构的分工。馆藏《两个弗里达》（1939），是弗里达与里维拉离婚当年的作品。",
-              "experience": "看了大量弗里达自画像原作。《两个弗里达》：左边欧式婚纱配断裂的血管，右边特瓦纳服饰配完整心脏，两个自我用同一根血管相连——把之前在MoMA留下的悬念线接上了。还认识了两位新艺术家：雷梅迪奥斯·瓦罗（西班牙流亡超现实主义者，画里有炼金术与葛吉夫神秘学体系，比卡灵顿更\"工程化\"），和起初没认出来的何塞·克莱门特·奥罗斯科。",
-              "insight": "弗里达把身份撕裂画成了解剖图——殖民与本土两个墨西哥在同一具身体里共存，靠一根血管互相输血。这幅画就是mestizo国家的自画像。",
+              "historicalContext": {
+                "zh": "查普特佩克公园内的现代艺术馆，架上绘画的重镇——与美术宫（壁画原作）、MUNAL（五百年通史）构成墨西哥城三大美术机构的分工。馆藏《两个弗里达》（1939），是弗里达与里维拉离婚当年的作品。",
+                "en": "The modern-art museum in Chapultepec Park — the stronghold of easel painting, dividing labor with Bellas Artes (mural originals) and MUNAL (five centuries of survey). Home of The Two Fridas (1939), painted the year of her divorce from Rivera."
+              },
+              "experience": {
+                "zh": "看了大量弗里达自画像原作。《两个弗里达》：左边欧式婚纱配断裂的血管，右边特瓦纳服饰配完整心脏，两个自我用同一根血管相连——把之前在MoMA留下的悬念线接上了。还认识了两位新艺术家：雷梅迪奥斯·瓦罗（西班牙流亡超现实主义者，画里有炼金术与葛吉夫神秘学体系，比卡灵顿更\"工程化\"），和起初没认出来的何塞·克莱门特·奥罗斯科。",
+                "en": "Saw a run of Frida self-portraits in the original. The Two Fridas: a European wedding dress with a severed artery on the left, Tehuana dress with a whole heart on the right, the two selves joined by a single vein — closing a thread left open at MoMA. Met two new artists: Remedios Varo (Spanish exile; alchemical, Gurdjieffian systems — more 'engineered' than Carrington) and, unrecognized at first, José Clemente Orozco."
+              },
+              "insight": {
+                "zh": "弗里达把身份撕裂画成了解剖图——殖民与本土两个墨西哥在同一具身体里共存，靠一根血管互相输血。这幅画就是mestizo国家的自画像。",
+                "en": "Frida painted identity-rupture as anatomy — colonial and indigenous Mexico sharing one body, transfusing through a single vein. It is the mestizo nation's self-portrait."
+              },
               "relatedPeople": [
-                "弗里达·卡罗 Frida Kahlo",
-                "雷梅迪奥斯·瓦罗 Remedios Varo",
-                "何塞·克莱门特·奥罗斯科 José Clemente Orozco"
+                {
+                  "zh": "弗里达·卡罗 Frida Kahlo",
+                  "en": "Frida Kahlo"
+                },
+                {
+                  "zh": "雷梅迪奥斯·瓦罗 Remedios Varo",
+                  "en": "Remedios Varo"
+                },
+                {
+                  "zh": "何塞·克莱门特·奥罗斯科 José Clemente Orozco",
+                  "en": "José Clemente Orozco"
+                }
               ],
-              "historicalPeriod": "壁画运动与超现实主义流亡潮（1920s–1950s）"
+              "historicalPeriod": {
+                "zh": "壁画运动与超现实主义流亡潮（1920s–1950s）",
+                "en": "Muralism & Surrealist exile (1920s–1950s)"
+              }
             },
             {
               "id": "chapultepec-castle",
               "nameCn": "查普特佩克城堡",
               "nameEn": "Chapultepec Castle",
-              "type": "城堡 / 国家历史博物馆",
+              "type": {
+                "zh": "城堡 / 国家历史博物馆",
+                "en": "Castle / National History Museum"
+              },
               "imageKeyword": "Chapultepec+Castle+Mexico",
-              "historicalContext": "一座建筑的功能变迁史就是墨西哥政体变迁史：殖民行宫 → 军事学院（1847年查普特佩克战役，\"六少年英雄\"）→ 马克西米利亚诺的欧式皇宫 → 总统官邸 → 1939年改为国家历史博物馆。这里纠正了一个认知：住在城堡里的不是西班牙国王，而是法国扶持的奥地利大公\"墨西哥皇帝\"马克西米利亚诺一世。",
-              "experience": "看了两组壁画：西凯罗斯《从波费里奥体制到革命》（Del Porfirismo a la Revolución，农民工人反抗主题，直接批判迪亚斯独裁）和奥戈尔曼《独立祭坛画》。壁画里反复出现的\"老鹰\"其实是库奥赫特莫克——末代统治者的名字本身就是\"俯冲下来的鹰\"。",
-              "insight": "皇宫变博物馆，是国家把旧权力叙事收编为教材的过程——空间没变，讲述权换了主人。",
+              "historicalContext": {
+                "zh": "一座建筑的功能变迁史就是墨西哥政体变迁史：殖民行宫 → 军事学院（1847年查普特佩克战役，\"六少年英雄\"）→ 马克西米利亚诺的欧式皇宫 → 总统官邸 → 1939年改为国家历史博物馆。这里纠正了一个认知：住在城堡里的不是西班牙国王，而是法国扶持的奥地利大公\"墨西哥皇帝\"马克西米利亚诺一世。",
+                "en": "One building's changing functions retell Mexico's political history: colonial retreat → military academy (the 1847 battle, the Niños Héroes) → Maximilian's European palace → presidential residence → National Museum of History (1939). Corrected here: the resident was never a Spanish king but Maximilian I, the Austrian archduke installed by France."
+              },
+              "experience": {
+                "zh": "看了两组壁画：西凯罗斯《从波费里奥体制到革命》（Del Porfirismo a la Revolución，农民工人反抗主题，直接批判迪亚斯独裁）和奥戈尔曼《独立祭坛画》。壁画里反复出现的\"老鹰\"其实是库奥赫特莫克——末代统治者的名字本身就是\"俯冲下来的鹰\"。",
+                "en": "Two mural cycles: Siqueiros' From the Porfiriato to the Revolution (peasants and workers in revolt — a direct attack on the Díaz dictatorship) and O'Gorman's Altarpiece of Independence. The recurring 'eagle' in the murals is Cuauhtémoc — the last ruler's name means 'descending eagle.'"
+              },
+              "insight": {
+                "zh": "皇宫变博物馆，是国家把旧权力叙事收编为教材的过程——空间没变，讲述权换了主人。",
+                "en": "A palace turned museum is the state absorbing an old power narrative into curriculum — the space stayed, the storyteller changed."
+              },
               "relatedPeople": [
-                "马克西米利亚诺一世 Maximiliano I",
-                "大卫·阿尔法罗·西凯罗斯 Siqueiros",
-                "胡安·奥戈尔曼 Juan O’Gorman"
+                {
+                  "zh": "马克西米利亚诺一世 Maximiliano I",
+                  "en": "Maximilian I"
+                },
+                {
+                  "zh": "大卫·阿尔法罗·西凯罗斯 Siqueiros",
+                  "en": "David Alfaro Siqueiros"
+                },
+                {
+                  "zh": "胡安·奥戈尔曼 Juan O’Gorman",
+                  "en": "Juan O'Gorman"
+                }
               ],
-              "historicalPeriod": "1700s末始建 – 1939年改为博物馆"
+              "historicalPeriod": {
+                "zh": "1700s末始建 – 1939年改为博物馆",
+                "en": "Late 1700s – museum since 1939"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/27 上午",
-          "title": "可约阿坎：郊狼之地与托洛茨基的最后一站",
+          "date": {
+            "zh": "6/27 上午",
+            "en": "6/27 AM"
+          },
+          "title": {
+            "zh": "可约阿坎：郊狼之地与托洛茨基的最后一站",
+            "en": "Coyoacán: Place of Coyotes, Trotsky's Last Stop"
+          },
           "cities": [
-            "墨西哥城"
+            {
+              "zh": "墨西哥城",
+              "en": "Mexico City"
+            }
           ],
-          "body": "可约阿坎意为\"有郊狼的地方\"——纳瓦特语借词，和巧克力（xocolātl）是同一批进入西班牙语的词。伊达尔戈广场上纠正了一个误解：广场纪念的是**发起独立战争的神父**米格尔·伊达尔戈，他从未称帝、也没当过总统。\n\n导游借这里把完整的墨西哥历史线捋了一遍：奥尔梅克 → 特奥蒂瓦坎/古典玛雅平行发展 → 托尔特克/阿兹特克 → 西班牙殖民 → 独立战争 → 美墨战争割地 → 法国干预/第二帝国 → 波费里奥独裁 → 革命 → 壁画运动 → 1968年大屠杀。也是在这里第一次讲清楚墨西哥与美国对原住民的根本差异：**混血（mestizo）主导 vs 隔离/保留地逻辑**。\n\n几个史实纠正：科尔特斯没有被处决（是\"返乡审查\"中失势）；迪亚斯本人有混血血统却刻意推行国家形象\"美白\"；割地是1848年战败的结果不是\"卖地\"；得克萨斯是1836年自己革命独立，跟美国内战是两回事。",
+          "body": {
+            "zh": "可约阿坎意为\"有郊狼的地方\"——纳瓦特语借词，和巧克力（xocolātl）是同一批进入西班牙语的词。伊达尔戈广场上纠正了一个误解：广场纪念的是**发起独立战争的神父**米格尔·伊达尔戈，他从未称帝、也没当过总统。\n\n导游借这里把完整的墨西哥历史线捋了一遍：奥尔梅克 → 特奥蒂瓦坎/古典玛雅平行发展 → 托尔特克/阿兹特克 → 西班牙殖民 → 独立战争 → 美墨战争割地 → 法国干预/第二帝国 → 波费里奥独裁 → 革命 → 壁画运动 → 1968年大屠杀。也是在这里第一次讲清楚墨西哥与美国对原住民的根本差异：**混血（mestizo）主导 vs 隔离/保留地逻辑**。\n\n几个史实纠正：科尔特斯没有被处决（是\"返乡审查\"中失势）；迪亚斯本人有混血血统却刻意推行国家形象\"美白\"；割地是1848年战败的结果不是\"卖地\"；得克萨斯是1836年自己革命独立，跟美国内战是两回事。",
+            "en": "Coyoacán means 'place of coyotes' — a Nahuatl loanword from the same family as xocolātl/chocolate. At Plaza Hidalgo, a correction: the square honors Miguel Hidalgo, the priest who launched the war of independence — never an emperor, never a president.\n\nThe guide walked the full Mexican timeline here: Olmec → Teotihuacan and Classic Maya in parallel → Toltec/Aztec → Spanish colony → independence → the U.S. war and the ceded half of the country → French intervention and Second Empire → the Porfiriato → Revolution → muralism → 1968. And for the first time the Mexico–U.S. difference on indigenous peoples came clear: **mestizo-dominant vs. segregation and reservations.**\n\nFact-checks: Cortés was not executed (he lost power under review back in Spain); Díaz, himself part Mixtec, pushed a 'whitening' of the national image; the territory was lost by defeat in 1848, not sold; Texas revolted on its own in 1836 — nothing to do with the Civil War."
+          },
           "attractions": [
             {
               "id": "coyoacan-old-town",
               "nameCn": "可约阿坎老城",
               "nameEn": "Coyoacán",
-              "type": "历史街区",
+              "type": {
+                "zh": "历史街区",
+                "en": "Historic Quarter"
+              },
               "imageKeyword": "Coyoacan+Mexico+City",
-              "historicalContext": "据传科尔特斯围城特诺奇蒂特兰时在此设立第一个市政据点（Casa de Cortés，今市政厅）。16世纪的圣若望洗者堂（1552年起建）是弗里达受洗的教堂。20世纪这里成了流亡者之城：弗里达与里维拉的蓝房子，以及托洛茨基人生的最后一站。",
-              "experience": "走石板街听托洛茨基这段往事：1937年经里维拉求情、卡德纳斯总统庇护来墨，先住蓝房子；1939年因与弗里达的婚外情搬出；1940年5月西凯罗斯参与一次机枪突袭未遂，同年8月被斯大林特工拉蒙·梅尔卡德尔用冰镐刺杀。",
-              "insight": "西凯罗斯的\"激进\"标签从此有了实际的政治暴力分量——画风与手枪属于同一个人。壁画运动不是艺术史脚注，是真刀真枪的政治。",
+              "historicalContext": {
+                "zh": "据传科尔特斯围城特诺奇蒂特兰时在此设立第一个市政据点（Casa de Cortés，今市政厅）。16世纪的圣若望洗者堂（1552年起建）是弗里达受洗的教堂。20世纪这里成了流亡者之城：弗里达与里维拉的蓝房子，以及托洛茨基人生的最后一站。",
+                "en": "Reputedly Cortés' first municipal seat during the siege (the Casa de Cortés, now the borough hall). The 16th-century San Juan Bautista (begun 1552) is where Frida was baptized. In the 20th century it became a city of exiles: the Blue House, and Trotsky's final address."
+              },
+              "experience": {
+                "zh": "走石板街听托洛茨基这段往事：1937年经里维拉求情、卡德纳斯总统庇护来墨，先住蓝房子；1939年因与弗里达的婚外情搬出；1940年5月西凯罗斯参与一次机枪突袭未遂，同年8月被斯大林特工拉蒙·梅尔卡德尔用冰镐刺杀。",
+                "en": "Walked the cobbles hearing the Trotsky story: brought over in 1937 by Rivera's plea and President Cárdenas' asylum, living first in the Blue House; out in 1939 over the affair with Frida; May 1940, Siqueiros joins a machine-gun raid that fails; August 1940, an ice axe."
+              },
+              "insight": {
+                "zh": "西凯罗斯的\"激进\"标签从此有了实际的政治暴力分量——画风与手枪属于同一个人。壁画运动不是艺术史脚注，是真刀真枪的政治。",
+                "en": "Siqueiros' 'radical' label acquired real political-violence weight here — the brush and the gun belonged to the same man."
+              },
               "relatedPeople": [
-                "列夫·托洛茨基 Leon Trotsky",
-                "弗里达·卡罗",
-                "迭戈·里维拉",
-                "西凯罗斯",
-                "拉萨罗·卡德纳斯 Lázaro Cárdenas"
+                {
+                  "zh": "列夫·托洛茨基 Leon Trotsky",
+                  "en": "Leon Trotsky"
+                },
+                {
+                  "zh": "弗里达·卡罗",
+                  "en": "Frida Kahlo"
+                },
+                {
+                  "zh": "迭戈·里维拉",
+                  "en": "Diego Rivera"
+                },
+                {
+                  "zh": "西凯罗斯",
+                  "en": "David Alfaro Siqueiros"
+                },
+                {
+                  "zh": "拉萨罗·卡德纳斯 Lázaro Cárdenas",
+                  "en": "Lázaro Cárdenas"
+                }
               ],
-              "historicalPeriod": "1521年市政据点 – 1940年托洛茨基遇刺"
+              "historicalPeriod": {
+                "zh": "1521年市政据点 – 1940年托洛茨基遇刺",
+                "en": "1521 municipal seat – 1940 Trotsky assassination"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/27 中午",
-          "title": "UNAM大学城：火山岩上的自治大学",
+          "date": {
+            "zh": "6/27 中午",
+            "en": "6/27 Noon"
+          },
+          "title": {
+            "zh": "UNAM大学城：火山岩上的自治大学",
+            "en": "UNAM: An Autonomous University on Volcanic Rock"
+          },
           "cities": [
-            "墨西哥城"
+            {
+              "zh": "墨西哥城",
+              "en": "Mexico City"
+            }
           ],
-          "body": "UNAM溯源到1551年的皇家教皇大学——算下来正好475年，1929年获自治地位，大学城建在佩德雷加尔火山岩地上。教师工资偏低是真实的结构性问题；要找\"对标的贵族学校\"，社会声望对标伊比利亚美洲大学（Ibero），学术排名对标蒙特雷科技大学（Tec de Monterrey）。\n\n顺带确认：阿兹特克体育场（Estadio Azteca）是唯一办过**两次世界杯决赛**（1970、1986）的球场——但那是另一座场馆，别和大学城这座搞混。",
+          "body": {
+            "zh": "UNAM溯源到1551年的皇家教皇大学——算下来正好475年，1929年获自治地位，大学城建在佩德雷加尔火山岩地上。教师工资偏低是真实的结构性问题；要找\"对标的贵族学校\"，社会声望对标伊比利亚美洲大学（Ibero），学术排名对标蒙特雷科技大学（Tec de Monterrey）。\n\n顺带确认：阿兹特克体育场（Estadio Azteca）是唯一办过**两次世界杯决赛**（1970、1986）的球场——但那是另一座场馆，别和大学城这座搞混。",
+            "en": "UNAM traces to the Royal and Pontifical University of 1551 — 475 years — autonomous since 1929, the campus built on the Pedregal lava field. Low faculty pay is a real structural problem; for 'elite school' comparisons: Ibero for social prestige, Tec de Monterrey for rankings.\n\nAlso confirmed: Estadio Azteca — a different stadium — is the only ground to have hosted **two** World Cup finals (1970, 1986)."
+          },
           "attractions": [
             {
               "id": "estadio-olimpico-unam",
               "nameCn": "大学城奥林匹克体育场",
               "nameEn": "Estadio Olímpico Universitario",
-              "type": "体育场 / 里维拉浮雕",
+              "type": {
+                "zh": "体育场 / 里维拉浮雕",
+                "en": "Stadium / Rivera relief"
+              },
               "imageKeyword": "Estadio+Olimpico+Universitario+UNAM",
-              "historicalContext": "1950–52年建成，承办过三场国际赛事：1955年泛美运动会（首次启用）、1968年奥运会（开幕前10天发生特拉特洛尔科大屠杀）、1986年世界杯（4场比赛）。",
-              "experience": "正面是迭戈·里维拉1952–54年完成的天然彩石浮雕《大学、家庭与体育》：安第斯秃鹰（泛美象征）和UNAM校徽金雕一起站在仙人掌上，翅下护着献和平鸽的家庭，两端运动员点燃火炬，底部是羽蛇神克查尔科亚特尔（不是雨神）加玉米穗装饰。",
-              "insight": "\"老鹰\"在墨西哥至少有四层含义：国徽神话、鹰武士军事符号、特奥蒂瓦坎太阳战争符号、UNAM的现代泛美符号——同一图形被不同时代反复征用，每次含义都被改写。",
+              "historicalContext": {
+                "zh": "1950–52年建成，承办过三场国际赛事：1955年泛美运动会（首次启用）、1968年奥运会（开幕前10天发生特拉特洛尔科大屠杀）、1986年世界杯（4场比赛）。",
+                "en": "Built 1950–52; hosted the 1955 Pan-American Games (its debut), the 1968 Olympics (opening ten days after the Tlatelolco massacre) and four matches of the 1986 World Cup."
+              },
+              "experience": {
+                "zh": "正面是迭戈·里维拉1952–54年完成的天然彩石浮雕《大学、家庭与体育》：安第斯秃鹰（泛美象征）和UNAM校徽金雕一起站在仙人掌上，翅下护着献和平鸽的家庭，两端运动员点燃火炬，底部是羽蛇神克查尔科亚特尔（不是雨神）加玉米穗装饰。",
+                "en": "The façade carries Rivera's natural-stone relief The University, the Family and Sport: an Andean condor and the UNAM crest perched together on a cactus, a family offering a dove of peace beneath the wings, athletes lighting torches at either end, and Quetzalcóatl — the feathered serpent, not the rain god — running along the base with ears of corn."
+              },
+              "insight": {
+                "zh": "\"老鹰\"在墨西哥至少有四层含义：国徽神话、鹰武士军事符号、特奥蒂瓦坎太阳战争符号、UNAM的现代泛美符号——同一图形被不同时代反复征用，每次含义都被改写。",
+                "en": "The 'eagle' carries at least four Mexican meanings — founding myth, eagle-warrior order, Teotihuacan solar warfare, UNAM's modern pan-Americanism: one shape, re-conscripted by every era."
+              },
               "relatedPeople": [
-                "迭戈·里维拉 Diego Rivera"
+                {
+                  "zh": "迭戈·里维拉 Diego Rivera",
+                  "en": "Diego Rivera"
+                }
               ],
-              "historicalPeriod": "1950–52年建成；1968奥运；1986世界杯"
+              "historicalPeriod": {
+                "zh": "1950–52年建成；1968奥运；1986世界杯",
+                "en": "Built 1950–52; Olympics 1968; World Cup 1986"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/27 下午",
-          "title": "霍奇米尔科：活着的阿兹特克水利系统",
+          "date": {
+            "zh": "6/27 下午",
+            "en": "6/27 PM"
+          },
+          "title": {
+            "zh": "霍奇米尔科：活着的阿兹特克水利系统",
+            "en": "Xochimilco: The Living Aztec Waterworks"
+          },
           "cities": [
-            "墨西哥城"
+            {
+              "zh": "墨西哥城",
+              "en": "Mexico City"
+            }
           ],
-          "body": "从文明遗迹切换到活体遗存——也是这几天最直观的生态危机现场。",
+          "body": {
+            "zh": "从文明遗迹切换到活体遗存——也是这几天最直观的生态危机现场。",
+            "en": "From ruins to a living relic — and the most tangible ecological crisis of the whole trip."
+          },
           "attractions": [
             {
               "id": "xochimilco-canals",
               "nameCn": "霍奇米尔科运河",
               "nameEn": "Xochimilco",
-              "type": "世界遗产 / 运河",
+              "type": {
+                "zh": "世界遗产 / 运河",
+                "en": "World Heritage / Canals"
+              },
               "imageKeyword": "Xochimilco+trajinera+canals",
-              "historicalContext": "霍奇米尔科意为\"会开花的地方\"，是阿兹特克漂浮园圃（chinampa）运河系统仅存的活体遗存——古代水利工程至今仍在运转，但因城市抽水和污染持续萎缩。",
-              "experience": "坐彩船（trajinera）游运河、吃当地食物。看到了墨西哥钝口螈（axolotl）——野外种群从1998年每平方公里6000只崩到现在约35只，国际自然保护联盟估计野外总数可能只剩50到1000只。",
-              "insight": "一项运转了六百年的水利工程，如今自己成了濒危物种——特诺奇蒂特兰最后的活水正在被它孕育的城市抽干。",
-              "historicalPeriod": "阿兹特克时期至今"
+              "historicalContext": {
+                "zh": "霍奇米尔科意为\"会开花的地方\"，是阿兹特克漂浮园圃（chinampa）运河系统仅存的活体遗存——古代水利工程至今仍在运转，但因城市抽水和污染持续萎缩。",
+                "en": "'Where the flowers grow': the only living remnant of the Aztec chinampa floating-garden canal system — ancient hydraulic engineering still in operation, and still shrinking under the city's water extraction and pollution."
+              },
+              "experience": {
+                "zh": "坐彩船（trajinera）游运河、吃当地食物。看到了墨西哥钝口螈（axolotl）——野外种群从1998年每平方公里6000只崩到现在约35只，国际自然保护联盟估计野外总数可能只剩50到1000只。",
+                "en": "Rode a trajinera, ate off the boats, and saw an axolotl — wild density collapsed from ~6,000/km² in 1998 to ~35 today; the IUCN estimates perhaps 50–1,000 left in the wild."
+              },
+              "insight": {
+                "zh": "一项运转了六百年的水利工程，如今自己成了濒危物种——特诺奇蒂特兰最后的活水正在被它孕育的城市抽干。",
+                "en": "A six-hundred-year-old engineering system has itself become an endangered species — Tenochtitlán's last living water, being pumped dry by the city it once fed."
+              },
+              "historicalPeriod": {
+                "zh": "阿兹特克时期至今",
+                "en": "Aztec era – present"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/27 傍晚",
-          "title": "国立人类学博物馆：信息密度最大的一站",
+          "date": {
+            "zh": "6/27 傍晚",
+            "en": "6/27 Evening"
+          },
+          "title": {
+            "zh": "国立人类学博物馆：信息密度最大的一站",
+            "en": "The National Museum of Anthropology: Densest Stop of the Trip"
+          },
           "cities": [
-            "墨西哥城"
+            {
+              "zh": "墨西哥城",
+              "en": "Mexico City"
+            }
           ],
-          "body": "一楼考古11厅、二楼民族学11厅（这次没上二楼——那里讲当代原住民生活，与一楼构成\"过去/当下\"的互补设计）。各厅一路纠错：**图拉才是托尔特克首都**，卡卡斯特拉是另一支文化（奥尔梅卡-希卡兰卡）；**萨波特克≠奥尔梅克**，时间晚得多；冰河时期厅的\"露西\"复制品跟美洲考古无关，是给\"人类怎么走到美洲\"做的全球演化铺垫；玛雅厅\"像三星堆\"的直觉被澄清——没有可信的跨太平洋接触证据，是独立演化的趋同审美。\n\n玛雅象形文字与之前在大英博物馆看的埃及象形文字、Penn Museum看的楔形文字做了对照——三套互不接触的\"词符+音节符\"混合系统（详见关键收获）。",
+          "body": {
+            "zh": "一楼考古11厅、二楼民族学11厅（这次没上二楼——那里讲当代原住民生活，与一楼构成\"过去/当下\"的互补设计）。各厅一路纠错：**图拉才是托尔特克首都**，卡卡斯特拉是另一支文化（奥尔梅卡-希卡兰卡）；**萨波特克≠奥尔梅克**，时间晚得多；冰河时期厅的\"露西\"复制品跟美洲考古无关，是给\"人类怎么走到美洲\"做的全球演化铺垫；玛雅厅\"像三星堆\"的直觉被澄清——没有可信的跨太平洋接触证据，是独立演化的趋同审美。\n\n玛雅象形文字与之前在大英博物馆看的埃及象形文字、Penn Museum看的楔形文字做了对照——三套互不接触的\"词符+音节符\"混合系统（详见关键收获）。",
+            "en": "Eleven archaeology halls below, eleven ethnography halls above (skipped this time — they cover living indigenous cultures, the deliberate 'present' to the ground floor's 'past'). Corrections along the way: **Tula, not Cacaxtla, was the Toltec capital** (Cacaxtla is Olmeca-Xicalanca); **Zapotec ≠ Olmec** — far later; the 'Lucy' cast is global-evolution stage-setting, not American archaeology; and the 'feels like Sanxingdui' hunch got settled — no credible trans-Pacific contact, just convergent aesthetics.\n\nCompared the Maya glyphs with Egyptian hieroglyphs (British Museum) and cuneiform (Penn Museum) — three unconnected logo-syllabic systems (see Key Takeaways)."
+          },
           "attractions": [
             {
               "id": "museo-antropologia",
               "nameCn": "国立人类学博物馆",
               "nameEn": "Museo Nacional de Antropología",
-              "type": "博物馆",
+              "type": {
+                "zh": "博物馆",
+                "en": "Museum"
+              },
               "imageKeyword": "Museo+Nacional+de+Antropologia",
-              "historicalContext": "1964年开馆（洛佩斯·马特奥斯总统任内），源头是1790年科亚特利库埃与太阳石在宪法广场的偶然出土、1825年的\"国家博物馆\"。1985年经历\"世纪大劫案\"——140件被盗，追回111件。",
-              "experience": "太阳石：1790年12月出土，直径3.6米、24吨，讲的是\"五个太阳纪\"宇宙观而非单纯年历。重要纠错：科亚特利库埃（母亲，1790年出土）和科约尔萨乌基（女儿/月神，头部1830年、圆盘1978年出土）是**两件不同的雕像**。帕卡尔大帝玉面具、仅存4部前哥伦布玛雅古抄本之一的格罗利埃古抄本、特奥蒂瓦坎厅的查尔丘特利库埃巨石像都在这里。蒙特祖马的羽冠存维也纳，墨西哥持续索还；阿兹特克金器几乎全被西班牙人熔毁铸币——今天看到的\"金器\"大多其实是瓦哈卡米斯特克的。",
-              "insight": "这里陈列的不只是文物，而是一个国家把原住民过去锻造成现代身份的机器——1790年那两次偶然出土，最终长成了mestizo民族主义的正殿。",
+              "historicalContext": {
+                "zh": "1964年开馆（洛佩斯·马特奥斯总统任内），源头是1790年科亚特利库埃与太阳石在宪法广场的偶然出土、1825年的\"国家博物馆\"。1985年经历\"世纪大劫案\"——140件被盗，追回111件。",
+                "en": "Opened in 1964 under President López Mateos; its lineage runs from the accidental 1790 unearthing of the Sun Stone and Coatlicue to the 1825 National Museum. It survived the 1985 'heist of the century' — 140 pieces stolen, 111 recovered."
+              },
+              "experience": {
+                "zh": "太阳石：1790年12月出土，直径3.6米、24吨，讲的是\"五个太阳纪\"宇宙观而非单纯年历。重要纠错：科亚特利库埃（母亲，1790年出土）和科约尔萨乌基（女儿/月神，头部1830年、圆盘1978年出土）是**两件不同的雕像**。帕卡尔大帝玉面具、仅存4部前哥伦布玛雅古抄本之一的格罗利埃古抄本、特奥蒂瓦坎厅的查尔丘特利库埃巨石像都在这里。蒙特祖马的羽冠存维也纳，墨西哥持续索还；阿兹特克金器几乎全被西班牙人熔毁铸币——今天看到的\"金器\"大多其实是瓦哈卡米斯特克的。",
+                "en": "The Sun Stone: dug up in December 1790, 3.6 meters and 24 tons — the Five Suns cosmology, not a calendar. Key correction: Coatlicue (the mother, 1790) and Coyolxauhqui (the daughter/moon — head 1830, disk 1978) are **two different sculptures**. Also here: Pakal's jade mask, the Grolier Codex (one of only four pre-Columbian Maya books), Chalchiuhtlicue from Teotihuacan. Moctezuma's feather headdress sits in Vienna, still claimed; the Aztec gold was melted into Spanish coin — most 'Aztec' goldwork you see is actually Mixtec."
+              },
+              "insight": {
+                "zh": "这里陈列的不只是文物，而是一个国家把原住民过去锻造成现代身份的机器——1790年那两次偶然出土，最终长成了mestizo民族主义的正殿。",
+                "en": "What's displayed is not artifacts but a machine that forges the indigenous past into modern identity — the two accidental finds of 1790 grew into the high temple of mestizo nationalism."
+              },
               "relatedPeople": [
-                "帕卡尔大帝 K’inich Hanab Pakal",
-                "蒙特祖马二世 Moctezuma II"
+                {
+                  "zh": "帕卡尔大帝 K’inich Hanab Pakal",
+                  "en": "K'inich Hanab Pakal"
+                },
+                {
+                  "zh": "蒙特祖马二世 Moctezuma II",
+                  "en": "Moctezuma II"
+                }
               ],
-              "historicalPeriod": "1790年出土 – 1964年开馆"
+              "historicalPeriod": {
+                "zh": "1790年出土 – 1964年开馆",
+                "en": "Unearthed 1790 – opened 1964"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/28 上午",
-          "title": "历史市中心环线：国家叙事的密集区",
+          "date": {
+            "zh": "6/28 上午",
+            "en": "6/28 AM"
+          },
+          "title": {
+            "zh": "历史市中心环线：国家叙事的密集区",
+            "en": "Historic Center Loop: The National Narrative at Full Density"
+          },
           "cities": [
-            "墨西哥城"
+            {
+              "zh": "墨西哥城",
+              "en": "Mexico City"
+            }
           ],
-          "body": "改革大道的环岛群是一部露天的叙事修正史：库奥赫特莫克纪念碑（1887年迪亚斯下令立，纪念抵抗到最后、1525年被科尔特斯处决的末代统治者）；**哥伦布纪念碑2020年已被拆除**，原址改名\"战斗女性环岛\"，立起纪念性别暴力受害者的反纪念碑；沿线还有民间自发的\"失踪人口\"纪念装置——因2026世界杯筹备有被清理的风险。路上聊到：墨西哥城一年300多场游行，腐败的日常人情和高密度的街头表达自由，是两件并存而不矛盾的事。\n\n经过唐人街，顺带理清龙舌兰家族三种酒：特基拉（单一蓝色龙舌兰，蒸汽炉烤制）、梅斯卡尔（多种龙舌兰，瓦哈卡地窖炭烤——烟熏味来源）、普尔克（更古老，不蒸馏，阿兹特克时代就有，归女神马亚瓦尔管）。\n\n马德罗街上：瓷砖屋（1737年贴的塔拉维拉蓝瓷砖，现在是Sanborns餐厅，1925年内部加了奥罗斯科壁画《全知》）；更关键的是**伊图尔维德宫**——1822年5月15日伊图尔维德就在这座楼的阳台上被拥立为皇帝，\"第一帝国\"字面意义上的发生地。借这两栋楼把\"帝国/总督/总统/独裁\"的概念线彻底捋顺了（见参考资料库）。",
+          "body": {
+            "zh": "改革大道的环岛群是一部露天的叙事修正史：库奥赫特莫克纪念碑（1887年迪亚斯下令立，纪念抵抗到最后、1525年被科尔特斯处决的末代统治者）；**哥伦布纪念碑2020年已被拆除**，原址改名\"战斗女性环岛\"，立起纪念性别暴力受害者的反纪念碑；沿线还有民间自发的\"失踪人口\"纪念装置——因2026世界杯筹备有被清理的风险。路上聊到：墨西哥城一年300多场游行，腐败的日常人情和高密度的街头表达自由，是两件并存而不矛盾的事。\n\n经过唐人街，顺带理清龙舌兰家族三种酒：特基拉（单一蓝色龙舌兰，蒸汽炉烤制）、梅斯卡尔（多种龙舌兰，瓦哈卡地窖炭烤——烟熏味来源）、普尔克（更古老，不蒸馏，阿兹特克时代就有，归女神马亚瓦尔管）。\n\n马德罗街上：瓷砖屋（1737年贴的塔拉维拉蓝瓷砖，现在是Sanborns餐厅，1925年内部加了奥罗斯科壁画《全知》）；更关键的是**伊图尔维德宫**——1822年5月15日伊图尔维德就在这座楼的阳台上被拥立为皇帝，\"第一帝国\"字面意义上的发生地。借这两栋楼把\"帝国/总督/总统/独裁\"的概念线彻底捋顺了（见参考资料库）。",
+            "en": "Reforma's roundabouts are an open-air history of narrative revision: the Cuauhtémoc monument (1887, ordered by Díaz, honoring the last ruler executed by Cortés in 1525); **the Columbus monument, removed in 2020**, its circle renamed Glorieta de las Mujeres que Luchan, with an anti-monument to victims of gender violence; along the avenue, grassroots installations for the disappeared — at risk of clearance ahead of the 2026 World Cup. Also from the walk: 300-plus protests a year; everyday corruption and intense street expression coexisting without contradiction.\n\nThrough Chinatown, the agave family finally sorted: tequila (blue agave only, steam-baked), mezcal (many agaves, Oaxacan pit-roast — hence the smoke), pulque (older, undistilled, fermented sap — Aztec-era, under the goddess Mayahuel).\n\nOn Madero street: the Casa de los Azulejos (Talavera tiles laid 1737, now a Sanborns, Orozco's *Omniscience* added 1925) and, crucially, the **Palacio de Iturbide** — the balcony where Iturbide was proclaimed emperor on May 15, 1822: the 'First Empire,' literally here. These two buildings finally untangled the empire / viceroy / president / dictator line (see Reference Library)."
+          },
           "attractions": [
             {
               "id": "zocalo-catedral",
               "nameCn": "宪法广场与主教座堂",
               "nameEn": "Zócalo & Catedral Metropolitana",
-              "type": "广场 / 大教堂",
+              "type": {
+                "zh": "广场 / 大教堂",
+                "en": "Plaza / Cathedral"
+              },
               "imageKeyword": "Zocalo+Mexico+City",
-              "historicalContext": "大教堂1573–1813年建了整整240年、跨三个世纪（礼拜堂圣器室1749–60年，比主体晚近两百年）。1524年的第一座教堂确实用了拆毁原住民神庙的石材——但严格说大教堂主体建在主神庙**旁边**的广场上，不是正上方，这个误传直到1978年发掘才澄清。国家宫则从蒙特祖马宫殿一路变成总督府、再变成总统办公地。",
-              "experience": "教堂肉眼可见的倾斜下沉，和这几天反复讲的\"湖床地基\"是同一个工程问题。这片区域也正是\"老鹰站在仙人掌上吃蛇\"建城神话的传统认定地点。",
-              "insight": "广场就是叠层城市的横截面——脚下是湖，湖下是帝国。工程问题即历史文献。",
+              "historicalContext": {
+                "zh": "大教堂1573–1813年建了整整240年、跨三个世纪（礼拜堂圣器室1749–60年，比主体晚近两百年）。1524年的第一座教堂确实用了拆毁原住民神庙的石材——但严格说大教堂主体建在主神庙**旁边**的广场上，不是正上方，这个误传直到1978年发掘才澄清。国家宫则从蒙特祖马宫殿一路变成总督府、再变成总统办公地。",
+                "en": "The cathedral took 240 years across three centuries (1573–1813; the Sagrario chapel, 1749–60, came almost two centuries after the start). The first church of 1524 really was built with stones from demolished temples — but the cathedral proper stands on the plaza **beside** the Templo Mayor, not on top of it, a misconception only settled by the 1978 excavations. The National Palace ran from Moctezuma's palace to viceregal seat to the president's offices."
+              },
+              "experience": {
+                "zh": "教堂肉眼可见的倾斜下沉，和这几天反复讲的\"湖床地基\"是同一个工程问题。这片区域也正是\"老鹰站在仙人掌上吃蛇\"建城神话的传统认定地点。",
+                "en": "The cathedral's visible tilt and sinking is the same engineering problem as everything else here: the lake bed. This is also the traditional spot of the eagle-on-the-cactus founding vision."
+              },
+              "insight": {
+                "zh": "广场就是叠层城市的横截面——脚下是湖，湖下是帝国。工程问题即历史文献。",
+                "en": "The plaza is a cross-section of the layered city — under your feet the lake, under the lake the empire. The engineering problem is the historical document."
+              },
               "relatedPeople": [
-                "蒙特祖马二世",
-                "埃尔南·科尔特斯 Hernán Cortés"
+                {
+                  "zh": "蒙特祖马二世",
+                  "en": "Moctezuma II"
+                },
+                {
+                  "zh": "埃尔南·科尔特斯 Hernán Cortés",
+                  "en": "Hernán Cortés"
+                }
               ],
-              "historicalPeriod": "1325年建城神话 – 1573–1813年大教堂"
+              "historicalPeriod": {
+                "zh": "1325年建城神话 – 1573–1813年大教堂",
+                "en": "1325 founding myth – cathedral built 1573–1813"
+              }
             },
             {
               "id": "templo-mayor",
               "nameCn": "主神庙遗址与大骷髅架",
               "nameEn": "Templo Mayor & Huei Tzompantli",
-              "type": "考古遗址",
+              "type": {
+                "zh": "考古遗址",
+                "en": "Archaeological Site"
+              },
               "imageKeyword": "Templo+Mayor+Mexico",
-              "historicalContext": "1978年电工偶然挖出科约尔萨乌基圆盘，触发了主神庙大发掘。2015年在危地马拉街24号（\"24号\"就是街道门牌，不是编号）发现大骷髅架（Huei Tzompantli），现统计超过650个头骨。",
-              "experience": "骷髅架中女性比例异常高——最新考古解读认为与科约尔萨乌基神话直接相关：惠齐洛波契特利出生即武装、杀死姐姐并把尸体扔下圣山，这条神话轴线可能就是骷髅架选址的宗教逻辑。",
-              "insight": "神话不是装饰，是城市规划文件——特诺奇蒂特兰按神话铺设自己的祭祀地理。",
+              "historicalContext": {
+                "zh": "1978年电工偶然挖出科约尔萨乌基圆盘，触发了主神庙大发掘。2015年在危地马拉街24号（\"24号\"就是街道门牌，不是编号）发现大骷髅架（Huei Tzompantli），现统计超过650个头骨。",
+                "en": "In 1978 electrical workers hit the Coyolxauhqui disk, triggering the great Templo Mayor excavation. In 2015 the Huei Tzompantli — the great skull rack — surfaced at Guatemala Street 24 ('24' is simply the address), now counted at 650-plus skulls."
+              },
+              "experience": {
+                "zh": "骷髅架中女性比例异常高——最新考古解读认为与科约尔萨乌基神话直接相关：惠齐洛波契特利出生即武装、杀死姐姐并把尸体扔下圣山，这条神话轴线可能就是骷髅架选址的宗教逻辑。",
+                "en": "The rack's unusually high share of female skulls — the latest reading ties it directly to the Coyolxauhqui myth: Huitzilopochtli, born armed, kills his sister and throws her body down the sacred mountain; that mythic axis may be the rack's siting logic."
+              },
+              "insight": {
+                "zh": "神话不是装饰，是城市规划文件——特诺奇蒂特兰按神话铺设自己的祭祀地理。",
+                "en": "Myth is not decoration — it is a planning document. Tenochtitlán laid out its sacrificial geography by the story."
+              },
               "relatedPeople": [
-                "惠齐洛波契特利 Huitzilopochtli（神话）",
-                "科约尔萨乌基 Coyolxauhqui（神话）"
+                {
+                  "zh": "惠齐洛波契特利 Huitzilopochtli（神话）",
+                  "en": "Huitzilopochtli (myth)"
+                },
+                {
+                  "zh": "科约尔萨乌基 Coyolxauhqui（神话）",
+                  "en": "Coyolxauhqui (myth)"
+                }
               ],
-              "historicalPeriod": "阿兹特克时期；1978 / 2015年发掘"
+              "historicalPeriod": {
+                "zh": "阿兹特克时期；1978 / 2015年发掘",
+                "en": "Aztec era; excavated 1978 / 2015"
+              }
             },
             {
               "id": "monumento-revolucion",
               "nameCn": "革命纪念碑",
               "nameEn": "Monumento a la Revolución",
-              "type": "纪念建筑 / 陵墓",
+              "type": {
+                "zh": "纪念建筑 / 陵墓",
+                "en": "Monument / Mausoleum"
+              },
               "imageKeyword": "Monumento+a+la+Revolucion+Mexico",
-              "historicalContext": "原本是迪亚斯下令建造的联邦立法宫，1910年革命爆发烂尾20年，1933–38年由建筑师奥夫雷贡·圣塔西利亚改造成纪念碑兼革命英雄陵墓。",
-              "experience": "有玻璃观光电梯可登顶360度看城。卡兰萨、马德罗、卡列斯、潘乔·维拉、卡德纳斯——这几位生前互相对立甚至兵戎相见的人物，死后被安葬进同一座建筑的四根柱子里。",
-              "insight": "把政敌葬进同一座建筑，是墨西哥式的叙事修复：独裁者的烂尾楼，最终成了埋葬他的革命的纪念碑。",
+              "historicalContext": {
+                "zh": "原本是迪亚斯下令建造的联邦立法宫，1910年革命爆发烂尾20年，1933–38年由建筑师奥夫雷贡·圣塔西利亚改造成纪念碑兼革命英雄陵墓。",
+                "en": "Begun as Díaz's Federal Legislative Palace, abandoned for twenty years when the Revolution broke out, then converted (1933–38, by Carlos Obregón Santacilia) into a monument and mausoleum of the Revolution."
+              },
+              "experience": {
+                "zh": "有玻璃观光电梯可登顶360度看城。卡兰萨、马德罗、卡列斯、潘乔·维拉、卡德纳斯——这几位生前互相对立甚至兵戎相见的人物，死后被安葬进同一座建筑的四根柱子里。",
+                "en": "A glass elevator rides to a 360° deck. Carranza, Madero, Calles, Pancho Villa, Cárdenas — men who fought each other in life are interred together in the four pillars."
+              },
+              "insight": {
+                "zh": "把政敌葬进同一座建筑，是墨西哥式的叙事修复：独裁者的烂尾楼，最终成了埋葬他的革命的纪念碑。",
+                "en": "Burying rivals in one building is narrative repair, Mexican style: the dictator's unfinished palace became the tomb of the revolution that toppled him."
+              },
               "relatedPeople": [
-                "波费里奥·迪亚斯 Porfirio Díaz",
-                "弗朗西斯科·马德罗 Francisco Madero",
-                "潘乔·维拉 Pancho Villa"
+                {
+                  "zh": "波费里奥·迪亚斯 Porfirio Díaz",
+                  "en": "Porfirio Díaz"
+                },
+                {
+                  "zh": "弗朗西斯科·马德罗 Francisco Madero",
+                  "en": "Francisco Madero"
+                },
+                {
+                  "zh": "潘乔·维拉 Pancho Villa",
+                  "en": "Pancho Villa"
+                }
               ],
-              "historicalPeriod": "1910年烂尾 – 1938年建成"
+              "historicalPeriod": {
+                "zh": "1910年烂尾 – 1938年建成",
+                "en": "Abandoned 1910 – completed 1938"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/28 下午",
-          "title": "特奥蒂瓦坎与瓜达卢佩：原产地与显灵地",
+          "date": {
+            "zh": "6/28 下午",
+            "en": "6/28 PM"
+          },
+          "title": {
+            "zh": "特奥蒂瓦坎与瓜达卢佩：原产地与显灵地",
+            "en": "Teotihuacan & Guadalupe: The Source and the Apparition"
+          },
           "cities": [
-            "特奥蒂瓦坎",
-            "墨西哥城"
+            {
+              "zh": "特奥蒂瓦坎",
+              "en": "Teotihuacan"
+            },
+            {
+              "zh": "墨西哥城",
+              "en": "Mexico City"
+            }
           ],
-          "body": "这天是看\"原产地\"而不是博物馆里的\"提取物\"。中午的牛油果酱（guacamole）手作课记了完整流程，以后可以照着做（步骤表在参考资料库4.6）。",
+          "body": {
+            "zh": "这天是看\"原产地\"而不是博物馆里的\"提取物\"。中午的牛油果酱（guacamole）手作课记了完整流程，以后可以照着做（步骤表在参考资料库4.6）。",
+            "en": "A day for originals rather than museum extracts. The midday guacamole workshop is fully recorded — the step table lives in Reference Library §4.6."
+          },
           "attractions": [
             {
               "id": "teotihuacan-site",
               "nameCn": "特奥蒂瓦坎",
               "nameEn": "Teotihuacan",
-              "type": "世界遗产 / 古城",
+              "type": {
+                "zh": "世界遗产 / 古城",
+                "en": "World Heritage / Ancient City"
+              },
               "imageKeyword": "Teotihuacan+pyramids",
-              "historicalContext": "公元1–650年，与古典玛雅平行发展、互不统属；靠黑曜石贸易立城，约550–650年崩溃。昨天在博物馆看的查尔丘特利库埃巨石像、特拉洛克面具、羽蛇壁画残片，原件都出自这里。",
-              "experience": "亡灵大道：长约2公里、宽40米的笔直轴线贯穿全城，走在上面最直观的感受是这座城的规划是单点透视的，一切朝轴线尽头收束。太阳金字塔242级台阶、总高约65米；月亮金字塔体量更小但地基更高，顶部海拔与太阳金字塔相当——背后正对被刻意呼应的\"圣母山\"塞罗戈尔多。蝴蝶宫（克查尔帕帕罗特尔宫）柱身雕羽蛇/蝴蝶/猫头鹰混合图案、嵌黑曜石碎片，墙面还能辨认矿物颜料褪色后的红绿蓝底色。",
-              "insight": "这座城是一台单点透视机器——权力用几何说话，连贸易起家的黑曜石都被镶进了装饰。",
-              "historicalPeriod": "公元1–650年"
+              "historicalContext": {
+                "zh": "公元1–650年，与古典玛雅平行发展、互不统属；靠黑曜石贸易立城，约550–650年崩溃。昨天在博物馆看的查尔丘特利库埃巨石像、特拉洛克面具、羽蛇壁画残片，原件都出自这里。",
+                "en": "AD 1–650, parallel with the Classic Maya and unconnected to them; a city built on the obsidian trade, collapsing around 550–650. The Chalchiuhtlicue colossus, the Tláloc mask and the feathered-serpent murals seen yesterday in the museum all came from here."
+              },
+              "experience": {
+                "zh": "亡灵大道：长约2公里、宽40米的笔直轴线贯穿全城，走在上面最直观的感受是这座城的规划是单点透视的，一切朝轴线尽头收束。太阳金字塔242级台阶、总高约65米；月亮金字塔体量更小但地基更高，顶部海拔与太阳金字塔相当——背后正对被刻意呼应的\"圣母山\"塞罗戈尔多。蝴蝶宫（克查尔帕帕罗特尔宫）柱身雕羽蛇/蝴蝶/猫头鹰混合图案、嵌黑曜石碎片，墙面还能辨认矿物颜料褪色后的红绿蓝底色。",
+                "en": "The Avenue of the Dead: a dead-straight axis two kilometers long and forty meters wide — walking it, you feel the city was planned in single-point perspective, everything converging on the axis. The Pyramid of the Sun: 242 steps, about 65 meters. The Pyramid of the Moon is smaller but sits on higher ground, its summit level with the Sun's — aligned deliberately with the 'mother mountain' Cerro Gordo behind. In the Palace of Quetzalpapálotl the pillars carry serpent-butterfly-owl reliefs inlaid with obsidian chips, and the walls still show faded mineral reds, greens and blues."
+              },
+              "insight": {
+                "zh": "这座城是一台单点透视机器——权力用几何说话，连贸易起家的黑曜石都被镶进了装饰。",
+                "en": "The city is a single-point-perspective machine — power speaking in geometry, with the obsidian that made it rich set into the decoration."
+              },
+              "historicalPeriod": {
+                "zh": "公元1–650年",
+                "en": "1st–7th century AD"
+              }
             },
             {
               "id": "basilica-guadalupe",
               "nameCn": "瓜达卢佩圣母院",
               "nameEn": "Basílica de Guadalupe",
-              "type": "圣殿 / 朝圣地",
+              "type": {
+                "zh": "圣殿 / 朝圣地",
+                "en": "Basilica / Pilgrimage Site"
+              },
               "imageKeyword": "Basilica+de+Guadalupe+Mexico",
-              "historicalContext": "1531年12月9–12日，圣母四次显灵给原住民胡安·迭戈（纳瓦特语本名意为\"像鹰一样说话的人\"）：他绕路去给病重的舅舅找神父，圣母仍拦住他、告知舅舅已痊愈，再让他去山顶采季节外盛开的卡斯蒂利亚玫瑰——展开提尔玛外衣时花落下，圣母像印在了衣服上。故事最早以纳瓦特语写成《尼坎·莫波瓦》（1649年出版）。12月12日准确说是\"显灵纪念日\"而非圣母诞辰。显灵叙事叠加在特佩亚克原住民圣地之上。",
-              "experience": "山上礼拜堂（讲故事壁画）、山下小井礼拜堂（传说的治病圣水）、原住民礼拜堂（胡安·迭戈晚年守护圣衣之地）都看了。门口的教皇像几乎肯定是若望·保禄二世——一生5次访墨（任何国家最多），1990/2002年为胡安·迭戈行宣福礼并封圣（美洲第一位原住民圣人）。期间也聊到天主教圣母教义与新教\"唯独基督\"原则的真实神学分歧——这不是误解，是延续至今的核心争议。",
-              "insight": "天主教在墨西哥的成功是叠层的而非替换的——圣母显灵给原住民、印在原住民的衣服上、盖在原住民的圣地上。",
+              "historicalContext": {
+                "zh": "1531年12月9–12日，圣母四次显灵给原住民胡安·迭戈（纳瓦特语本名意为\"像鹰一样说话的人\"）：他绕路去给病重的舅舅找神父，圣母仍拦住他、告知舅舅已痊愈，再让他去山顶采季节外盛开的卡斯蒂利亚玫瑰——展开提尔玛外衣时花落下，圣母像印在了衣服上。故事最早以纳瓦特语写成《尼坎·莫波瓦》（1649年出版）。12月12日准确说是\"显灵纪念日\"而非圣母诞辰。显灵叙事叠加在特佩亚克原住民圣地之上。",
+                "en": "December 9–12, 1531: the Virgin appears four times to the indigenous convert Juan Diego (Nahuatl name meaning 'he who speaks like an eagle'). Detouring to fetch a priest for his dying uncle, he is intercepted — the uncle is already healed — and sent to gather Castilian roses blooming out of season; when he opens his tilma, the flowers fall and the image is printed on the cloth. First written in Nahuatl as the Nican Mopohua (published 1649). December 12 is the apparition feast, not a birthday. The narrative is layered directly onto Tepeyac, an indigenous sacred site."
+              },
+              "experience": {
+                "zh": "山上礼拜堂（讲故事壁画）、山下小井礼拜堂（传说的治病圣水）、原住民礼拜堂（胡安·迭戈晚年守护圣衣之地）都看了。门口的教皇像几乎肯定是若望·保禄二世——一生5次访墨（任何国家最多），1990/2002年为胡安·迭戈行宣福礼并封圣（美洲第一位原住民圣人）。期间也聊到天主教圣母教义与新教\"唯独基督\"原则的真实神学分歧——这不是误解，是延续至今的核心争议。",
+                "en": "Saw the hilltop chapel (narrative murals), the Well Chapel (the healing spring), and the Indians' Chapel where Juan Diego kept the tilma in old age. The papal statue at the gate is almost certainly John Paul II — five visits to Mexico, beatified and canonized Juan Diego (1990/2002, the Americas' first indigenous saint). Also discussed: the real, continuing theological divide between Catholic Marian doctrine and the Protestant 'Christ alone.'"
+              },
+              "insight": {
+                "zh": "天主教在墨西哥的成功是叠层的而非替换的——圣母显灵给原住民、印在原住民的衣服上、盖在原住民的圣地上。",
+                "en": "Catholicism succeeded in Mexico by layering, not replacing — the Virgin appears to an indigenous man, printed on his cloak, on top of an indigenous holy hill."
+              },
               "relatedPeople": [
-                "胡安·迭戈 Juan Diego Cuauhtlatoatzin",
-                "若望·保禄二世 John Paul II"
+                {
+                  "zh": "胡安·迭戈 Juan Diego Cuauhtlatoatzin",
+                  "en": "Juan Diego Cuauhtlatoatzin"
+                },
+                {
+                  "zh": "若望·保禄二世 John Paul II",
+                  "en": "John Paul II"
+                }
               ],
-              "historicalPeriod": "1531年显灵叙事 – 2002年封圣"
+              "historicalPeriod": {
+                "zh": "1531年显灵叙事 – 2002年封圣",
+                "en": "1531 apparitions – canonization 2002"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/29",
-          "title": "转场坎昆：从高原到加勒比",
+          "date": {
+            "zh": "6/29",
+            "en": "6/29"
+          },
+          "title": {
+            "zh": "转场坎昆：从高原到加勒比",
+            "en": "Transfer to Cancún: Highlands to Caribbean"
+          },
           "cities": [
-            "坎昆"
+            {
+              "zh": "坎昆",
+              "en": "Cancún"
+            }
           ],
-          "body": "从墨西哥城飞尤卡坦半岛的交通日。住downtown（市区）——和后几天活动的酒店区是两个世界：一边是本地生活气息，一边是细长堤岛上的全球旅游业。",
+          "body": {
+            "zh": "从墨西哥城飞尤卡坦半岛的交通日。住downtown（市区）——和后几天活动的酒店区是两个世界：一边是本地生活气息，一边是细长堤岛上的全球旅游业。",
+            "en": "Flight day. Staying downtown — a different world from the hotel zone: local life on one side, the global tourism economy strung along a narrow barrier island on the other."
+          },
           "attractions": [
             {
               "id": "playa-delfines",
               "nameCn": "海豚海滩",
               "nameEn": "Playa Delfines",
-              "type": "公共海滩",
+              "type": {
+                "zh": "公共海滩",
+                "en": "Public Beach"
+              },
               "imageKeyword": "Playa+Delfines+Cancun",
-              "historicalContext": "酒店区南端最知名的免费公共海滩，著名的\"CANCUN\"巨型字母装置就立在这片，地势较高，能俯瞰整片加勒比海。",
-              "experience": "傍晚坐R1公交过来，从日落一直坐到月亮升起——天气配合，没被这几天常见的午后雷阵雨打扰。",
-              "insight": "坎昆的两个区域是同一座城市的两种经济，隔着一条堤岛互相观望。",
-              "historicalPeriod": "当代"
+              "historicalContext": {
+                "zh": "酒店区南端最知名的免费公共海滩，著名的\"CANCUN\"巨型字母装置就立在这片，地势较高，能俯瞰整片加勒比海。",
+                "en": "The best-known free public beach at the hotel zone's southern end — the giant CANCUN letters stand here, on high ground overlooking the whole Caribbean sweep."
+              },
+              "experience": {
+                "zh": "傍晚坐R1公交过来，从日落一直坐到月亮升起——天气配合，没被这几天常见的午后雷阵雨打扰。",
+                "en": "Came by the R1 bus in the evening and stayed from sunset to moonrise — the afternoon thunderstorms held off for once."
+              },
+              "insight": {
+                "zh": "坎昆的两个区域是同一座城市的两种经济，隔着一条堤岛互相观望。",
+                "en": "Cancún’s two districts are one city running two economies, watching each other across a barrier island."
+              },
+              "historicalPeriod": {
+                "zh": "当代",
+                "en": "Contemporary"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "6/30",
-          "title": "奇琴伊察与天坑：石头里的天文学",
+          "date": {
+            "zh": "6/30",
+            "en": "6/30"
+          },
+          "title": {
+            "zh": "奇琴伊察与天坑：石头里的天文学",
+            "en": "Chichén Itzá & Cenotes: Astronomy in Stone"
+          },
           "cities": [
-            "奇琴伊察",
-            "尤卡坦"
+            {
+              "zh": "奇琴伊察",
+              "en": "Chichén Itzá"
+            },
+            {
+              "zh": "尤卡坦",
+              "en": "Yucatán"
+            }
           ],
-          "body": "先把坎昆放进更大的地理坐标：**墨西哥地理上属于北美**——\"中美洲\"是危地马拉到巴拿马七国的地理统称，\"拉丁美洲\"则是横跨北中南美的语言文化概念，不是地理分区。玛雅版图也比尤卡坦大得多：洪都拉斯境内的科潘以刻满王朝世系的\"文字天梯\"著称，与帕伦克谱系图是同一类\"用石头写历史\"；秘鲁的印加是另一支独立文明，与玛雅/阿兹特克没有接触。\n\n亡灵节的两个阶段也理清了：11月1日亡童节（Día de los Angelitos）献给孩子，11月2日正日献给成年逝者。瓜纳华托更出名的其实是天然木乃伊博物馆，跟亡灵节的信仰源头（中部高原和瓦哈卡的前西班牙死亡崇拜）是两回事。\n\n球赛（pok-ta-pok）与献祭这套文化逻辑，是玛雅早于阿兹特克的传统——阿兹特克是继承并强化，不是反过来。玛雅的暴力在他们的宇宙观里是维持世界运转的宗教义务，规模上通常低于阿兹特克后期的仪式化战俘献祭。",
+          "body": {
+            "zh": "先把坎昆放进更大的地理坐标：**墨西哥地理上属于北美**——\"中美洲\"是危地马拉到巴拿马七国的地理统称，\"拉丁美洲\"则是横跨北中南美的语言文化概念，不是地理分区。玛雅版图也比尤卡坦大得多：洪都拉斯境内的科潘以刻满王朝世系的\"文字天梯\"著称，与帕伦克谱系图是同一类\"用石头写历史\"；秘鲁的印加是另一支独立文明，与玛雅/阿兹特克没有接触。\n\n亡灵节的两个阶段也理清了：11月1日亡童节（Día de los Angelitos）献给孩子，11月2日正日献给成年逝者。瓜纳华托更出名的其实是天然木乃伊博物馆，跟亡灵节的信仰源头（中部高原和瓦哈卡的前西班牙死亡崇拜）是两回事。\n\n球赛（pok-ta-pok）与献祭这套文化逻辑，是玛雅早于阿兹特克的传统——阿兹特克是继承并强化，不是反过来。玛雅的暴力在他们的宇宙观里是维持世界运转的宗教义务，规模上通常低于阿兹特克后期的仪式化战俘献祭。",
+            "en": "First, Cancún placed on the larger map: **Mexico is geographically North America** — 'Central America' is the seven states from Guatemala to Panama, and 'Latin America' is a linguistic-cultural concept spanning the hemisphere, not a geographic region. The Maya world is also bigger than the Yucatán: Copán in Honduras, with its Hieroglyphic Stairway of dynastic history, writes history in stone the way Palenque's king lists do; Peru's Inca are a separate civilization with no contact at all.\n\nDay of the Dead, clarified: November 1 for the children (Día de los Angelitos), November 2 for the adults. Guanajuato is better known for its naturally mummified museum — a different thing from the festival's actual roots in the central highlands and Oaxaca.\n\nThe ballgame-and-sacrifice complex is a Maya tradition older than the Aztecs — inherited and intensified by them, not the other way around. In the Maya cosmos the violence was a religious duty that kept the world running, generally at lower intensity than late Aztec captive sacrifice."
+          },
           "attractions": [
             {
               "id": "chichen-itza",
               "nameCn": "奇琴伊察",
               "nameEn": "Chichén Itzá",
-              "type": "世界遗产 / 玛雅古城",
+              "type": {
+                "zh": "世界遗产 / 玛雅古城",
+                "en": "World Heritage / Maya City"
+              },
               "imageKeyword": "Chichen+Itza+El+Castillo",
-              "historicalContext": "1988年列入世界文化遗产，2007年入选世界新七大奇迹（同批：长城、佩特拉、斗兽场、泰姬陵、马丘比丘、里约基督像）。库库尔坎（羽蛇神）对玛雅人是智慧的象征。",
-              "experience": "库库尔坎金字塔（El Castillo）前拍手，回声像绿咬鹃（quetzal）的啁啾；大球场一端低语能传到150米外——这些声学设计是有意还是巧合，学界仍有争议。千柱群推测原是有顶的市场/集会空间，当年的交易媒介是可可豆（咖啡是殖民后才引入美洲的作物）。玛雅人对玉器和绿咬鹃羽毛的偏爱，长期对野生种群构成真实的捕猎压力。",
-              "insight": "\"建筑即天文仪器+声学装置\"——玛雅把知识直接建进石头里，金字塔就是他们的图书馆。",
-              "historicalPeriod": "古典期后段 – 后古典期"
+              "historicalContext": {
+                "zh": "1988年列入世界文化遗产，2007年入选世界新七大奇迹（同批：长城、佩特拉、斗兽场、泰姬陵、马丘比丘、里约基督像）。库库尔坎（羽蛇神）对玛雅人是智慧的象征。",
+                "en": "World Heritage since 1988; one of the New Seven Wonders (2007, alongside the Great Wall, Petra, the Colosseum, the Taj Mahal, Machu Picchu and Christ the Redeemer). Kukulkán — the feathered serpent — stood for wisdom to the Maya."
+              },
+              "experience": {
+                "zh": "库库尔坎金字塔（El Castillo）前拍手，回声像绿咬鹃（quetzal）的啁啾；大球场一端低语能传到150米外——这些声学设计是有意还是巧合，学界仍有争议。千柱群推测原是有顶的市场/集会空间，当年的交易媒介是可可豆（咖啡是殖民后才引入美洲的作物）。玛雅人对玉器和绿咬鹃羽毛的偏爱，长期对野生种群构成真实的捕猎压力。",
+                "en": "Clap in front of El Castillo and the echo chirps like a quetzal; at the Great Ballcourt a whisper carries 150 meters — whether the acoustics are designed or accidental is still debated. The Group of a Thousand Columns was probably a roofed market; the currency was cacao (coffee is a post-colonial crop). The Maya appetite for jade and quetzal feathers was real hunting pressure on wild populations."
+              },
+              "insight": {
+                "zh": "\"建筑即天文仪器+声学装置\"——玛雅把知识直接建进石头里，金字塔就是他们的图书馆。",
+                "en": "Architecture as astronomical instrument and acoustic device — the Maya built their knowledge directly into stone; the pyramid is their library."
+              },
+              "historicalPeriod": {
+                "zh": "古典期后段 – 后古典期",
+                "en": "Late Classic – Postclassic"
+              }
             },
             {
               "id": "cenotes-suytun-ikkil",
               "nameCn": "天坑：史威杜恩与伊克基尔",
               "nameEn": "Cenote Suytun & Ik Kil",
-              "type": "自然奇观 / 圣井",
+              "type": {
+                "zh": "自然奇观 / 圣井",
+                "en": "Natural Wonder / Sacred Well"
+              },
               "imageKeyword": "Cenote+Ik+Kil+Yucatan",
-              "historicalContext": "尤卡坦喀斯特地貌上有上千个天坑，约50个对公众开放，下降方式分梯步、绳索手摇、专业深潜。缺水的尤卡坦，天坑既是水源又是献祭焦点——求雨攸关生死。",
-              "experience": "史威杜恩：半封闭洞穴，中间一块接光的平台，水下能看到鱼。伊克基尔：开放式、约50米深，办过红牛悬崖跳水赛。",
-              "insight": "同一口井，既是水源、圣所又是祭坛——地质决定神学。",
-              "historicalPeriod": "喀斯特地质 / 玛雅祭祀传统"
+              "historicalContext": {
+                "zh": "尤卡坦喀斯特地貌上有上千个天坑，约50个对公众开放，下降方式分梯步、绳索手摇、专业深潜。缺水的尤卡坦，天坑既是水源又是献祭焦点——求雨攸关生死。",
+                "en": "The Yucatán karst holds thousands of cenotes, about fifty open to visitors — by stairs, winch ropes or technical dives. In a rainless limestone land the cenote was both water source and sacrificial focus: rain was survival."
+              },
+              "experience": {
+                "zh": "史威杜恩：半封闭洞穴，中间一块接光的平台，水下能看到鱼。伊克基尔：开放式、约50米深，办过红牛悬崖跳水赛。",
+                "en": "Suytun: a half-closed cave with its light-struck platform and visible fish. Ik Kil: open-air, about fifty meters deep, once a Red Bull cliff-diving venue."
+              },
+              "insight": {
+                "zh": "同一口井，既是水源、圣所又是祭坛——地质决定神学。",
+                "en": "The same well is water source, sanctuary and altar at once — geology deciding theology."
+              },
+              "historicalPeriod": {
+                "zh": "喀斯特地质 / 玛雅祭祀传统",
+                "en": "Karst geology / Maya ritual"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "7/1",
-          "title": "粉红湖与火烈鸟：一条色素的食物链",
+          "date": {
+            "zh": "7/1",
+            "en": "7/1"
+          },
+          "title": {
+            "zh": "粉红湖与火烈鸟：一条色素的食物链",
+            "en": "The Pink Lake & Flamingos: One Pigment Food Chain"
+          },
           "cities": [
-            "Las Coloradas",
-            "Río Lagartos"
+            {
+              "zh": "Las Coloradas",
+              "en": "Las Coloradas"
+            },
+            {
+              "zh": "Río Lagartos",
+              "en": "Río Lagartos"
+            }
           ],
-          "body": "路过一个玛雅小村：吊床（hamaca）不是旅游道具，是西班牙人抵达前就有的日常睡具——\"hammock\"这个词本身就是从加勒比原住民语言经西班牙语借入英语的；高饱和度的彩色外墙，常见解释是\"没有门牌号时代便于认自家\"加上文化表达。\n\n村里听说玛雅孩子小学毕业就工作——背后是农村原住民社区的结构性问题：家庭经济需要孩子早劳动、学校地理可及性差、玛雅语母语的衔接困难、读书的经济回报在当地不清晰。这和墨西哥城的繁华落差，是同一个资源分配问题的两面。",
+          "body": {
+            "zh": "路过一个玛雅小村：吊床（hamaca）不是旅游道具，是西班牙人抵达前就有的日常睡具——\"hammock\"这个词本身就是从加勒比原住民语言经西班牙语借入英语的；高饱和度的彩色外墙，常见解释是\"没有门牌号时代便于认自家\"加上文化表达。\n\n村里听说玛雅孩子小学毕业就工作——背后是农村原住民社区的结构性问题：家庭经济需要孩子早劳动、学校地理可及性差、玛雅语母语的衔接困难、读书的经济回报在当地不清晰。这和墨西哥城的繁华落差，是同一个资源分配问题的两面。",
+            "en": "Passed through a Maya village: hammocks are not a tourist prop but the region's real pre-Hispanic sleeping culture — 'hammock' itself entered English from a Caribbean indigenous language via Spanish; the high-saturation house colors are usually explained as address-finding from the days before house numbers, plus plain cultural expression.\n\nHeard that village children often start work right after primary school — behind it, the structural problems of rural indigenous communities: households needing labor early, poor school access, Maya-language transition difficulties, unclear returns on further study. The gulf between this and Mexico City's glitter is the same resource-distribution problem seen from both ends."
+          },
           "attractions": [
             {
               "id": "las-coloradas",
               "nameCn": "粉红湖",
               "nameEn": "Las Coloradas",
-              "type": "盐场 / 自然景观",
+              "type": {
+                "zh": "盐场 / 自然景观",
+                "en": "Salt Works / Natural Spectacle"
+              },
               "imageKeyword": "Las+Coloradas+pink+lake",
-              "historicalContext": "真实运作中的盐场，不是天然奇观——海水被引入一系列连续蒸发池，从入口到末端持续浓缩。",
-              "experience": "水色本质是盐度梯度的可视化：盐度越高的池子，占主导的嗜盐微生物（藻类、卤虫）种类和数量不同，颜色从浅粉过渡到深橙红——每一格颜色对应盐提炼流程的一个阶段。",
-              "insight": "工业流程本身成了景观——你看到的每种粉色，都是一格微生物群落的人口普查。",
-              "historicalPeriod": "运转中的盐场"
+              "historicalContext": {
+                "zh": "真实运作中的盐场，不是天然奇观——海水被引入一系列连续蒸发池，从入口到末端持续浓缩。",
+                "en": "A working industrial salt operation, not a natural wonder — seawater is led through a chain of evaporation ponds, concentrating from intake to finish."
+              },
+              "experience": {
+                "zh": "水色本质是盐度梯度的可视化：盐度越高的池子，占主导的嗜盐微生物（藻类、卤虫）种类和数量不同，颜色从浅粉过渡到深橙红——每一格颜色对应盐提炼流程的一个阶段。",
+                "en": "The color is salinity made visible: as concentration climbs, different halophilic microbes (algae, brine shrimp) dominate each pond, shading from pale pink to deep orange-red — every pond a different stage of the salt process."
+              },
+              "insight": {
+                "zh": "工业流程本身成了景观——你看到的每种粉色，都是一格微生物群落的人口普查。",
+                "en": "The industrial process itself became the landscape — each shade of pink is a census of one microbial community."
+              },
+              "historicalPeriod": {
+                "zh": "运转中的盐场",
+                "en": "Working salt works"
+              }
             },
             {
               "id": "ria-lagartos",
               "nameCn": "火烈鸟保护区",
               "nameEn": "Ría Lagartos Biosphere Reserve",
-              "type": "生物圈保护区",
+              "type": {
+                "zh": "生物圈保护区",
+                "en": "Biosphere Reserve"
+              },
               "imageKeyword": "Ria+Lagartos+flamingos",
-              "historicalContext": "火烈鸟幼鸟是灰白色的——成年的粉色是吃出来的：浮游生物、卤虫和藻类里的类胡萝卜素消化后沉积进羽毛；圈养若不补色素会慢慢褪成白色。",
-              "experience": "除了火烈鸟，还看到美洲鳄、海龟（季节性产卵）、褐鹈鹕。这天没有历史或宗教线索，是纯粹的自然观察和摄影，节奏最放松的一天。",
-              "insight": "粉红湖的水色和火烈鸟的羽色是**同一套类胡萝卜素、同一条食物链**——两天前的色素问题今天接成了完整的逻辑闭环。",
-              "historicalPeriod": "当代生态"
+              "historicalContext": {
+                "zh": "火烈鸟幼鸟是灰白色的——成年的粉色是吃出来的：浮游生物、卤虫和藻类里的类胡萝卜素消化后沉积进羽毛；圈养若不补色素会慢慢褪成白色。",
+                "en": "Flamingo chicks are gray-white: the pink is eaten — carotenoids from plankton, brine shrimp and algae deposit in the feathers; captive birds fade to white without supplemented pigment."
+              },
+              "experience": {
+                "zh": "除了火烈鸟，还看到美洲鳄、海龟（季节性产卵）、褐鹈鹕。这天没有历史或宗教线索，是纯粹的自然观察和摄影，节奏最放松的一天。",
+                "en": "Besides the flamingos: American crocodiles, sea turtles (nesting season) and brown pelicans. No history, no religion today — pure observation and photography, the most relaxed day of the trip."
+              },
+              "insight": {
+                "zh": "粉红湖的水色和火烈鸟的羽色是**同一套类胡萝卜素、同一条食物链**——两天前的色素问题今天接成了完整的逻辑闭环。",
+                "en": "The pink lake and the pink bird are the two ends of **one carotenoid food chain** — the pigment question from two days ago closed into a complete loop."
+              },
+              "historicalPeriod": {
+                "zh": "当代生态",
+                "en": "Contemporary ecology"
+              }
             }
           ]
         },
         {
           "type": "journal",
-          "date": "7/2",
-          "title": "女人岛：彩虹女神的温柔祭坛",
+          "date": {
+            "zh": "7/2",
+            "en": "7/2"
+          },
+          "title": {
+            "zh": "女人岛：彩虹女神的温柔祭坛",
+            "en": "Isla Mujeres: The Rainbow Goddess's Gentle Altar"
+          },
           "cities": [
-            "女人岛"
+            {
+              "zh": "女人岛",
+              "en": "Isla Mujeres"
+            }
           ],
-          "body": "全天在岛上：珊瑚礁浮潜+沙滩+自由行（不含码头税约25美元/人）。\n\n献祭这个话题在这里收尾：中部美洲献祭的核心是\"互惠\"——神明持续付出维持世界运转，人类必须用最珍贵的东西回报。直接决定生死的神（雨神查克、太阳/战争神）献祭密度和暴力程度高，天坑因缺水求雨成为焦点；掌管月亮/医药/彩虹这类疗愈神格的伊克斯切尔，献祭形式明显温和——陶土木雕小供品配鲜花食物，几乎没有暴力记录。**女人岛的\"温和\"与奇琴伊察圣井的\"人祭\"并不矛盾，是同一套逻辑在不同神格上的强度体现。**",
+          "body": {
+            "zh": "全天在岛上：珊瑚礁浮潜+沙滩+自由行（不含码头税约25美元/人）。\n\n献祭这个话题在这里收尾：中部美洲献祭的核心是\"互惠\"——神明持续付出维持世界运转，人类必须用最珍贵的东西回报。直接决定生死的神（雨神查克、太阳/战争神）献祭密度和暴力程度高，天坑因缺水求雨成为焦点；掌管月亮/医药/彩虹这类疗愈神格的伊克斯切尔，献祭形式明显温和——陶土木雕小供品配鲜花食物，几乎没有暴力记录。**女人岛的\"温和\"与奇琴伊察圣井的\"人祭\"并不矛盾，是同一套逻辑在不同神格上的强度体现。**",
+            "en": "A full island day: reef snorkeling, beach, wandering (about $25/person plus the dock tax).\n\nThe sacrifice thread reaches its ending here. Mesoamerican sacrifice is **reciprocity** — the gods spend themselves keeping the world running, and people must give back their most precious things. Gods of life-and-death domains (Chaac and the rain, the sun and war) drew dense, violent offerings — the cenotes became sacrificial focal points precisely because rain was survival. Ixchel — moon, medicine, rainbows, a healing goddess — received clay figurines, flowers and food, with almost no record of violence. **The island's gentleness and the sacred cenote's human sacrifice don't contradict: one logic, tuned to different gods.**"
+          },
           "attractions": [
             {
               "id": "punta-sur-ixchel",
               "nameCn": "庞塔苏尔与伊克斯切尔神庙",
               "nameEn": "Punta Sur & Templo de Ixchel",
-              "type": "玛雅遗址 / 海角",
+              "type": {
+                "zh": "玛雅遗址 / 海角",
+                "en": "Maya Site / Headland"
+              },
               "imageKeyword": "Punta+Sur+Isla+Mujeres",
-              "historicalContext": "岛名的来源：西班牙探险者登岛时发现悬崖神庙里大量陶土女性形象供品——是来朝圣、参加少女成年礼（祈求生育）的女孩们留下的，因此得名\"女人岛\"。神庙公元前6世纪就开始使用，属前古典期，比奇琴伊察早1000多年，是尤卡坦已知最早、持续最久的朝圣圣地之一，同时曾作天文观测台，用于把太阴历与可观测天体周期同步校准。",
-              "experience": "远眺庞塔苏尔悬崖——伊克斯切尔（Ixchel）直译\"彩虹女人\"，神庙就建在能看到彩虹的高崖上。如今1000多年前的神庙墙体与2001年安放的当代雕塑公园叠在同一片场地。她年轻时配新月、年老时配残月，毁灭性一面被描绘成脖子缠蛇、装饰人骨、双脚是爪子的恐怖形象。",
-              "insight": "伊克斯切尔的\"蛇+骨+爪\"恐怖母神图像，与阿兹特克科亚特利库埃几乎是同一套视觉语言——两个互不统属的文明各自长出了相同的表达。\"建筑即天文仪器\"的逻辑也和库库尔坎金字塔一脉相承。",
+              "historicalContext": {
+                "zh": "岛名的来源：西班牙探险者登岛时发现悬崖神庙里大量陶土女性形象供品——是来朝圣、参加少女成年礼（祈求生育）的女孩们留下的，因此得名\"女人岛\"。神庙公元前6世纪就开始使用，属前古典期，比奇琴伊察早1000多年，是尤卡坦已知最早、持续最久的朝圣圣地之一，同时曾作天文观测台，用于把太阴历与可观测天体周期同步校准。",
+                "en": "The island's name explained: Spanish landing parties found the cliff temple full of clay female figurines — offerings left by girls on pilgrimage for coming-of-age and fertility rites, hence 'Island of Women.' The temple was in use from the 6th century BC — a thousand years before Chichén Itzá — one of the Yucatán's oldest and longest-lived pilgrimage sites, doubling as an observatory calibrating the lunar calendar against the sky."
+              },
+              "experience": {
+                "zh": "远眺庞塔苏尔悬崖——伊克斯切尔（Ixchel）直译\"彩虹女人\"，神庙就建在能看到彩虹的高崖上。如今1000多年前的神庙墙体与2001年安放的当代雕塑公园叠在同一片场地。她年轻时配新月、年老时配残月，毁灭性一面被描绘成脖子缠蛇、装饰人骨、双脚是爪子的恐怖形象。",
+                "en": "Viewed Punta Sur from a distance — Ixchel means 'rainbow woman,' and her temple stands on a cliff where rainbows appear. Thousand-year-old walls now share the headland with a sculpture park installed in 2001. Young, she wears the crescent moon; old, the waning moon; her destroyer aspect wears snakes, human bones and claws."
+              },
+              "insight": {
+                "zh": "伊克斯切尔的\"蛇+骨+爪\"恐怖母神图像，与阿兹特克科亚特利库埃几乎是同一套视觉语言——两个互不统属的文明各自长出了相同的表达。\"建筑即天文仪器\"的逻辑也和库库尔坎金字塔一脉相承。",
+                "en": "Ixchel's snake-bone-claw terrible-mother imagery is nearly the same visual language as the Aztec Coatlicue — another case of unconnected civilizations arriving at the same expression. And 'architecture as astronomical instrument' runs straight back to El Castillo."
+              },
               "relatedPeople": [
-                "伊克斯切尔 Ixchel（玛雅月亮/彩虹女神）"
+                {
+                  "zh": "伊克斯切尔 Ixchel（玛雅月亮/彩虹女神）",
+                  "en": "Ixchel (Maya moon and rainbow goddess)"
+                }
               ],
-              "historicalPeriod": "公元前6世纪 – 至今"
+              "historicalPeriod": {
+                "zh": "公元前6世纪 – 至今",
+                "en": "6th century BC – present"
+              }
             },
             {
               "id": "playa-norte-musa",
               "nameCn": "北海滩与水下艺术博物馆",
               "nameEn": "Playa Norte & MUSA",
-              "type": "海滩 / 当代艺术",
+              "type": {
+                "zh": "海滩 / 当代艺术",
+                "en": "Beach / Contemporary Art"
+              },
               "imageKeyword": "MUSA+underwater+sculptures",
-              "historicalContext": "水下艺术博物馆（Museo Subacuático de Arte）：英国雕塑家杰森·德凯雷斯·泰勒用pH中性水泥制作的人体/器官雕塑群，沉入海底给珊瑚提供人工附着基质，同时分流游客对天然珊瑚礁的压力。",
-              "experience": "北海滩水浅沙白；浮潜时看到的\"手指、蘑菇状\"水下雕塑就是MUSA的装置。",
-              "insight": "这几天行程里唯一一处当代艺术+生态工程的交点——雕塑的使命是被珊瑚吃掉。",
+              "historicalContext": {
+                "zh": "水下艺术博物馆（Museo Subacuático de Arte）：英国雕塑家杰森·德凯雷斯·泰勒用pH中性水泥制作的人体/器官雕塑群，沉入海底给珊瑚提供人工附着基质，同时分流游客对天然珊瑚礁的压力。",
+                "en": "The Cancún Underwater Museum (MUSA): British sculptor Jason deCaires Taylor's pH-neutral cement figures sunk offshore as artificial substrate for coral — and as a decoy drawing snorkelers away from the natural reef."
+              },
+              "experience": {
+                "zh": "北海滩水浅沙白；浮潜时看到的\"手指、蘑菇状\"水下雕塑就是MUSA的装置。",
+                "en": "Playa Norte is shallow and white; the 'fingers and mushrooms' seen while snorkeling are MUSA's installations."
+              },
+              "insight": {
+                "zh": "这几天行程里唯一一处当代艺术+生态工程的交点——雕塑的使命是被珊瑚吃掉。",
+                "en": "The trip's one intersection of contemporary art and ecological engineering — sculpture whose mission is to be eaten by coral."
+              },
               "relatedPeople": [
-                "杰森·德凯雷斯·泰勒 Jason deCaires Taylor"
+                {
+                  "zh": "杰森·德凯雷斯·泰勒 Jason deCaires Taylor",
+                  "en": "Jason deCaires Taylor"
+                }
               ],
-              "historicalPeriod": "2009年起（MUSA）"
+              "historicalPeriod": {
+                "zh": "2009年起（MUSA）",
+                "en": "MUSA since 2009"
+              }
             }
           ]
         }
@@ -920,196 +1442,451 @@
     },
     {
       "type": "reflection",
-      "title": "关键收获与思考 Key Takeaways",
-      "description": "超越景点的六条主线：从壁画政治到色素食物链",
+      "title": {
+        "zh": "关键收获与思考",
+        "en": "Key Takeaways"
+      },
+      "description": {
+        "zh": "超越景点的七条主线：从壁画政治到色素食物链",
+        "en": "Seven threads beyond the sights: from mural politics to a pigment food chain"
+      },
       "items": [
         {
           "id": "muralism-three-giants",
-          "title": "壁画三巨头：一场国家叙事的内部辩论",
-          "subtitle": "里维拉 · 奥罗斯科 · 西凯罗斯",
+          "title": {
+            "zh": "壁画三巨头：一场国家叙事的内部辩论",
+            "en": "The Three Muralists: A Debate Inside the National Narrative"
+          },
+          "subtitle": {
+            "zh": "里维拉 · 奥罗斯科 · 西凯罗斯",
+            "en": "Rivera · Orozco · Siqueiros"
+          },
           "icon": "Palette",
-          "summary": "里维拉给国家想要的标准答案，奥罗斯科怀疑答案，西凯罗斯把答案变成武器。",
+          "summary": {
+            "zh": "里维拉给国家想要的标准答案，奥罗斯科怀疑答案，西凯罗斯把答案变成武器。",
+            "en": "Rivera gives the answer the state wants, Orozco doubts the answer, Siqueiros turns the answer into a weapon."
+          },
           "sections": [
             {
-              "heading": "缘起",
-              "content": "壁画运动1921年由教育部长瓦斯孔塞洛斯发起。**真湿壁画技法的选择本身就是政治表态**——颜料融入墙体无法买卖，作品只能留在公共空间，艺术被强制公有化。"
+              "heading": {
+                "zh": "缘起",
+                "en": "Origins"
+              },
+              "content": {
+                "zh": "壁画运动1921年由教育部长瓦斯孔塞洛斯发起。**真湿壁画技法的选择本身就是政治表态**——颜料融入墙体无法买卖，作品只能留在公共空间，艺术被强制公有化。",
+                "en": "The mural movement was launched in 1921 by education minister Vasconcelos. **The true-fresco technique was itself a political statement** — pigment fused into the wall cannot be bought or sold; the work can only stay in public space. Art, forcibly public."
+              }
             },
             {
-              "heading": "三种立场",
+              "heading": {
+                "zh": "三种立场",
+                "en": "Three positions"
+              },
               "table": {
                 "headers": [
-                  "画家",
-                  "立场",
-                  "注脚"
+                  {
+                    "zh": "画家",
+                    "en": "Painter"
+                  },
+                  {
+                    "zh": "立场",
+                    "en": "Position"
+                  },
+                  {
+                    "zh": "注脚",
+                    "en": "Footnote"
+                  }
                 ],
                 "rows": [
                   [
-                    "迭戈·里维拉",
-                    "国家想要的标准答案（乐观叙事）",
-                    "为托洛茨基求情；体育场浮雕、国家宫壁画"
+                    {
+                      "zh": "迭戈·里维拉",
+                      "en": "Diego Rivera"
+                    },
+                    {
+                      "zh": "国家想要的标准答案（乐观叙事）",
+                      "en": "The state's official answer (optimistic narrative)"
+                    },
+                    {
+                      "zh": "为托洛茨基求情；体育场浮雕、国家宫壁画",
+                      "en": "Pleaded for Trotsky; the stadium relief, the National Palace murals"
+                    }
                   ],
                   [
-                    "何塞·克莱门特·奥罗斯科",
-                    "对答案的怀疑（画革命的代价）",
-                    "1928–34年赴美，达特茅斯壁画；瓷砖屋《全知》"
+                    {
+                      "zh": "何塞·克莱门特·奥罗斯科",
+                      "en": "José Clemente Orozco"
+                    },
+                    {
+                      "zh": "对答案的怀疑（画革命的代价）",
+                      "en": "Doubt about the answer (painting the cost of revolution)"
+                    },
+                    {
+                      "zh": "1928–34年赴美，达特茅斯壁画；瓷砖屋《全知》",
+                      "en": "In the U.S. 1928–34, the Dartmouth murals; Omniscience in the House of Tiles"
+                    }
                   ],
                   [
-                    "大卫·阿尔法罗·西凯罗斯",
-                    "把答案变成武器（真实参与政治暴力）",
-                    "1940年5月参与机枪突袭托洛茨基；城堡壁画批判迪亚斯"
+                    {
+                      "zh": "大卫·阿尔法罗·西凯罗斯",
+                      "en": "David Alfaro Siqueiros"
+                    },
+                    {
+                      "zh": "把答案变成武器（真实参与政治暴力）",
+                      "en": "The answer as weapon (real political violence)"
+                    },
+                    {
+                      "zh": "1940年5月参与机枪突袭托洛茨基；城堡壁画批判迪亚斯",
+                      "en": "Joined the May 1940 machine-gun raid on Trotsky; the castle mural attacks Díaz"
+                    }
                   ]
                 ]
               }
             },
             {
-              "quote": "\"激进\"不只是画风——西凯罗斯的标签有政治暴力的实际分量。壁画运动是真刀真枪的政治，不是艺术史脚注。"
+              "quote": {
+                "zh": "\"激进\"不只是画风——西凯罗斯的标签有政治暴力的实际分量。壁画运动是真刀真枪的政治，不是艺术史脚注。",
+                "en": "'Radical' is not just a style — Siqueiros' label carries the weight of actual political violence. Muralism is real politics, not an art-history footnote."
+              }
             }
           ]
         },
         {
           "id": "mestizo-vs-reservation",
-          "title": "混血逻辑 vs 隔离逻辑",
-          "subtitle": "墨西哥与美国的两种原住民国家构造",
+          "title": {
+            "zh": "混血逻辑 vs 隔离逻辑",
+            "en": "Mestizo Logic vs. Segregation Logic"
+          },
+          "subtitle": {
+            "zh": "墨西哥与美国的两种原住民国家构造",
+            "en": "Two national constructions of indigeneity"
+          },
           "icon": "Users",
-          "summary": "美国是隔离/保留地逻辑，墨西哥是mestizo主导逻辑——原住民符号被纳入全民身份核心而非边缘。",
+          "summary": {
+            "zh": "美国是隔离/保留地逻辑，墨西哥是mestizo主导逻辑——原住民符号被纳入全民身份核心而非边缘。",
+            "en": "The U.S. runs on segregation and reservations; Mexico on mestizo dominance — indigenous symbols at the core of national identity, not its margins."
+          },
           "sections": [
             {
-              "heading": "符号的中心化",
+              "heading": {
+                "zh": "符号的中心化",
+                "en": "Symbols centralized"
+              },
               "list": [
-                "国徽的鹰蛇仙人掌——原住民建城神话直接成为国家符号",
-                "胡安·迭戈封圣（2002，美洲第一位原住民圣人）——天主教吸收原住民叙事",
-                "人类学博物馆是mestizo民族主义的正殿——原住民的过去被锻造成全民的现代身份"
+                {
+                  "zh": "国徽的鹰蛇仙人掌——原住民建城神话直接成为国家符号",
+                  "en": "The eagle, snake and cactus of the national crest — the founding myth as state symbol"
+                },
+                {
+                  "zh": "胡安·迭戈封圣（2002，美洲第一位原住民圣人）——天主教吸收原住民叙事",
+                  "en": "Juan Diego canonized (2002, the Americas' first indigenous saint) — Catholicism absorbing the indigenous narrative"
+                },
+                {
+                  "zh": "人类学博物馆是mestizo民族主义的正殿——原住民的过去被锻造成全民的现代身份",
+                  "en": "The Anthropology Museum as the high temple of mestizo nationalism — the indigenous past forged into everyone’s modern identity"
+                }
               ]
             },
             {
-              "heading": "张力所在",
-              "content": "迪亚斯本人有米斯特克混血血统，却刻意推行国家形象\"美白\"（blanqueamiento）；今天农村原住民社区仍承受教育与资源分配的结构性不均——玛雅村庄的孩子小学毕业就去工作。"
+              "heading": {
+                "zh": "张力所在",
+                "en": "The tension"
+              },
+              "content": {
+                "zh": "迪亚斯本人有米斯特克混血血统，却刻意推行国家形象\"美白\"（blanqueamiento）；今天农村原住民社区仍承受教育与资源分配的结构性不均——玛雅村庄的孩子小学毕业就去工作。",
+                "en": "Díaz, himself part Mixtec, pushed a deliberate 'whitening' (blanqueamiento) of the national image; rural indigenous communities still carry structural gaps in schooling and resources — Maya villages where children work after primary school."
+              }
             },
             {
-              "quote": "符号被供奉在中心，资源仍留在边缘——这是mestizo国家的内在张力。"
+              "quote": {
+                "zh": "符号被供奉在中心，资源仍留在边缘——这是mestizo国家的内在张力。",
+                "en": "The symbols are enshrined at the center while the resources stay at the margins — the built-in tension of a mestizo nation."
+              }
             }
           ]
         },
         {
           "id": "layered-city",
-          "title": "叠层城市：特诺奇蒂特兰从未消失",
-          "subtitle": "湖床上的帝国",
+          "title": {
+            "zh": "叠层城市：特诺奇蒂特兰从未消失",
+            "en": "The Layered City: Tenochtitlán Never Left"
+          },
+          "subtitle": {
+            "zh": "湖床上的帝国",
+            "en": "An empire on a lake bed"
+          },
           "icon": "Layers",
-          "summary": "大教堂在下沉，主神庙在出土——同一块湖床上，帝国以工程问题的形式持续在场。",
+          "summary": {
+            "zh": "大教堂在下沉，主神庙在出土——同一块湖床上，帝国以工程问题的形式持续在场。",
+            "en": "The cathedral is sinking and the Templo Mayor is surfacing — on the same lake bed, the empire persists as an engineering problem."
+          },
           "sections": [
             {
-              "heading": "证据链",
+              "heading": {
+                "zh": "证据链",
+                "en": "The evidence"
+              },
               "list": [
-                "大教堂的倾斜下沉 = 湖床地基——工程问题即历史文献",
-                "1978年电工挖出科约尔萨乌基圆盘 → 触发主神庙大发掘",
-                "2015年大骷髅架（650+头骨）的选址逻辑对应神话轴线",
-                "霍奇米尔科 = 仍在运转的chinampa水利系统（与它孕育的城市争水）"
+                {
+                  "zh": "大教堂的倾斜下沉 = 湖床地基——工程问题即历史文献",
+                  "en": "The cathedral's tilt = the lake-bed foundation — the engineering problem is the historical document"
+                },
+                {
+                  "zh": "1978年电工挖出科约尔萨乌基圆盘 → 触发主神庙大发掘",
+                  "en": "1978: electricians strike the Coyolxauhqui disk → the great excavation begins"
+                },
+                {
+                  "zh": "2015年大骷髅架（650+头骨）的选址逻辑对应神话轴线",
+                  "en": "2015: the skull rack (650+ skulls) sited on the mythic axis"
+                },
+                {
+                  "zh": "霍奇米尔科 = 仍在运转的chinampa水利系统（与它孕育的城市争水）",
+                  "en": "Xochimilco = the chinampa waterworks still alive, competing for water with the city it fed"
+                }
               ]
             },
             {
-              "quote": "神话是城市规划文件，地基是历史档案——在墨西哥城，考古学是市政工程的副产品。"
+              "quote": {
+                "zh": "神话是城市规划文件，地基是历史档案——在墨西哥城，考古学是市政工程的副产品。",
+                "en": "Myth is a planning document; the foundation is an archive — in Mexico City, archaeology is a by-product of public works."
+              }
             }
           ]
         },
         {
           "id": "sacrifice-reciprocity",
-          "title": "献祭的互惠逻辑",
-          "subtitle": "暴力程度 = 神格攸关生死的程度",
+          "title": {
+            "zh": "献祭的互惠逻辑",
+            "en": "The Reciprocity Logic of Sacrifice"
+          },
+          "subtitle": {
+            "zh": "暴力程度 = 神格攸关生死的程度",
+            "en": "Violence scales with the god's stakes"
+          },
           "icon": "Scale",
-          "summary": "神明持续付出维持世界运转，人类必须回报——这是一套互惠系统，不是暴力崇拜。",
+          "summary": {
+            "zh": "神明持续付出维持世界运转，人类必须回报——这是一套互惠系统，不是暴力崇拜。",
+            "en": "The gods spend themselves keeping the world running; people must repay — a reciprocity system, not a cult of violence."
+          },
           "sections": [
             {
-              "heading": "强度光谱",
+              "heading": {
+                "zh": "强度光谱",
+                "en": "The intensity spectrum"
+              },
               "table": {
                 "headers": [
-                  "神格",
-                  "掌管",
-                  "献祭强度"
+                  {
+                    "zh": "神格",
+                    "en": "Deity"
+                  },
+                  {
+                    "zh": "掌管",
+                    "en": "Domain"
+                  },
+                  {
+                    "zh": "献祭强度",
+                    "en": "Offering intensity"
+                  }
                 ],
                 "rows": [
                   [
-                    "查克 / 特拉洛克",
-                    "雨水",
-                    "高——天坑人祭（缺水求雨攸关生死）"
+                    {
+                      "zh": "查克 / 特拉洛克",
+                      "en": "Chaac / Tláloc"
+                    },
+                    {
+                      "zh": "雨水",
+                      "en": "Rain"
+                    },
+                    {
+                      "zh": "高——天坑人祭（缺水求雨攸关生死）",
+                      "en": "High — cenote sacrifice (rain was survival)"
+                    }
                   ],
                   [
-                    "太阳 / 战争神",
-                    "太阳运转",
-                    "高——仪式化战俘献祭（阿兹特克后期强化）"
+                    {
+                      "zh": "太阳 / 战争神",
+                      "en": "Sun / war gods"
+                    },
+                    {
+                      "zh": "太阳运转",
+                      "en": "The sun's motion"
+                    },
+                    {
+                      "zh": "高——仪式化战俘献祭（阿兹特克后期强化）",
+                      "en": "High — ritualized captive sacrifice (intensified late-Aztec)"
+                    }
                   ],
                   [
-                    "伊克斯切尔",
-                    "月亮 / 医药 / 彩虹",
-                    "温和——陶俑鲜花供品，几乎无暴力记录"
+                    {
+                      "zh": "伊克斯切尔",
+                      "en": "Ixchel"
+                    },
+                    {
+                      "zh": "月亮 / 医药 / 彩虹",
+                      "en": "Moon / medicine / rainbows"
+                    },
+                    {
+                      "zh": "温和——陶俑鲜花供品，几乎无暴力记录",
+                      "en": "Gentle — figurines and flowers, almost no recorded violence"
+                    }
                   ]
                 ]
               }
             },
             {
-              "content": "女人岛的温柔祭坛与奇琴伊察的圣井人祭并不矛盾——是同一套互惠逻辑在不同神格上的强度体现。球赛与献祭传统是玛雅早于阿兹特克的，阿兹特克继承并强化。"
+              "content": {
+                "zh": "女人岛的温柔祭坛与奇琴伊察的圣井人祭并不矛盾——是同一套互惠逻辑在不同神格上的强度体现。球赛与献祭传统是玛雅早于阿兹特克的，阿兹特克继承并强化。",
+                "en": "The island's gentle altar and Chichén Itzá's sacred well don't contradict — one reciprocity logic, tuned to different gods. The ballgame-sacrifice complex is Maya-first; the Aztecs inherited and intensified it."
+              }
             }
           ]
         },
         {
           "id": "convergent-civilizations",
-          "title": "趋同演化：互不接触文明的相同解法",
-          "subtitle": "文字 · 图像 · 建筑",
+          "title": {
+            "zh": "趋同演化：互不接触文明的相同解法",
+            "en": "Convergent Evolution: Same Solutions, No Contact"
+          },
+          "subtitle": {
+            "zh": "文字 · 图像 · 建筑",
+            "en": "Writing · imagery · architecture"
+          },
           "icon": "GitBranch",
-          "summary": "玛雅、埃及、美索不达米亚各自独立发明了\"词符+音节符\"混合书写；恐怖母神图像在玛雅与阿兹特克趋同——没有接触，只有相同的问题。",
+          "summary": {
+            "zh": "玛雅、埃及、美索不达米亚各自独立发明了\"词符+音节符\"混合书写；恐怖母神图像在玛雅与阿兹特克趋同——没有接触，只有相同的问题。",
+            "en": "Maya, Egyptian and Mesopotamian scribes each independently invented logo-syllabic writing; the terrible-mother images converge across Maya and Aztec — no contact, only identical problems."
+          },
           "sections": [
             {
-              "heading": "三套文字，一个方案",
-              "content": "玛雅文字、埃及象形文字、楔形文字（分别在大英博物馆、Penn Museum、人类学博物馆对照过）结构上都是词符+音节符混合系统——但破译命运完全不同：埃及有罗塞塔石碑、楔形有贝希斯敦铭文这样的\"三语对照作弊器\"；玛雅没有捷径，靠克诺罗佐夫1952年的音节假说和普罗斯库里亚科夫证明\"文字记录的是真实王朝史\"硬啃出来。讽刺的是，焚书的德兰达主教留下的\"字母表\"还误导了破译方向数十年。"
+              "heading": {
+                "zh": "三套文字，一个方案",
+                "en": "Three scripts, one design"
+              },
+              "content": {
+                "zh": "玛雅文字、埃及象形文字、楔形文字（分别在大英博物馆、Penn Museum、人类学博物馆对照过）结构上都是词符+音节符混合系统——但破译命运完全不同：埃及有罗塞塔石碑、楔形有贝希斯敦铭文这样的\"三语对照作弊器\"；玛雅没有捷径，靠克诺罗佐夫1952年的音节假说和普罗斯库里亚科夫证明\"文字记录的是真实王朝史\"硬啃出来。讽刺的是，焚书的德兰达主教留下的\"字母表\"还误导了破译方向数十年。",
+                "en": "Maya glyphs, Egyptian hieroglyphs (British Museum) and cuneiform (Penn Museum) are all logogram-plus-syllable systems — but their decipherments diverged: Egypt had the Rosetta Stone and cuneiform the Behistun inscription as trilingual 'cheat codes'; the Maya had no shortcut. The breakthroughs were Knorozov's 1952 syllabic hypothesis and Proskouriakoff proving the texts record real dynastic history. The irony: Bishop de Landa, the book-burner, left an 'alphabet' that misled decipherment for decades."
+              }
             },
             {
-              "heading": "图像与直觉的纠偏",
+              "heading": {
+                "zh": "图像与直觉的纠偏",
+                "en": "Images and corrected hunches"
+              },
               "list": [
-                "伊克斯切尔的\"蛇+骨+爪\"与科亚特利库埃的恐怖母神图像——两个互不统属文明的同款视觉语言",
-                "玛雅王室肖像\"穿戴\"动物力量（羽饰/兽皮）而非\"变形\"为动物——与王名嵌动物词根同一套逻辑",
-                "\"像三星堆\"的直觉被澄清：无可信跨太平洋接触证据，是独立演化的趋同审美"
+                {
+                  "zh": "伊克斯切尔的\"蛇+骨+爪\"与科亚特利库埃的恐怖母神图像——两个互不统属文明的同款视觉语言",
+                  "en": "Ixchel's snake-bone-claw imagery vs. Coatlicue — the same visual language in unconnected civilizations"
+                },
+                {
+                  "zh": "玛雅王室肖像\"穿戴\"动物力量（羽饰/兽皮）而非\"变形\"为动物——与王名嵌动物词根同一套逻辑",
+                  "en": "Maya royal portraits 'wear' animal power (feathers, pelts) rather than transform into it — the same logic as animal roots in royal names"
+                },
+                {
+                  "zh": "\"像三星堆\"的直觉被澄清：无可信跨太平洋接触证据，是独立演化的趋同审美",
+                  "en": "The 'feels like Sanxingdui' instinct, corrected: no credible trans-Pacific contact — convergent aesthetics"
+                }
               ]
             }
           ]
         },
         {
           "id": "narrative-repair",
-          "title": "国家叙事是活的工程",
-          "subtitle": "纪念碑的立与拆",
+          "title": {
+            "zh": "国家叙事是活的工程",
+            "en": "The National Narrative Is a Live Project"
+          },
+          "subtitle": {
+            "zh": "纪念碑的立与拆",
+            "en": "Monuments raised and removed"
+          },
           "icon": "RefreshCw",
-          "summary": "哥伦布被拆下神坛，战斗女性环岛立起反纪念碑——墨西哥的街道在实时改写记忆。",
+          "summary": {
+            "zh": "哥伦布被拆下神坛，战斗女性环岛立起反纪念碑——墨西哥的街道在实时改写记忆。",
+            "en": "Columbus comes off the pedestal and the Women Who Fight roundabout rises — the streets of Mexico rewrite memory in real time."
+          },
           "sections": [
             {
-              "heading": "观察清单",
+              "heading": {
+                "zh": "观察清单",
+                "en": "Observed"
+              },
               "list": [
-                "2020年哥伦布纪念碑被拆除，迁往特波索特兰的博物馆",
-                "2021年原址改为\"战斗女性环岛\"——纪念性别暴力与失踪人口受害者的反纪念碑",
-                "改革大道沿线民间自发的\"失踪人口\"装置，因世界杯筹备面临清理风险",
-                "革命纪念碑把生前互相对立的五位领袖同葬一座建筑",
-                "一年300多场游行，与腐败的日常人情并存而不矛盾"
+                {
+                  "zh": "2020年哥伦布纪念碑被拆除，迁往特波索特兰的博物馆",
+                  "en": "2020: the Columbus monument removed, relocated to a museum in Tepotzotlán"
+                },
+                {
+                  "zh": "2021年原址改为\"战斗女性环岛\"——纪念性别暴力与失踪人口受害者的反纪念碑",
+                  "en": "2021: the circle renamed Glorieta de las Mujeres que Luchan — an anti-monument to victims of gender violence and the disappeared"
+                },
+                {
+                  "zh": "改革大道沿线民间自发的\"失踪人口\"装置，因世界杯筹备面临清理风险",
+                  "en": "Grassroots installations for the disappeared along Reforma, at risk of World Cup clearance"
+                },
+                {
+                  "zh": "革命纪念碑把生前互相对立的五位领袖同葬一座建筑",
+                  "en": "The Revolution Monument burying five rivals in one building"
+                },
+                {
+                  "zh": "一年300多场游行，与腐败的日常人情并存而不矛盾",
+                  "en": "300+ protests a year coexisting with everyday corruption"
+                }
               ]
             },
             {
-              "quote": "纪念碑的位置比历史书更诚实——它显示谁此刻有权定义过去。"
+              "quote": {
+                "zh": "纪念碑的位置比历史书更诚实——它显示谁此刻有权定义过去。",
+                "en": "The placement of monuments is more honest than the history books — it shows who has the power to define the past right now."
+              }
             }
           ]
         },
         {
           "id": "pigment-food-chain",
-          "title": "一条色素的食物链",
-          "subtitle": "生态线的闭环",
+          "title": {
+            "zh": "一条色素的食物链",
+            "en": "One Pigment Food Chain"
+          },
+          "subtitle": {
+            "zh": "生态线的闭环",
+            "en": "The ecology thread closes"
+          },
           "icon": "Leaf",
-          "summary": "盐场的嗜盐微生物与火烈鸟的粉色羽毛是同一套类胡萝卜素——两天的观察接成完整闭环。",
+          "summary": {
+            "zh": "盐场的嗜盐微生物与火烈鸟的粉色羽毛是同一套类胡萝卜素——两天的观察接成完整闭环。",
+            "en": "The salt ponds' halophilic microbes and the flamingos' pink are the same carotenoids — two days of observation closing into one loop."
+          },
           "sections": [
             {
-              "content": "粉红湖每一格的颜色对应盐度梯度上不同的微生物群落；火烈鸟吃下这些卤虫和藻类，类胡萝卜素沉积进羽毛——圈养不补色素会褪回白色。同一套色素，分别沉积在水里的微生物体内和鸟的羽毛上。"
+              "content": {
+                "zh": "粉红湖每一格的颜色对应盐度梯度上不同的微生物群落；火烈鸟吃下这些卤虫和藻类，类胡萝卜素沉积进羽毛——圈养不补色素会褪回白色。同一套色素，分别沉积在水里的微生物体内和鸟的羽毛上。",
+                "en": "Each pond at Las Coloradas is colored by the microbial community its salinity selects; flamingos eat those brine shrimp and algae, and the carotenoids settle into their feathers — captive birds fade without supplemented pigment. One pigment, deposited first in water, then in wings."
+              }
             },
             {
-              "heading": "这条线上的其他观察",
+              "heading": {
+                "zh": "这条线上的其他观察",
+                "en": "Other notes on this thread"
+              },
               "list": [
-                "axolotl野外种群：1998年每km²约6000只 → 现在约35只",
-                "霍奇米尔科运河因城市抽水与污染持续萎缩",
-                "MUSA水下雕塑 = 给珊瑚的人工附着基质 + 给天然礁分流游客",
-                "玛雅人对玉器与绿咬鹃羽毛的偏爱曾是真实的捕猎压力"
+                {
+                  "zh": "axolotl野外种群：1998年每km²约6000只 → 现在约35只",
+                  "en": "Axolotl in the wild: ~6,000/km² in 1998 → ~35 now"
+                },
+                {
+                  "zh": "霍奇米尔科运河因城市抽水与污染持续萎缩",
+                  "en": "Xochimilco's canals shrinking under extraction and pollution"
+                },
+                {
+                  "zh": "MUSA水下雕塑 = 给珊瑚的人工附着基质 + 给天然礁分流游客",
+                  "en": "MUSA: artificial coral substrate + a decoy for reef tourists"
+                },
+                {
+                  "zh": "玛雅人对玉器与绿咬鹃羽毛的偏爱曾是真实的捕猎压力",
+                  "en": "Maya demand for jade and quetzal feathers was real hunting pressure"
+                }
               ]
             }
           ]
@@ -1118,7 +1895,10 @@
     },
     {
       "type": "section",
-      "title": "参考资料库 Reference Library",
+      "title": {
+        "zh": "参考资料库",
+        "en": "Reference Library"
+      },
       "blocks": [
         {
           "type": "prose",
@@ -1132,7 +1912,10 @@
         },
         {
           "type": "prose",
-          "title": "帝国/总督/总统/独裁——四个概念怎么分",
+          "title": {
+            "zh": "帝国/总督/总统/独裁——四个概念怎么分",
+            "en": "Empire, Viceroy, President, Dictator — Four Concepts Untangled"
+          },
           "body": "**先澄清最容易搞混的一点:历史上有两次\"推翻→出现君主\"的事件,彼此无关、相隔40年,千万别叠在一条线上读:**\n\n| | 第一次:独立战争(1810-1821) | 第二次:法国干预(1862-1867) |\n|---|---|---|\n| 推翻的对象 | 西班牙派来的总督/殖民政府 | 马克西米利亚诺/法国干预 |\n| 推翻后是谁称帝/掌权 | **伊图尔维德**——墨西哥本土出生的克里奥尔人,曾效忠西班牙后反水,不是西班牙派来的人 | **没有新皇帝**——胡亚雷斯领导共和派恢复共和国,自己当总统 |\n| 这次\"帝制\"跟谁有关 | 跟西班牙毫无关系,是独立后墨西哥**自己选的政体形式** | 跟西班牙也毫无关系,是法国单独搞的干预,马克西米利亚诺是奥地利人 |\n| 西班牙统治是否延续 | **没有,1821年之后西班牙再没统治过墨西哥** | 不适用(这次跟西班牙无关) |\n\n简单说:**西班牙的统治在1821年就被彻底、永久推翻了**。后面那次\"帝制\"(马克西米利亚诺)是完全独立的另一件事——法国趁火打劫扶持了一个跟西班牙毫无关系的奥地利人,跟\"西班牙回来了\"没有任何关系。\n\n| 概念 | 谁在统治 | 权力来源 | 墨西哥的具体例子 |\n|---|---|---|---|\n| **总督 Virrey** | 西班牙国王派来的代理人 | 效忠西班牙王室,本人不是君主 | 1535-1821年,近300年,共60多位总督轮换,首任安东尼奥·德·门多萨 |\n| **皇帝 Emperador** | 自立或被拥立为君主,不效忠任何外国王室(或被外国扶持但名义独立) | 自封/被军队拥立/被外国势力扶持 | 伊图尔维德(1822-23,自封,本土军人,在马德罗街的伊图尔维德宫被拥立);马克西米利亚诺(1864-67,被法国扶持,本人是奥地利人) |\n| **总统 Presidente** | 共和制下经选举或政变上台的国家元首 | 名义上来自宪法和选举 | 1824年起墨西哥绝大部分时间是共和制总统制 |\n| **独裁者 Dictador** | 名义上是总统,但通过操纵选举/长期连任/镇压反对派实际垄断权力 | 名义合法,实质强权 | 波费里奥·迪亚斯(1876-1911,名义上每次\"赢了选举\",实际独裁) |\n\n**关键脉络**:殖民300年(总督)→ 1821年独立后立刻陷入混乱,两次短暂\"开倒车\"变成帝制(伊图尔维德2年、马克西米利亚诺3年,加起来不到5年,而且彼此无关)→ 之后绝大部分近现代史名义上都是总统制共和国(包括迪亚斯,本质是独裁)。\"帝国\"在独立后只昙花一现两次,不是一条平滑的\"总督→皇帝→总统\"直线。"
         },
         {
@@ -1847,7 +2630,10 @@
         },
         {
           "type": "prose",
-          "title": "未来旅行补充 — 殖民巴洛克路线(瓜纳华托/圣米格尔/瓜达拉哈拉)",
+          "title": {
+            "zh": "未来旅行补充 — 殖民巴洛克路线(瓜纳华托/圣米格尔/瓜达拉哈拉)",
+            "en": "Future Trips — The Colonial Baroque Route (Guanajuato / San Miguel / Guadalajara)"
+          },
           "body": "这趟行程覆盖的是墨西哥城中央高原轴线(阿兹特克/殖民/壁画运动)和尤卡坦玛雅支线,完全没有触及殖民巴洛克核心带——瓜纳华托(Guanajuato)、圣米格尔德阿连德(San Miguel de Allende)、瓜达拉哈拉(Guadalajara)这三座城市地理上正好连成一条自然路线,视觉语言和这次看到的完全不同,值得列为下一趟目的地。\n\n瓜纳华托是彩色矿业城市,银矿财富堆出的巴洛克建筑,天然形成的木乃伊博物馆(Museo de las Momias)所在地,也是独立战争起点之一(伊达尔戈神父起义)。圣米格尔德阿连德离瓜纳华托很近,常被一起规划,以保存完好的殖民时期街景和粉色教区教堂(Parroquia de San Miguel Arcángel)闻名,近几十年因艺术家/外籍侨民聚居变得很国际化。瓜达拉哈拉是哈利斯科州首府,特基拉酒原产地,2026世界杯主办城市之一,查理罗(charro,墨西哥牛仔文化)和马里亚契(mariachi)音乐传统的发源地。"
         }
       ]

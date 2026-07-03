@@ -1,14 +1,15 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Plane, CalendarDays, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { getTrips } from '../content/loadTrips';
-import { countJournalDays } from '../types/content';
+import { countJournalDays, pickL10n } from '../types/content';
 import { useLanguage } from '../contexts/LanguageContext';
 import { t } from '../i18n/translations';
 
-// "/" — one card per trip, auto-discovered from content/trips/*.json.
+// "/" — one editorial card per trip, auto-discovered from content/trips/*.json.
 export default function TripIndex() {
   const { language } = useLanguage();
+  const L = (v: Parameters<typeof pickL10n>[1]) => pickL10n(language, v);
   const trips = getTrips();
 
   useEffect(() => {
@@ -16,59 +17,62 @@ export default function TripIndex() {
   }, [language]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
-      <header className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-14 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <Plane size={32} className="text-amber-400" />
-            <h1 className="text-3xl md:text-5xl font-bold">{t(language, 'index.title')}</h1>
-          </div>
-          <p className="text-slate-300 text-base md:text-xl">{t(language, 'index.subtitle')}</p>
-        </div>
+    <div>
+      <header className="text-center pt-14 md:pt-24 pb-10 md:pb-16 px-4">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-[#715b37] mb-4">
+          {t(language, 'index.kicker')}
+        </p>
+        <h1 className="font-display text-4xl md:text-6xl font-bold text-[#2d3435] tracking-tight">
+          {t(language, 'index.title')}
+        </h1>
+        <p className="font-display italic text-sm md:text-lg text-[#5a6061] mt-4">
+          {t(language, 'index.subtitle')}
+        </p>
       </header>
 
-      <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-10 md:py-14">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-8">
+      <main className="max-w-4xl mx-auto w-full px-4 pb-16 md:pb-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-7">
           {trips.map((trip) => {
-            const accent = trip.accent ?? '#1e3a8a';
+            const accent = trip.accent ?? '#715b37';
             const dayCount = countJournalDays(trip.blocks);
             return (
               <Link key={trip.id} to={`/trips/${trip.id}`} className="group">
-                <article className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full flex flex-col">
-                  <div
-                    className="h-36 md:h-44 p-5 md:p-6 flex flex-col justify-end"
-                    style={{
-                      background: `linear-gradient(135deg, ${accent} 0%, ${accent}cc 60%, #0f172a 100%)`
-                    }}
-                  >
-                    <h2 className="text-xl md:text-2xl font-bold text-white leading-snug">
-                      {trip.title}
+                <article
+                  className="bg-white rounded-lg border border-[rgba(45,52,53,0.08)] overflow-hidden h-full flex flex-col transition-all duration-300 hover:-translate-y-0.5"
+                  style={{ boxShadow: 'var(--shadow-sm)' }}
+                  onMouseEnter={(e) => (e.currentTarget.style.boxShadow = 'var(--shadow-lg)')}
+                  onMouseLeave={(e) => (e.currentTarget.style.boxShadow = 'var(--shadow-sm)')}
+                >
+                  <div className="h-1" style={{ background: accent }}></div>
+                  <div className="p-6 md:p-8 flex-1 flex flex-col">
+                    <p
+                      className="text-[10px] font-semibold uppercase tracking-[0.25em] mb-3"
+                      style={{ color: accent }}
+                    >
+                      {L(trip.date)}
+                      {dayCount > 0 && ` · ${dayCount} ${t(language, 'index.days')}`}
+                    </p>
+                    <h2 className="font-display text-xl md:text-2xl font-bold text-[#2d3435] leading-snug">
+                      {L(trip.title)}
                     </h2>
                     {trip.subtitle && (
-                      <p className="text-white/70 text-xs md:text-sm mt-1 line-clamp-2">
-                        {trip.subtitle}
+                      <p className="font-display italic text-xs md:text-sm text-[#9aa0a1] mt-2 line-clamp-2">
+                        {L(trip.subtitle)}
                       </p>
                     )}
-                  </div>
-                  <div className="p-5 md:p-6 flex-1 flex flex-col">
                     {trip.summary && (
-                      <p className="text-sm md:text-base text-slate-600 leading-relaxed flex-1">
-                        {trip.summary}
+                      <p className="text-xs md:text-sm text-[#5a6061] leading-relaxed mt-4 flex-1">
+                        {L(trip.summary)}
                       </p>
                     )}
-                    <div className="flex items-center justify-between mt-4 pt-4 border-t border-slate-100">
-                      <span className="inline-flex items-center gap-1.5 text-xs md:text-sm text-slate-500">
-                        <CalendarDays size={15} />
-                        {trip.date}
-                        {dayCount > 0 && ` · ${dayCount}${t(language, 'index.days')}`}
-                      </span>
-                      <span
-                        className="inline-flex items-center gap-1 text-xs md:text-sm font-semibold group-hover:gap-2 transition-all"
-                        style={{ color: accent }}
-                      >
+                    <div className="flex items-center gap-1.5 mt-6 pt-4 border-t border-[rgba(45,52,53,0.06)]">
+                      <span className="text-xs font-semibold text-[#715b37] group-hover:text-[#4e3f27] transition-colors">
                         {t(language, 'index.view')}
-                        <ArrowRight size={15} />
                       </span>
+                      <ArrowRight
+                        size={13}
+                        className="text-[#715b37] group-hover:translate-x-0.5 transition-transform"
+                      />
                     </div>
                   </div>
                 </article>
@@ -77,15 +81,6 @@ export default function TripIndex() {
           })}
         </div>
       </main>
-
-      <footer className="bg-slate-900 text-white py-6 md:py-8">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-slate-200 text-base md:text-lg font-medium">
-            {t(language, 'footer.motto')}
-          </p>
-          <p className="text-xs md:text-sm text-slate-400 mt-2">{t(language, 'footer.note')}</p>
-        </div>
-      </footer>
     </div>
   );
 }
