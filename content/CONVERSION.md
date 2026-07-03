@@ -4,6 +4,37 @@
 > Your job: produce `content/trips/<slug>.json` conforming to `src/types/content.ts`.
 > The app auto-discovers every JSON in `content/trips/` — no component or wiring changes needed.
 
+## 0. THE CANONICAL BLOG FLOW (be editorial, not archival)
+
+**Don't blindly mirror the note's structure.** The raw note is a research archive; the JSON is a
+blog someone reads. Every trip follows this flow (established with Justin on the Mexico trip;
+`mexico-2026.json` is the reference implementation):
+
+1. **`list` — 核心认知框架 Core Framework.** Distill 4–6 tenets — the trip's thesis statements.
+   Author these; they're rarely written as a list in the note.
+2. **`timeline` — the trip's main historical timeline** (collapsed by default). If the note has
+   several, lead with the political/chronological one; park the rest in the Reference Library.
+3. **`section` "每日行程 Daily Journal" — one `journal` block per day.** For each day:
+   - **Extract 1–3 famous sights into `attractions[]` cards** (this is the drill-down UX: photo
+     thumbnail → modal with 历史定位 historicalContext / 实地体验 experience / 核心洞察 insight /
+     relatedPeople / historicalPeriod). Reorganize the note's own words into those fields.
+   - **Trim `body` to the narrative thread**: arrival texture, in-between observations, corrections
+     learned, forward references ("见关键收获"). Don't duplicate what moved into the cards.
+   - **Images:** give every attraction an `imageKeyword` and make sure it matches a key in
+     `src/utils/imageService.ts` `photoMap`. For new landmarks, fetch the Wikipedia REST lead image
+     (`/api/rest_v1/page/summary/<Page>`, use a 1200px thumb URL) and add verified entries —
+     specific keys before generic ones. No matching key = SVG placeholder fallback (acceptable,
+     but famous sights deserve photos).
+4. **`reflection` — 关键收获与思考 Key Takeaways.** Distill the note's scattered insights into
+   5–8 thematic cards (title/subtitle/icon/summary + sections with content/list/quote/table).
+   This is the section Justin explicitly wants — the "so what" of the trip.
+5. **`section` "参考资料库 Reference Library"** — everything encyclopedic, verbatim: concept
+   explainers, civilization/background prose, glossary tables, recipes, future-trip notes.
+   Readers who want depth expand it; everyone else gets the story.
+
+"Never drop content" still holds — content moves between layers (card / body / takeaway /
+reference), it doesn't disappear. The raw note stays in `content/raw/` as the full-fidelity archive.
+
 ## 1. Output rules
 
 1. **Filename = slug = `trip.id`.** e.g. `mexico-2026.md` → `mexico-2026.json`, `"id": "mexico-2026"`. Lowercase, kebab-case, `<place>-<year>`.

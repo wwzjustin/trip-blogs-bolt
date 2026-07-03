@@ -48,14 +48,41 @@ const photoMap: Record<string, string> = {
   'dover': 'https://cdn.britannica.com/09/188409-050-9L3E8DD6/White-Cliffs-Dover-England.jpg',
   'cliffs': 'https://cdn.britannica.com/09/188409-050-9L3E8DD6/White-Cliffs-Dover-England.jpg',
   'captain cook': 'https://cdn.britannica.com/67/213267-050-270E2F81/Whitby-Abbey-North-Yorkshire-England.jpg',
+  // Mexico — self-hosted in public/images/ (downloaded from Wikimedia Commons,
+  // free-licensed; hotlinking upload.wikimedia.org gets rate-limited/ORB-blocked).
+  // Specific keys before generic ones — matching iterates in insertion order.
+  'chichen itza': '/images/mx-chichen-itza.jpg',
+  'teotihuacan': '/images/mx-teotihuacan.jpg',
+  'antropolog': '/images/mx-antropologia.jpg',
+  'chapultepec': '/images/mx-chapultepec.jpg',
+  'zocalo': '/images/mx-zocalo.jpg',
+  'templo mayor': '/images/mx-templo-mayor.jpg',
+  'xochimilco': '/images/mx-xochimilco.jpg',
+  'guadalupe': '/images/mx-guadalupe.jpg',
+  'coyoacan': '/images/mx-coyoacan.jpg',
+  'estadio olimpico': '/images/mx-estadio-olimpico.jpg',
+  'las coloradas': '/images/mx-las-coloradas.jpg',
+  'lagartos': '/images/mx-lagartos.jpg',
+  'musa': '/images/mx-musa.jpg',
+  'isla mujeres': '/images/mx-isla-mujeres.jpg',
+  'delfines': '/images/mx-cancun.jpg',
+  'cancun': '/images/mx-cancun.jpg',
+  'cenote': '/images/mx-cenote.jpg',
+  'revolucion': '/images/mx-revolucion.jpg',
+  'arte moderno': '/images/mx-arte-moderno.jpg',
+  'bellas artes': '/images/mx-bellas-artes.jpg',
 };
 
 export const getStockImage = (keyword: string, width = 800, height = 600): string => {
-  const normalizedKeyword = keyword.toLowerCase();
+  // '+' is the documented word separator in imageKeyword — normalize it so
+  // multi-word photoMap keys ('chichen itza') match '+'-joined keywords.
+  const normalizedKeyword = keyword.toLowerCase().replace(/\+/g, ' ');
 
-  const matchedPhoto = Object.entries(photoMap).find(([key]) =>
-    normalizedKeyword.includes(key)
-  );
+  // Longest key wins: 'chapultepec castle' must match 'chapultepec' (specific),
+  // not the generic 'castle'.
+  const matchedPhoto = Object.entries(photoMap)
+    .sort(([a], [b]) => b.length - a.length)
+    .find(([key]) => normalizedKeyword.includes(key));
 
   if (matchedPhoto) {
     return matchedPhoto[1];
