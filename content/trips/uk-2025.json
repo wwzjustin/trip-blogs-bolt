@@ -7,8 +7,8 @@
   "subtitle": "A Journey Through British Civilization: From Roman Outposts to Modern Institutions",
   "traveler": "Justin",
   "date": {
-    "zh": "2025年12月",
-    "en": "December 2025"
+    "zh": "2025年12月17日–27日",
+    "en": "Dec 17–27, 2025"
   },
   "order": 1,
   "accent": "#1e3a8a",
@@ -1228,7 +1228,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 1",
+      "date": {
+        "zh": "12月17日",
+        "en": "Dec 17"
+      },
       "title": {
         "zh": "伦敦 → 温莎城堡 → 牛津",
         "en": "London → Windsor Castle → Oxford"
@@ -1398,7 +1401,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 2",
+      "date": {
+        "zh": "12月18日",
+        "en": "Dec 18"
+      },
       "title": {
         "zh": "牛津 → 莎士比亚故居 → 布伦海姆宫",
         "en": "Oxford → Shakespeare's Birthplace → Blenheim Palace"
@@ -1502,7 +1508,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 3",
+      "date": {
+        "zh": "12月19日",
+        "en": "Dec 19"
+      },
       "title": {
         "zh": "湖区",
         "en": "The Lake District"
@@ -1558,7 +1567,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 4",
+      "date": {
+        "zh": "12月20日",
+        "en": "Dec 20"
+      },
       "title": {
         "zh": "曼彻斯特",
         "en": "Manchester"
@@ -1614,7 +1626,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 5",
+      "date": {
+        "zh": "12月21日",
+        "en": "Dec 21"
+      },
       "title": {
         "zh": "爱丁堡",
         "en": "Edinburgh"
@@ -1718,7 +1733,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 6",
+      "date": {
+        "zh": "12月22日",
+        "en": "Dec 22"
+      },
       "title": {
         "zh": "格拉斯哥",
         "en": "Glasgow"
@@ -1766,7 +1784,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 7",
+      "date": {
+        "zh": "12月23日",
+        "en": "Dec 23"
+      },
       "title": {
         "zh": "Whitby",
         "en": "Whitby"
@@ -1854,7 +1875,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 8",
+      "date": {
+        "zh": "12月24日",
+        "en": "Dec 24"
+      },
       "title": {
         "zh": "约克",
         "en": "York"
@@ -1950,7 +1974,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 9",
+      "date": {
+        "zh": "12月25日",
+        "en": "Dec 25"
+      },
       "title": {
         "zh": "林肯",
         "en": "Lincoln"
@@ -2042,7 +2069,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 10",
+      "date": {
+        "zh": "12月26日",
+        "en": "Dec 26"
+      },
       "title": {
         "zh": "剑桥",
         "en": "Cambridge"
@@ -2190,7 +2220,10 @@
     },
     {
       "type": "journal",
-      "date": "Day 11",
+      "date": {
+        "zh": "12月27日",
+        "en": "Dec 27"
+      },
       "title": {
         "zh": "白崖 → 布莱顿 → 威斯敏斯特",
         "en": "White Cliffs → Brighton → Westminster"
