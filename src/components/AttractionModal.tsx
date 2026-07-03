@@ -1,5 +1,5 @@
 import { X, MapPin, Clock, Users, Quote } from 'lucide-react';
-import { Attraction } from '../types/trip';
+import { Attraction } from '../types/content';
 import { getAttractionImage } from '../utils/imageService';
 import { useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
